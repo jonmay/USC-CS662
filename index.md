@@ -25,7 +25,7 @@ seo:
 {% endfor %}
 
 ### Lectures 
-Monday and Wednesday 3:30–5:20 pm, KAP 166
+Monday and Wednesday 10:00–11:50 am, TBD
 
 ### Textbook
 Required: [Natural Language Processing - Eisenstein](https://mitpress.mit.edu/books/introduction-natural-language-processing)
@@ -45,7 +45,7 @@ Optional: [Speech and Language Processing 3rd edition - Jurafsky, Martin](https:
 10% - In-class selected paper presentation \
 30% - Three Homeworks (10% each) \
 40% - Project, comprising proposal (5%), first version of report (5%), in-class presentation (10%), and final report (20%). Done in small groups. \
-Final report is due December 13, 2021, 4:00 PM PST
+Final report is due Monday, December 12, 2021, 10:00 AM PST
 
 ### Contact us
 
