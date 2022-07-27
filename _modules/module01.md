@@ -35,7 +35,7 @@ The announcement can be made red for due dates as follows
 Aug 22
 : intro, applications
   : Eisenstein 1
-: **project assignment out (due 9/1)**{: .label}
+: **project assignment out (due 8/31)**{: .label}
 
 Aug 24
 : end of intro
@@ -63,7 +63,7 @@ Sep 7
 : Perceptron, Logistic Regression, Nonlinear classifiers
   : Eisenstein 3
     : Julie -- [Adversarial Learning for Zero-Shot Stance Detection on Social Media](https://aclanthology.org/2021.naacl-main.379.pdf){:target="_blank"}
-: **HW1 out (due 9/29)**{: .label}
+: **HW1 out (due 9/28)**{: .label}
 
 Sep 12
 : Nonlinear classifiers, backpropagation, gradient descent
@@ -99,7 +99,7 @@ Oct 3
 : Large Contextualized Language Models (ElMo, BERT, GPT-N, etc.), POS tags, HMMs, constituencies, cky, treebank
   : Eisenstein 9.2, 10
     : Fei -- [Counterfactual Data Augmentation for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.18/)
-: **HW2 out (due 10/25)**{: .label}
+: **HW2 out (due 10/24)**{: .label}
 
 Oct 5
 : restructuring, dependencies, shift-reduce
@@ -137,7 +137,7 @@ Oct 26
 : Question Answering and Asking
   : Eisenstein 17.5
     : Jincheng -- [Abstract Meaning Representation Guided Graph Encoding and Decoding for Joint Information Extraction](https://aclanthology.org/2021.naacl-main.4/)
-: **HW3 out (due 11/17)**{: .label}
+: **HW3 out (due 11/16)**{: .label}
 
 Oct 31
 : Dialogue
