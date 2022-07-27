@@ -71,23 +71,23 @@ Sep 12
     :  Jiageng -- [A Disentangled Adversarial Neural Topic Model for Separating Opinions from Plots in User Reviews](https://aclanthology.org/2021.naacl-main.228/)
   
 Sep 14
-: YOM KIPPUR NO CLASS
-  : 
-
-Sep 19
 : language models: ngram, feed-forward
   : Eisenstein 18.2, 18.3, 19.1, 19.2
     : Preni -- [The Importance of Modeling Social Factors of Language: Theory and Practice](https://aclanthology.org/2021.naacl-main.49/)
-  
-Sep 21
+
+Sep 19
 : recurrent LM, MT history 
   : [Attention is all you need](https://arxiv.org/abs/1706.03762), [Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
     : Anirudh -- [End-to-end ASR to jointly predict transcriptions and linguistic annotations](https://aclanthology.org/2021.naacl-main.149/)
-
-Sep 26
+  
+Sep 21
 : MT evaluation, Statistical MT
   : [Illustrated BERT, ElMo, and co.](http://jalammar.github.io/illustrated-bert/)
     : Taufeq -- [Smoothing and Shrinking the Sparse Seq2Seq Search Space](https://aclanthology.org/2021.naacl-main.210/)
+
+Sep 26
+: ROSH HASHANAH NO CLASS
+  :
   
 Sep 28
 : Neural Machine Translation, Transformers
@@ -102,80 +102,79 @@ Oct 3
 : **HW2 out (due 10/24)**{: .label}
 
 Oct 5
+: YOM KIPPUR NO CLASS
+  :
+
+Oct 10
+
 : restructuring, dependencies, shift-reduce
   : Eisenstein 11
     : Josh -- [A Survey on Recent Approaches for Natural Language Processing in Low-Resource Scenarios](https://aclanthology.org/2021.naacl-main.201/)
 
-Oct 10
+Oct 12
 : arc-eager, evaluation, human annotation
   : Fiona -- [Causal Effects of Linguistic Properties](https://aclanthology.org/2021.naacl-main.323/) OR
   : Adam -- [D2S: Document-to-Slide Generation Via Query-Based Text Summarization](https://aclanthology.org/2021.naacl-main.111/)
 
-Oct 12
+Oct 17
 : semantics: word sense, propbank, amr, distributional
   : Eisenstein 13, 14.
     : Kartik -- [Enhancing Factual Consistency of Abstractive Summarization](https://aclanthology.org/2021.naacl-main.58/)
   
-Oct 17
+Oct 19
 : Blade Runner NLP/Bertology
   :  
     : Hanchen -- [Noisy Self-Knowledge Distillation for Text Summarization](https://aclanthology.org/2021.naacl-main.56/)
 
-Oct 19
+Oct 24
 : Information Extraction: Entity/Relation, CRF
   : Eisenstein 17.1, 17.2
     : Souvik -- [Model Extraction and Adversarial Transferability, Your BERT is Vulnerable!](https://aclanthology.org/2021.naacl-main.161/)
-
-
-Oct 24
-: Information Extraction: Events, Zero-shot
-  : Eisenstein 17.3
-    : Zhaoxu -- [Better Feature Integration for Named Entity Recognition](https://aclanthology.org/2021.naacl-main.271/)
 : **HW2 due**{: .label .label-red}
 
 Oct 26
-: Question Answering and Asking
-  : Eisenstein 17.5
-    : Jincheng -- [Abstract Meaning Representation Guided Graph Encoding and Decoding for Joint Information Extraction](https://aclanthology.org/2021.naacl-main.4/)
+: Information Extraction: Events, Zero-shot
+  : Eisenstein 17.3
+    : Zhaoxu -- [Better Feature Integration for Named Entity Recognition](https://aclanthology.org/2021.naacl-main.271/)
 : **HW3 out (due 11/16)**{: .label}
 
 Oct 31
+: Question Answering and Asking
+  : Eisenstein 17.5
+    : Jincheng -- [Abstract Meaning Representation Guided Graph Encoding and Decoding for Joint Information Extraction](https://aclanthology.org/2021.naacl-main.4/)
+
+
+Nov 2
 : Dialogue
   : Eisenstein 19.3
     : Hassan -- [A Frustratingly Easy Approach for Entity and Relation Extraction](https://aclanthology.org/2021.naacl-main.5)
 : [**Project Report Version 1 due**{: .label .label-red}](({{project}}){:target="_blank"})
 
-Nov 2
+Nov 7
 : Power and Ethics
   : 
     : Pithayuth -- [Action-Based Conversations Dataset: A Corpus for Building More In-Depth Task-Oriented Dialogue Systems](https://aclanthology.org/2021.naacl-main.239)
 
-Nov 7
+Nov 9
 : Knowledge Graphs (Guest Lecture Elan Markowitz)
   : 
     : Liqiu -- [Structure-Aware Abstractive Conversation Summarization via Discourse and Action Graphs](https://aclanthology.org/2021.naacl-main.109)
 
-Nov 9
+Nov 14
 : Text Games and Reinforcement Learning (Guest Lecture [Jesse Thomason](https://jessethomason.com/))
   :  
     : Aleksei -- [How to Motivate Your Dragon: Teaching Goal-Driven Agents to Speak and Act in Fantasy Worlds](https://aclanthology.org/2021.naacl-main.64/)
 
-Nov 14
+Nov 16
 : How to write a paper
   : Neubig slides on Piazza
     : Haoming -- [Revisiting the Weaknesses of Reinforcement Learning for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.133/)
-
-Nov 16
-: Generalization and Robustness (Guest Lecture [Robin Jia](https://robinjia.github.io/))
-  : 
-    : Yi -- [Generating An Optimal Interview Question Plan Using A Knowledge Graph And Integer Linear Programming](https://aclanthology.org/2021.naacl-main.160/)
 : **HW3 due**{: .label .label-red}
 
 Nov 21
-: TBD
+: Generalization and Robustness (Guest Lecture [Robin Jia](https://robinjia.github.io/))
   : 
-    : Jayanth -- [Knowledge Router: Learning Disentangled Representations for Knowledge Graphs](https://aclanthology.org/2021.naacl-main.1)
-    : Hitesh -- [Dynamically Disentangling Social Bias from Task-Oriented Representations with Adversarial Attack](https://aclanthology.org/2021.naacl-main.293/)
+    : Yi -- [Generating An Optimal Interview Question Plan Using A Knowledge Graph And Integer Linear Programming](https://aclanthology.org/2021.naacl-main.160/)
 
 Nov 23
 : THANKSGIVING BREAK; NO CLASS
