@@ -34,25 +34,25 @@ The announcement can be made red for due dates as follows
 
 Aug 22
 : intro, applications
-  : Eisenstein 1
-: **project assignment out (due 8/31)**{: .label}
+  : E 1
+: **project assignment out (due 9/14)**{: .label}
 
 Aug 24
-: end of intro
-  : 
-
-Aug 29
-: probability basics, ethics, text processing
-  : [Goldwater probability tutorial](http://homepages.inf.ed.ac.uk/sgwater/teaching/general/probability.pdf), 
-  [Nathan Schneider's unix notes](https://github.com/nschneid/unix-text-commands), 
+: data processing. data resources
+  : [Nathan Schneider's unix notes](https://github.com/nschneid/unix-text-commands), 
   [Unix for poets](https://www.cs.upc.edu/~padro/Unixforpoets.pdf), 
   [sculpting text](http://matt.might.net/articles/sculpting-text/)
 
+Aug 29
+: linear classifiers 
+  : E 2.2, 2.3, 2.4. JM 4, 5. [Goldwater probability tutorial](http://homepages.inf.ed.ac.uk/sgwater/teaching/general/probability.pdf), 
+  
+
 Aug 31
-: Naive Bayes, Perceptron, Logistic Regression
-  : Eisenstein 2.2, 2.3, 2.4, Charniak 1.
-    : Jon -- [Preregistering NLP research](https://aclanthology.org/2021.naacl-main.51.pdf)
-: **project proposal due**{: .label .label-red }
+: Nonlinear classifiers
+  : E 3. JM 7.2-7.4, 7.6.
+    : <!-- Jon -- [Preregistering NLP research](https://aclanthology.org/2021.naacl-main.51.pdf) -->
+
 
 
 Sep 5
@@ -74,6 +74,7 @@ Sep 14
 : language models: ngram, feed-forward
   : Eisenstein 18.2, 18.3, 19.1, 19.2
     : Preni -- [The Importance of Modeling Social Factors of Language: Theory and Practice](https://aclanthology.org/2021.naacl-main.49/)
+: **project proposal due**{: .label .label-red }
 
 Sep 19
 : recurrent LM, MT history 
