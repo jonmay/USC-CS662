@@ -32,7 +32,7 @@ The announcement can be made red for due dates as follows
 
 -->
 
-Aug 22
+Aug 23
 : intro, applications
   : Eisenstein 1
 : **project assignment out (due 9/1)**{: .label}
