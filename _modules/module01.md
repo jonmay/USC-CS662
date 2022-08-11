@@ -35,7 +35,7 @@ The announcement can be made red for due dates as follows
 Aug 22
 : intro, applications
   : E 1
-: **project assignment out (due 9/14)**{: .label}
+: **project assignment out (due 9/19)**{: .label}
 
 Aug 24
 : data processing. data resources
@@ -45,12 +45,12 @@ Aug 24
 
 Aug 29
 : linear classifiers 
-  : E 2.2, 2.3, 2.4. JM 4, 5. [Goldwater probability tutorial](http://homepages.inf.ed.ac.uk/sgwater/teaching/general/probability.pdf), 
-  
+  : E 2.2, 2.3, 2.4. JM 4, 5, [Goldwater probability tutorial](http://homepages.inf.ed.ac.uk/sgwater/teaching/general/probability.pdf).
+: **HW1 out (due 9/14)**{: .label}  
 
 Aug 31
-: Nonlinear classifiers
-  : E 3. JM 7.2-7.4, 7.6.
+: nonlinear classifiers, backprop, gradient descent
+  : E 3. JM 7.2-7.4, 7.6. 
     : <!-- Jon -- [Preregistering NLP research](https://aclanthology.org/2021.naacl-main.51.pdf) -->
 
 
@@ -60,47 +60,51 @@ Sep 5
   : 
 
 Sep 7
-: Perceptron, Logistic Regression, Nonlinear classifiers
-  : Eisenstein 3
-    : Julie -- [Adversarial Learning for Zero-Shot Stance Detection on Social Media](https://aclanthology.org/2021.naacl-main.379.pdf){:target="_blank"}
-: **HW1 out (due 9/28)**{: .label}
+: distributional feature representations Perceptron, Logistic Regression, Nonlinear classifiers
+  : E 14.3, 14.5-6. JM 6.
+    : <!-- Julie -- [Adversarial Learning for Zero-Shot Stance Detection on Social Media](https://aclanthology.org/2021.naacl-main.379.pdf){:target="_blank"} -->
+
 
 Sep 12
-: Nonlinear classifiers, backpropagation, gradient descent
-  : Eisenstein 6, 18.1
-    :  Jiageng -- [A Disentangled Adversarial Neural Topic Model for Separating Opinions from Plots in User Reviews](https://aclanthology.org/2021.naacl-main.228/)
-  
+: ngram language models
+  : E 6.1-2, 6.4. 7.5, 7.7. JM 3
+    :  <!-- Jiageng -- [A Disentangled Adversarial Neural Topic Model for Separating Opinions from Plots in User Reviews](https://aclanthology.org/2021.naacl-main.228/) -->
+: Drop deadline (for refund, without W)
+
 Sep 14
-: language models: ngram, feed-forward
-  : Eisenstein 18.2, 18.3, 19.1, 19.2
-    : Preni -- [The Importance of Modeling Social Factors of Language: Theory and Practice](https://aclanthology.org/2021.naacl-main.49/)
-: **project proposal due**{: .label .label-red }
+: recurrent and transformer language models, ELMo, BERT
+  : E 6.3, JM 9
+    : <!-- Preni -- [The Importance of Modeling Social Factors of Language: Theory and Practice](https://aclanthology.org/2021.naacl-main.49/) -->
+: **HW1 due**{: .label .label-red}
 
 Sep 19
-: recurrent LM, MT history 
-  : [Attention is all you need](https://arxiv.org/abs/1706.03762), [Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
-    : Anirudh -- [End-to-end ASR to jointly predict transcriptions and linguistic annotations](https://aclanthology.org/2021.naacl-main.149/)
-  
+: data gathering, annotation, evaluation
+  : TBD
+    : <!-- Anirudh -- [End-to-end ASR to jointly predict transcriptions and linguistic annotations](https://aclanthology.org/2021.naacl-main.149/) -->
+: **project proposal due**{: .label .label-red }
+
 Sep 21
-: MT evaluation, Statistical MT
-  : [Illustrated BERT, ElMo, and co.](http://jalammar.github.io/illustrated-bert/)
-    : Taufeq -- [Smoothing and Shrinking the Sparse Seq2Seq Search Space](https://aclanthology.org/2021.naacl-main.210/)
+: ethics
+  : TBD
+    : <!-- Taufeq -- [Smoothing and Shrinking the Sparse Seq2Seq Search Space](https://aclanthology.org/2021.naacl-main.210/) -->
 
 Sep 26
 : ROSH HASHANAH NO CLASS
   :
-  
+    :
+: **HW2 out (due 10/12)**{: .label}
+
 Sep 28
-: Neural Machine Translation, Transformers
-  : Eisenstein 7
-    : Zhuochen -- [Continual Learning for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.310/)
-: **HW1 due**{: .label .label-red}
+: POS tags, HMMs, treebanks
+  : E 7.1--7.4, JM 8.1-8.5 (TBD discussion of actual trees!!)
+    : <!-- Zhuochen -- [Continual Learning for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.310/) -->
+
 
 Oct 3
-: Large Contextualized Language Models (ElMo, BERT, GPT-N, etc.), POS tags, HMMs, constituencies, cky, treebank
-  : Eisenstein 9.2, 10
-    : Fei -- [Counterfactual Data Augmentation for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.18/)
-: **HW2 out (due 10/24)**{: .label}
+: constituencies, cky, dependencies, shift-reduce
+  : E 10.1--10.4, JM TBD
+    : <!-- Fei -- [Counterfactual Data Augmentation for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.18/) -->
+
 
 Oct 5
 : YOM KIPPUR NO CLASS
@@ -110,7 +114,7 @@ Oct 10
 
 : restructuring, dependencies, shift-reduce
   : Eisenstein 11
-    : Josh -- [A Survey on Recent Approaches for Natural Language Processing in Low-Resource Scenarios](https://aclanthology.org/2021.naacl-main.201/)
+    : <!-- Josh -- [A Survey on Recent Approaches for Natural Language Processing in Low-Resource Scenarios](https://aclanthology.org/2021.naacl-main.201/)
 
 Oct 12
 : arc-eager, evaluation, human annotation
