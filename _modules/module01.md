@@ -113,85 +113,80 @@ Oct 5
 Oct 10
 : semantics: logical/compositional, frames and roles, amr, distributional
   : E 12.1, 12.2, 13.1, 13.3, 14.1-3, 14.6-8, JM 15.1-3, 6
-  
+    : Presentation TBD
 
 Oct 12
 : machine translation: history, evaluation, data
-  : 
-    :
+  : TBD
+    : Presentation TBD
 : **HW2 due**{: .label .label-red}
 
 Oct 17
 : machine translation: statistical, recurrent, attention
-  : 
+  : E 18, JM TBD
+    : Presentation TBD
   
   
 Oct 19
 : machine translation: transformer, transfer learning
-  :  
+  : TBD
+    : Presentation TBD
     
 Oct 24
 : dialogue: task-oriented
-  : Eisenstein 19.3
-: Information Extraction: Entity/Relation, CRF
-  : Eisenstein 17.1, 17.2
-    : Souvik -- [Model Extraction and Adversarial Transferability, Your BERT is Vulnerable!](https://aclanthology.org/2021.naacl-main.161/)
-: **HW2 due**{: .label .label-red}
-
+  : E 19.3, JM 24.3-24.4.4, 24.5.2
+    : Presentation TBD
+: **HW3 out (due 11/9)**{: .label}    
+  
 Oct 26
-: Information Extraction: Events, Zero-shot
-  : Eisenstein 17.3
-    : Zhaoxu -- [Better Feature Integration for Named Entity Recognition](https://aclanthology.org/2021.naacl-main.271/)
-: **HW3 out (due 11/16)**{: .label}
+: dialogue: chatbots
+  : JM 24-24.2.3. 
+    : Presentation TBD
 
 Oct 31
-: Question Answering and Asking
-  : Eisenstein 17.5
-    : Jincheng -- [Abstract Meaning Representation Guided Graph Encoding and Decoding for Joint Information Extraction](https://aclanthology.org/2021.naacl-main.4/)
-
-
+: information extraction: history, entities
+  : TBD
+    : Presentation TBD
+    
 Nov 2
-: Dialogue
-  : Eisenstein 19.3
-    : Hassan -- [A Frustratingly Easy Approach for Entity and Relation Extraction](https://aclanthology.org/2021.naacl-main.5)
+: information extraction: relations, events
+  : TBD
+    : Presentation TBD
 : [**Project Report Version 1 due**{: .label .label-red}](({{project}}){:target="_blank"})
 
 Nov 7
-: Power and Ethics
-  : 
-    : Pithayuth -- [Action-Based Conversations Dataset: A Corpus for Building More In-Depth Task-Oriented Dialogue Systems](https://aclanthology.org/2021.naacl-main.239)
+: question answering, information retrieval
+  : TBD
+    : Presentation TBD
 
 Nov 9
-: Knowledge Graphs (Guest Lecture Elan Markowitz)
-  : 
-    : Liqiu -- [Structure-Aware Abstractive Conversation Summarization via Discourse and Action Graphs](https://aclanthology.org/2021.naacl-main.109)
-
-Nov 14
-: Text Games and Reinforcement Learning (Guest Lecture [Jesse Thomason](https://jessethomason.com/))
-  :  
-    : Aleksei -- [How to Motivate Your Dragon: Teaching Goal-Driven Agents to Speak and Act in Fantasy Worlds](https://aclanthology.org/2021.naacl-main.64/)
-
-Nov 16
-: How to write a paper
-  : Neubig slides on Piazza
-    : Haoming -- [Revisiting the Weaknesses of Reinforcement Learning for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.133/)
+: natural language inference and common sense tasks
+  : TBD
+    : Presentation TBD
 : **HW3 due**{: .label .label-red}
 
+Nov 14
+: prompts, multi task large language models
+  :  TBD
+    : Presentation TBD
+
+Nov 16
+: adapters, prefix tuning, few-parameter fine-tuning
+  : TBD
+    : Presentation TBD
+
 Nov 21
-: Generalization and Robustness (Guest Lecture [Robin Jia](https://robinjia.github.io/))
+: very long sequence models (Guest Lecture [Xuezhe (Max) Ma](https://xuezhemax.github.io/))
   : 
-    : Yi -- [Generating An Optimal Interview Question Plan Using A Knowledge Graph And Integer Linear Programming](https://aclanthology.org/2021.naacl-main.160/)
+    : Presentation TBD
 
 Nov 23
 : THANKSGIVING BREAK; NO CLASS
-  : 
+  
 
 Nov 28
 : Project presentations
-  : 
-    : James -- [QA-GNN: Reasoning with Language Models and Knowledge Graphs for Question Answering](https://aclanthology.org/2021.naacl-main.45/)
+ 
 
 Nov 30
 : Project presentations
-  : 
-    : Abhinav -- [Robust Question Answering Through Sub-part Alignment](https://aclanthology.org/2021.naacl-main.98)
