@@ -111,27 +111,28 @@ Oct 5
   :
 
 Oct 10
-
-: restructuring, dependencies, shift-reduce
-  : Eisenstein 11
-    : <!-- Josh -- [A Survey on Recent Approaches for Natural Language Processing in Low-Resource Scenarios](https://aclanthology.org/2021.naacl-main.201/)
+: semantics: logical/compositional, frames and roles, amr, distributional
+  : E 12.1, 12.2, 13.1, 13.3, 14.1-3, 14.6-8, JM 15.1-3, 6
+  
 
 Oct 12
-: arc-eager, evaluation, human annotation
-  : Fiona -- [Causal Effects of Linguistic Properties](https://aclanthology.org/2021.naacl-main.323/) OR
-  : Adam -- [D2S: Document-to-Slide Generation Via Query-Based Text Summarization](https://aclanthology.org/2021.naacl-main.111/)
+: machine translation: history, evaluation, data
+  : 
+    :
+: **HW2 due**{: .label .label-red}
 
 Oct 17
-: semantics: word sense, propbank, amr, distributional
-  : Eisenstein 13, 14.
-    : Kartik -- [Enhancing Factual Consistency of Abstractive Summarization](https://aclanthology.org/2021.naacl-main.58/)
+: machine translation: statistical, recurrent, attention
+  : 
+  
   
 Oct 19
-: Blade Runner NLP/Bertology
+: machine translation: transformer, transfer learning
   :  
-    : Hanchen -- [Noisy Self-Knowledge Distillation for Text Summarization](https://aclanthology.org/2021.naacl-main.56/)
-
+    
 Oct 24
+: dialogue: task-oriented
+  : Eisenstein 19.3
 : Information Extraction: Entity/Relation, CRF
   : Eisenstein 17.1, 17.2
     : Souvik -- [Model Extraction and Adversarial Transferability, Your BERT is Vulnerable!](https://aclanthology.org/2021.naacl-main.161/)
