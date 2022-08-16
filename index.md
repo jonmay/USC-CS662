@@ -25,18 +25,17 @@ seo:
 {% endfor %}
 
 ### Lectures 
-Monday and Wednesday 10:00–11:50 am, TBD
+Monday and Wednesday 10:00–11:50 am, THH 110
 
 ### Textbook
-Required: [Natural Language Processing - Eisenstein](https://mitpress.mit.edu/books/introduction-natural-language-processing)
+Required: [Natural Language Processing - Eisenstein](https://mitpress.mit.edu/books/introduction-natural-language-processing) ('E' in schedule)
 -- or [free version](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf)
 
+
+Required: [Speech and Language Processing 3rd edition - Jurafsky, Martin](https://web.stanford.edu/~jurafsky/slp3/) ('JM' in schedule)
+-- [January 2022 pdf](https://web.stanford.edu/~jurafsky/slp3/ed3book_jan122022.pdf)
+
 Required: Selected papers from NLP literature, see (evolving) schedule
-
-Optional: [Introduction to Deep Learning - Charniak](https://mitpress.mit.edu/books/introduction-deep-learning)
--- first three chapters [here](https://cs.brown.edu/courses/csci1460/assets/files/deep-learning.pdf)
-
-Optional: [Speech and Language Processing 3rd edition - Jurafsky, Martin](https://web.stanford.edu/~jurafsky/slp3/)
 
 ### Grading
 
@@ -45,7 +44,10 @@ Optional: [Speech and Language Processing 3rd edition - Jurafsky, Martin](https:
 10% - In-class selected paper presentation \
 30% - Three Homeworks (10% each) \
 40% - Project, comprising proposal (5%), first version of report (5%), in-class presentation (10%), and final report (20%). Done in small groups. \
-Final report is due Monday, December 12, 2021, 10:00 AM PST
+Written homeworks and project components except for final project report must be submitted on the date listed in the schedule, by 23:59:59 [AoE](https://www.timeanddate.com/worldclock/converter.html). \
+Final project report is due Monday, December 12, 2022, 10:00 AM PST \
+A deduction of 1/5 of the total possible score will be assessed for each late day. After five late days, you get a 0 on the assignment (and you should come talk to us because your grade will likely suffer!) \
+You have four late days, to be applied as you wish, throughout the entire class, for homeworks and project proposal / first report (NOT final report). No deduction will be assessed if a late day is used.
 
 ### Contact us
 
