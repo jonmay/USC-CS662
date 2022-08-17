@@ -117,7 +117,7 @@ Oct 10
 
 Oct 12
 : machine translation: history, evaluation, data
-  : TBD
+  : [“Oh, yes, everything’s right on schedule, Fred”](https://www.cs.jhu.edu/~post/bitext/)
     : Presentation TBD
 : **HW2 due**{: .label .label-red}
 
