@@ -60,7 +60,7 @@ Sep 5
   : 
 
 Sep 7
-: distributional feature representations Perceptron, Logistic Regression, Nonlinear classifiers
+: distributional feature representations: PPMI, LSA, word2vec, bilingual dictionary induction
   : E 14.3, 14.5-6. JM 6.
     : <!-- Julie -- [Adversarial Learning for Zero-Shot Stance Detection on Social Media](https://aclanthology.org/2021.naacl-main.379.pdf){:target="_blank"} -->
 
@@ -128,7 +128,7 @@ Oct 17
   
   
 Oct 19
-: machine translation: transformer, transfer learning
+: machine translation: transformer, transfer learning, unsupervised, nonautoregressive
   : TBD
     : Presentation TBD
     
