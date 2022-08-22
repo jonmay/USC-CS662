@@ -167,7 +167,7 @@ Nov 9
 
 Nov 14
 : prompts, multi task large language models
-  :  TBD
+  :  [InstructGPT paper (pp1--20)](https://arxiv.org/abs/2203.02155)
     : Presentation TBD
 
 Nov 16
