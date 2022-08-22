@@ -35,7 +35,7 @@ The announcement can be made red for due dates as follows
 Aug 22
 : intro, applications
   : E 1
-: **project assignment out (due 9/19)**{: .label}
+: [**project assignment out (due 9/19)**](../assets/files/CSCI_662_Fall_2022_Project_Assignment.pdf){: .label}
 
 Aug 24
 : data processing. data resources
