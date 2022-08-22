@@ -85,7 +85,7 @@ Sep 19
 
 Sep 21
 : ethics
-  : TBD
+  : [The Social Impact of Natural Language Processing] (https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/)
     : <!-- Taufeq -- [Smoothing and Shrinking the Sparse Seq2Seq Search Space](https://aclanthology.org/2021.naacl-main.210/) -->
 
 Sep 26
