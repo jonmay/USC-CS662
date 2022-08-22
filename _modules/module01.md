@@ -73,7 +73,7 @@ Sep 12
 
 Sep 14
 : recurrent and transformer language models, ELMo, BERT
-  : E 6.3, JM 9
+  : E 6.3, JM 9. [Attention is all you need](https://arxiv.org/abs/1706.03762)
     : <!-- Preni -- [The Importance of Modeling Social Factors of Language: Theory and Practice](https://aclanthology.org/2021.naacl-main.49/) -->
 : **HW1 due**{: .label .label-red}
 
