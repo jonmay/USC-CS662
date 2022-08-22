@@ -40,7 +40,7 @@ Required: Selected papers from NLP literature, see (evolving) schedule
 ### Grading
 
 10% - In class participation \
-10% - Posted questions before each in-class selected paper presentation \
+10% - Posted questions before each in-class selected paper presentation and possible quizzes \
 10% - In-class selected paper presentation \
 30% - Three Homeworks (10% each) \
 40% - Project, comprising proposal (5%), first version of report (5%), in-class presentation (10%), and final report (20%). Done in small groups. \
@@ -54,7 +54,7 @@ You have four late days, to be applied as you wish, throughout the entire class,
 On Piazza, Slack, or in class/office hours. Please do not email (unless notified otherwise).
 
 ### Topics 
-(subject to change per instructor/class whim) (will not be presented in this order):
+(subject to change per instructor/class whim) (will not necessarily be presented in this order):
 
   : Linguistic Stack (graphemes/phones - words - syntax - semantics - pragmatics - discourse)
   : Tools\:
