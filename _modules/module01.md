@@ -39,7 +39,7 @@ Aug 22
 
 Aug 24
 : data processing. data resources, evaluation, annotation
-  : E 4.5, JM 2, [Nathan Schneider's unix notes](https://github.com/nschneid/unix-text-commands), 
+  : E 4.5, JM 2, 4.9, [Nathan Schneider's unix notes](https://github.com/nschneid/unix-text-commands), 
   [Unix for poets](https://www.cs.upc.edu/~padro/Unixforpoets.pdf), 
   [sculpting text](http://matt.might.net/articles/sculpting-text/)
 
