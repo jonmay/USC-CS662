@@ -38,8 +38,8 @@ Aug 22
 : [**project assignment out (due 9/19)**](../assets/files/CSCI_662_Fall_2022_Project_Assignment.pdf){: .label}
 
 Aug 24
-: data processing. data resources
-  : [Nathan Schneider's unix notes](https://github.com/nschneid/unix-text-commands), 
+: data processing. data resources, evaluation, annotation
+  : E 4.5, JM 2, [Nathan Schneider's unix notes](https://github.com/nschneid/unix-text-commands), 
   [Unix for poets](https://www.cs.upc.edu/~padro/Unixforpoets.pdf), 
   [sculpting text](http://matt.might.net/articles/sculpting-text/)
 
@@ -78,9 +78,9 @@ Sep 14
 : **HW1 due**{: .label .label-red}
 
 Sep 19
-: data gathering, annotation, evaluation
-  : TBD
-    : <!-- Anirudh -- [End-to-end ASR to jointly predict transcriptions and linguistic annotations](https://aclanthology.org/2021.naacl-main.149/) -->
+: slack class (either we will be behind and this class will let us catch up or we'll be ahead and I'll move the next lecture up
+  : 
+    : 
 : **project proposal due**{: .label .label-red }
 
 Sep 21
