@@ -45,14 +45,13 @@ Aug 24
 
 Aug 29
 : linear classifiers 
-  : E 2.2, 2.3, 2.4. JM 4, 5, [Goldwater probability tutorial](http://homepages.inf.ed.ac.uk/sgwater/teaching/general/probability.pdf).
+  : E 2.2, 2.3, 2.4. JM 4, 5, [Thumbs up? Sentiment Classification using Machine Learning Techniques](https://aclanthology.org/W02-1011/),  [Goldwater probability tutorial](http://homepages.inf.ed.ac.uk/sgwater/teaching/general/probability.pdf).
 : **HW1 out (due 9/14)**{: .label}  
 
 Aug 31
 : nonlinear classifiers, backprop, gradient descent
   : E 3. JM 7.2-7.4, 7.6. 
-    : <!-- Jon -- [Preregistering NLP research](https://aclanthology.org/2021.naacl-main.51.pdf) -->
-
+    : 
 
 
 Sep 5
@@ -62,14 +61,12 @@ Sep 5
 Sep 7
 : distributional feature representations: PPMI, LSA, word2vec, bilingual dictionary induction
   : E 14.3, 14.5-6. JM 6.
-    : <!-- Julie -- [Adversarial Learning for Zero-Shot Stance Detection on Social Media](https://aclanthology.org/2021.naacl-main.379.pdf){:target="_blank"} -->
-
+    : 
+: (Sep 9):  Drop deadline (for refund, without W))
 
 Sep 12
 : ngram language models
-  : E 6.1-2, 6.4. 7.5, 7.7. JM 3
-    :  <!-- Jiageng -- [A Disentangled Adversarial Neural Topic Model for Separating Opinions from Plots in User Reviews](https://aclanthology.org/2021.naacl-main.228/) -->
-: Drop deadline (for refund, without W)
+  : E 6.1-2, 6.4. 7.5, 7.7. JM 3    
 
 Sep 14
 : recurrent and transformer language models, ELMo, BERT
@@ -85,7 +82,7 @@ Sep 19
 
 Sep 21
 : ethics
-  : [The Social Impact of Natural Language Processing] (https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/)
+  : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/)
     : <!-- Taufeq -- [Smoothing and Shrinking the Sparse Seq2Seq Search Space](https://aclanthology.org/2021.naacl-main.210/) -->
 
 Sep 26
