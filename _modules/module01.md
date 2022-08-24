@@ -137,7 +137,7 @@ Oct 24
   
 Oct 26
 : dialogue: chatbots
-  : JM 24-24.2.3. 
+  : JM 24-24.2.3. [The original ELIZA](https://sites.google.com/view/elizagen-org/the-original-eliza)
     : Presentation TBD
 
 Oct 31
