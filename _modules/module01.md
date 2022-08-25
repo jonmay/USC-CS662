@@ -38,13 +38,13 @@ Aug 22
 : [**project assignment out (due 9/19)**](assets/files/CSCI_662_Fall_2022_Project_Assignment.pdf){: .label}
 
 Aug 24
-: data processing. data resources, evaluation, annotation
+: [data processing. data resources, evaluation, annotation](assets/files/data.pdf)
   : E 4.5, JM 2, 4.9, [Nathan Schneider's unix notes](https://github.com/nschneid/unix-text-commands), 
   [Unix for poets](https://www.cs.upc.edu/~padro/Unixforpoets.pdf), 
   [sculpting text](http://matt.might.net/articles/sculpting-text/)
 
 Aug 29
-: linear classifiers 
+: [linear classifiers](assets/files/linearmodels.pdf) 
   : E 2.2, 2.3, 2.4. JM 4, 5, [Thumbs up? Sentiment Classification using Machine Learning Techniques](https://aclanthology.org/W02-1011/),  [Goldwater probability tutorial](http://homepages.inf.ed.ac.uk/sgwater/teaching/general/probability.pdf). [The Perceptron (Rosenblatt 1958)](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.335.3398&rep=rep1&type=pdf) (optional)
 : **HW1 out (due 9/14)**{: .label}  
 
