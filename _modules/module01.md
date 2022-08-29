@@ -46,11 +46,11 @@ Aug 24
 Aug 29
 : [linear classifiers](assets/files/linearmodels.pdf) 
   : E 2.2, 2.3, 2.4. JM 4, 5, [Thumbs up? Sentiment Classification using Machine Learning Techniques](https://aclanthology.org/W02-1011/),  [Goldwater probability tutorial](http://homepages.inf.ed.ac.uk/sgwater/teaching/general/probability.pdf). [The Perceptron (Rosenblatt 1958)](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.335.3398&rep=rep1&type=pdf) (optional)
-: **HW1 out (due 9/14)**{: .label}  
+: [**HW1 out (due 9/14)**](assets/files/hw1.pdf){: .label}  
 
 Aug 31
 : nonlinear classifiers, backprop, gradient descent
-  : E 3. JM 7.2-7.4, 7.6. 
+  : E 3. JM 7.2--7.4, 7.6. 
     : 
 
 
@@ -60,13 +60,13 @@ Sep 5
 
 Sep 7
 : distributional feature representations: PPMI, LSA, word2vec, bilingual dictionary induction
-  : E 14.3, 14.5-6. JM 6.
+  : E 14.3, 14.5--6. JM 6.
     : 
 : (Sep 9):  Drop deadline (for refund, without W))
 
 Sep 12
 : ngram language models
-  : E 6.1-2, 6.4. 7.5, 7.7. JM 3    
+  : E 6.1--2, 6.4. 7.5, 7.7. JM 3    
 
 Sep 14
 : recurrent and transformer language models, ELMo, BERT
@@ -93,13 +93,13 @@ Sep 26
 
 Sep 28
 : POS tags, HMMs, treebanks
-  : E 7.1--7.4, JM 8.1-8.5 (TBD discussion of actual trees!!)
+  : E 7.1--7.4, JM 8.1--8.5, 12 (through 12.4.2)
     : <!-- Zhuochen -- [Continual Learning for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.310/) -->
 
 
 Oct 3
 : constituencies, cky, dependencies, shift-reduce
-  : E 10.1--10.4, JM TBD
+  : E 10.1--10.4, JM 13.1--13.4, 14--14.4.4
     : <!-- Fei -- [Counterfactual Data Augmentation for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.18/) -->
 
 
