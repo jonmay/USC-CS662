@@ -49,7 +49,7 @@ Aug 29
 : [**HW1 out (due 9/14)**](assets/files/hw1.pdf){: .label}  
 
 Aug 31
-: nonlinear classifiers, backprop, gradient descent
+: [nonlinear classifiers, backprop, gradient descent](assets/files/nonlinear.pdf)
   : E 3. JM 7.2--7.4, 7.6. 
     : 
 
