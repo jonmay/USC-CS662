@@ -59,7 +59,7 @@ Sep 5
   : 
 
 Sep 7
-: distributional feature representations: PPMI, LSA, word2vec, bilingual dictionary induction
+: [distributional feature representations: PPMI, LSA, word2vec, bilingual dictionary induction](assets/files/distrib.pdf)
   : E 14.3, 14.5--6. JM 6.
     : 
 : (Sep 9):  Drop deadline (for refund, without W))
