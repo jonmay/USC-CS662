@@ -65,7 +65,7 @@ Sep 7
 : (Sep 9):  Drop deadline (for refund, without W))
 
 Sep 12
-: ngram language models
+: [ngram language models](assets/files/ngram.pdf)
   : E 6.1--2, 6.4. 7.5, 7.7. JM 3    
 
 Sep 14
