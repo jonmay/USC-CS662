@@ -66,7 +66,7 @@ Sep 7
 
 Sep 12
 : ngram language models
-  : E 6.1--2, 6.4. 7.5, 7.7. JM 3    
+  : E 6.1--2, 6.4. 7.5, 7.7. JM 3 [Exploring the limits of language modeling](https://arxiv.org/abs/1602.02410)   
 
 Sep 14
 : recurrent and transformer language models, ELMo, BERT
