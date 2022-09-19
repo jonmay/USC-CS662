@@ -110,67 +110,77 @@ Oct 5
 Oct 10
 : semantics: logical/compositional, frames and roles, amr, distributional
   : E 12.1, 12.2, 13.1, 13.3, 14.1-3, 14.6-8, JM 15.1-3, 6
-    : Presentation TBD
+    : Omey - TweetSpin - Propaganda detection in Social Media using Multi-View Representations
+    : Alireza - Hate Speech and Counter Speech Detection: Conversational Context Does Matter
+
 
 Oct 12
 : machine translation: history, evaluation, data
   : [“Oh, yes, everything’s right on schedule, Fred”](https://www.cs.jhu.edu/~post/bitext/)
-    : Presentation TBD
+    : Smit - Aligning to Social Norms and Values in Interactive Narratives
+    : Syeda - How Gender Debiasing Affects Internal Model Representations, and Why It Matters
 : **HW2 due**{: .label .label-red}
 
 Oct 17
 : machine translation: statistical, recurrent, attention
   : E 18, JM TBD
-    : Presentation TBD
+    : Mahak - Time Waits for No One! Analysis and Challenges of Temporal Misalignment
+    : Amin - Lifelong Pretraining: Continually Adapting Language Models to Emerging Corpora
   
   
 Oct 19
 : machine translation: transformer, transfer learning, unsupervised, nonautoregressive
   : TBD
-    : Presentation TBD
+    : Zhuoyu - Annotators with Attitudes: How Annotator Beliefs And Identities Bias Toxic Language Detection
+    : Hirona - Recognition of They/Them as Singular Personal Pronouns in Coreference Resolution
     
 Oct 24
 : dialogue: task-oriented
   : E 19.3, JM 24.3-24.4.4, 24.5.2
-    : Presentation TBD
+    : Robert - Non-Autoregressive Machine Translation: It’s Not as Fast as it Seem
+    : Yixiang - Ask Me Anything in Your Native Language
 : **HW3 out (due 11/9)**{: .label}    
   
 Oct 26
 : dialogue: chatbots
   : JM 24-24.2.3. [The original ELIZA](https://sites.google.com/view/elizagen-org/the-original-eliza)
-    : Presentation TBD
+    : Charles - Cryptocurrency Bubble Detection: A New Stock Market Dataset, Financial Task & Hyperbolic Models
 
 Oct 31
 : information extraction: history, entities
   : [25 years of IE](https://www.cambridge.org/core/journals/natural-language-engineering/article/twentyfive-years-of-information-extraction/0E5BB0D6AE906BB3C25037E2D74CA8F3/share/5ce1ad8430e190e282cc234c79c320c49906a7e2)
-    : Presentation TBD
+    : Basem - Explaining Dialogue Evaluation Metrics using Adversarial Behavioral Analysis
+    : Leticia - Learning Dialogue Representations from Consecutive Utterances
     
 Nov 2
 : information extraction: relations, events
   : TBD
-    : Presentation TBD
+    : Zhivar - Semantic Diversity in Dialogue with Natural Language Inference
+    : Fazle - On the Origin of Hallucinations in Conversational Models: Is it the Datasets or the Models?
 : [**Project Report Version 1 due**{: .label .label-red}](({{project}}){:target="_blank"})
 
 Nov 7
 : question answering, information retrieval
   : TBD
-    : Presentation TBD
+    : James - Learning as Conversation: Dialogue Systems Reinforced for Information Acquisition
+    : Yanze - Meet Your Favorite Character: Open-domain Chatbot Mimicking Fictional Characters with only a Few Utterances
 
 Nov 9
 : natural language inference and common sense tasks
   : TBD
-    : Presentation TBD
+    : Sophie - Knowledge-Grounded Dialogue Generation with a Unified Knowledge Representation
+    : Jiarui - JointLK: Joint Reasoning with Language Models and Knowledge Graphs for Commonsense Question Answering
 : **HW3 due**{: .label .label-red}
 
 Nov 14
 : prompts, multi task large language models
   :  [InstructGPT paper (pp1--20)](https://arxiv.org/abs/2203.02155)
-    : Presentation TBD
+    : Darpan - Robust Conversational Agents against Imperceptible Toxicity Triggers
 
 Nov 16
 : adapters, prefix tuning, few-parameter fine-tuning
   : TBD
-    : Presentation TBD
+    : Sahana - Learning to Transfer Prompts for Text Generation
 
 Nov 21
 : very long sequence models (Guest Lecture [Xuezhe (Max) Ma](https://xuezhemax.github.io/))
