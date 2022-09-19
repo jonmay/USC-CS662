@@ -75,7 +75,7 @@ Sep 14
 : **HW1 due**{: .label .label-red}
 
 Sep 19
-: slack class (either we will be behind and this class will let us catch up or we'll be ahead and I'll move the next lecture up
+: [Transformers, actually](assets/files/transformer.pdf)
   : 
     : 
 : **project proposal due**{: .label .label-red }
