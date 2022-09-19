@@ -175,12 +175,12 @@ Nov 9
 Nov 14
 : prompts, multi task large language models
   :  [InstructGPT paper (pp1--20)](https://arxiv.org/abs/2203.02155)
-    : Sahana - Learning to Transfer Prompts for Text Generation
+    : Darpan - Robust Conversational Agents against Imperceptible Toxicity Triggers
 
 Nov 16
 : adapters, prefix tuning, few-parameter fine-tuning
   : TBD
-    : Presentation TBD
+    : Sahana - Learning to Transfer Prompts for Text Generation
 
 Nov 21
 : very long sequence models (Guest Lecture [Xuezhe (Max) Ma](https://xuezhemax.github.io/))
