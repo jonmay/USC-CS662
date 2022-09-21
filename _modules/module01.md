@@ -144,7 +144,7 @@ Oct 24
 Oct 26
 : dialogue: chatbots
   : JM 24-24.2.3. [The original ELIZA](https://sites.google.com/view/elizagen-org/the-original-eliza)
-    : Charles - Cryptocurrency Bubble Detection: A New Stock Market Dataset, Financial Task & Hyperbolic Models
+    : Charles - Theory-Grounded Measurement of U.S. Social Stereotypes in English Language Models
 
 Oct 31
 : information extraction: history, entities
