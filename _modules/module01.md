@@ -92,7 +92,7 @@ Sep 26
 : **HW2 out (due 10/12)**{: .label}
 
 Sep 28
-: POS tags, HMMs, treebanks
+: [POS tags, HMMs](assets/files/poshmm.pdf), treebanks
   : E 7.1--7.4, JM 8.1--8.5, 12 (through 12.4.2)
     : <!-- Zhuochen -- [Continual Learning for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.310/) -->
 
