@@ -82,7 +82,7 @@ Sep 19
 
 Sep 21
 : ethics
-  : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/)
+  : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/), [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
     : <!-- Taufeq -- [Smoothing and Shrinking the Sparse Seq2Seq Search Space](https://aclanthology.org/2021.naacl-main.210/) -->
 
 Sep 26
@@ -92,7 +92,7 @@ Sep 26
 : **HW2 out (due 10/12)**{: .label}
 
 Sep 28
-: POS tags, HMMs, treebanks
+: [POS tags, HMMs](assets/files/poshmm.pdf), treebanks
   : E 7.1--7.4, JM 8.1--8.5, 12 (through 12.4.2)
     : <!-- Zhuochen -- [Continual Learning for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.310/) -->
 
