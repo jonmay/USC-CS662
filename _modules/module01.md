@@ -98,7 +98,7 @@ Sep 28
 
 
 Oct 3
-: constituencies, cky, dependencies, shift-reduce
+: [constituencies, cky](assets/files/constit.pdf), dependencies, shift-reduce
   : E 10.1--10.4, JM 13.1--13.4, 14--14.4.4
     : <!-- Fei -- [Counterfactual Data Augmentation for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.18/) -->
 
