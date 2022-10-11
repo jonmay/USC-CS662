@@ -125,7 +125,7 @@ Oct 17
 : machine translation: statistical, recurrent, attention
   : E 18, JM TBD
     : Mahak - [Time Waits for No One! Analysis and Challenges of Temporal Misalignment](https://aclanthology.org/2022.naacl-main.435/)
-    : Amin - [Lifelong Pretraining: Continually Adapting Language Models to Emerging Corpora](https://aclanthology.org/2022.bigscience-1.1/)
+    : Amin - [Lifelong Pretraining: Continually Adapting Language Models to Emerging Corpora](https://aclanthology.org/2022.naacl-main.351/)
   
   
 Oct 19
