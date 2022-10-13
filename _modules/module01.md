@@ -108,74 +108,78 @@ Oct 5
   :
 
 Oct 10
-: semantics: logical/compositional, frames and roles, amr, distributional
-  : E 12.1, 12.2, 13.1, 13.3, 14.1-3, 14.6-8, JM 15.1-3, 6
-    : Omey - [TweetSpin - Propaganda detection in Social Media using Multi-View Representations](https://aclanthology.org/2022.naacl-main.251/)
+: [dependencies](assets/file/depend.pdf)
+: 
+: Omey - [TweetSpin - Propaganda detection in Social Media using Multi-View Representations](https://aclanthology.org/2022.naacl-main.251/)
     : Alireza - [Hate Speech and Counter Speech Detection: Conversational Context Does Matter](https://aclanthology.org/2022.naacl-main.433/)
 
 
 Oct 12
-: machine translation: history, evaluation, data
-  : [“Oh, yes, everything’s right on schedule, Fred”](https://www.cs.jhu.edu/~post/bitext/)
-    : Smit - [Aligning to Social Norms and Values in Interactive Narratives](https://aclanthology.org/2022.naacl-main.439/)
+: shift-reduce
+:
+: Smit - [Aligning to Social Norms and Values in Interactive Narratives](https://aclanthology.org/2022.naacl-main.439/)
     : Syeda - [How Gender Debiasing Affects Internal Model Representations, and Why It Matters](https://aclanthology.org/2022.naacl-main.188/)
 : **HW2 due**{: .label .label-red}
 
 Oct 17
-: machine translation: statistical, recurrent, attention
-  : E 18, JM TBD
+: machine translation: history, evaluation, data
+  : [“Oh, yes, everything’s right on schedule, Fred”](https://www.cs.jhu.edu/~post/bitext/)
     : Mahak - [Time Waits for No One! Analysis and Challenges of Temporal Misalignment](https://aclanthology.org/2022.naacl-main.435/)
     : Amin - [Lifelong Pretraining: Continually Adapting Language Models to Emerging Corpora](https://aclanthology.org/2022.naacl-main.351/)
   
   
 Oct 19
-: machine translation: transformer, transfer learning, unsupervised, nonautoregressive
-  : TBD
+: machine translation: statistical, recurrent, transformer, transfer learning,  unsupervised, nonautoregressive
+  : E 18, JM 10
     : Zhuoyu - [Annotators with Attitudes: How Annotator Beliefs And Identities Bias Toxic Language Detection](https://aclanthology.org/2022.naacl-main.431/)
     : Hirona - [Recognition of They/Them as Singular Personal Pronouns in Coreference Resolution](https://aclanthology.org/2022.naacl-main.250/)
     
 Oct 24
-: dialogue: task-oriented
-  : E 19.3, JM 24.3-24.4.4, 24.5.2
+: MEGA (Guest Lecture by Xuezehe Ma)
+: [Mega Paper](https://arxiv.org/abs/2209.10655); [Annotated S4](https://srush.github.io/annotated-s4/)
     : Robert - [Non-Autoregressive Machine Translation: It’s Not as Fast as it Seem](https://aclanthology.org/2022.naacl-main.129/)
     : Yixiang - [Ask Me Anything in Your Native Language](https://aclanthology.org/2022.naacl-main.30/)
 : **HW3 out (due 11/9)**{: .label}    
-  
+
+
+
 Oct 26
-: dialogue: chatbots
-  : JM 24-24.2.3. [The original ELIZA](https://sites.google.com/view/elizagen-org/the-original-eliza)
+: semantics: logical/compositional, frames and roles, amr, distributional
+  : E 12.1, 12.2, 13.1, 13.3, 14.1-3, 14.6-8, JM 15.1-3, 6
     : Charles - [Theory-Grounded Measurement of U.S. Social Stereotypes in English Language Models](https://aclanthology.org/2022.naacl-main.92/)
     : Mina - [How Conservative are Language Models? Adapting to the Introduction of Gender-Neutral Pronouns](https://aclanthology.org/2022.naacl-main.265/)
 
 Oct 31
-: information extraction: history, entities
-  : [25 years of IE](https://www.cambridge.org/core/journals/natural-language-engineering/article/twentyfive-years-of-information-extraction/0E5BB0D6AE906BB3C25037E2D74CA8F3/share/5ce1ad8430e190e282cc234c79c320c49906a7e2)
-    : Basem - [Explaining Dialogue Evaluation Metrics using Adversarial Behavioral Analysis](https://aclanthology.org/2022.naacl-main.430/)
-    : Leticia - [Learning Dialogue Representations from Consecutive Utterances](https://aclanthology.org/2022.naacl-main.55/)
-    
+: Vision-and-language Models (Guest lecture: Xuezhe Ma)
+: [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239), [Score-Based Generative Modeling through Stochastic Differential Equations](https://arxiv.org/abs/2011.13456), [Variational Diffusion Models](https://arxiv.org/abs/2107.00630), [Understanding Diffusion Models: A Unified Perspective](https://arxiv.org/abs/2208.11970)
+: Basem - [Explaining Dialogue Evaluation Metrics using Adversarial Behavioral Analysis](https://aclanthology.org/2022.naacl-main.430/)
+: Leticia - [Learning Dialogue Representations from Consecutive Utterances](https://aclanthology.org/2022.naacl-main.55/)
+
+
 Nov 2
-: information extraction: relations, events
-  : TBD
+: dialogue: task-oriented and chatbots
+: E 19.3, JM 24 [The original ELIZA](https://sites.google.com/view/elizagen-org/the-original-eliza)
     : Zhivar - [Semantic Diversity in Dialogue with Natural Language Inference](https://aclanthology.org/2022.naacl-main.6/)
   : Fazle - [On the Origin of Hallucinations in Conversational Models: Is it the Datasets or the Models?](https://aclanthology.org/2022.naacl-main.387/)
 : [**Project Report Version 1 due**{: .label .label-red}](({{project}}){:target="_blank"})
 
+
 Nov 7
 : question answering, information retrieval
-  : TBD
+  : JM 23
     : James - [Learning as Conversation: Dialogue Systems Reinforced for Information Acquisition](https://aclanthology.org/2022.naacl-main.352/)
     : Yanze - [Meet Your Favorite Character: Open-domain Chatbot Mimicking Fictional Characters with only a Few Utterances](https://aclanthology.org/2022.naacl-main.377/)
 
 Nov 9
 : natural language inference and common sense tasks
-  : TBD
+  : [Modeling Semantic Containment and Exclusion in Natural Language Inference](https://aclanthology.org/C08-1066/), [Commonsense Reasoning and Commonsense Knowledge in Artificial Intelligence](https://cs.nyu.edu/~davise/papers/CommonsenseFinal.pdf)
     : Sophie - [Knowledge-Grounded Dialogue Generation with a Unified Knowledge Representation](https://aclanthology.org/2022.naacl-main.15/)
     : Jiarui - [JointLK: Joint Reasoning with Language Models and Knowledge Graphs for Commonsense Question Answering](https://aclanthology.org/2022.naacl-main.372/)
 : **HW3 due**{: .label .label-red}
 
 Nov 14
 : prompts, multi task large language models
-  :  [InstructGPT paper (pp1--20)](https://arxiv.org/abs/2203.02155)
+  :  [InstructGPT paper (pp1--20)](https://arxiv.org/abs/2203.02155), [Large Language Models are Human-Level Prompt Engineers](https://openreview.net/forum?id=92gvk82DE-)
     : Darpan - [Robust Conversational Agents against Imperceptible Toxicity Triggers](https://aclanthology.org/2022.naacl-main.204/)
 
 Nov 16
@@ -184,9 +188,8 @@ Nov 16
     : Sahana - [Learning to Transfer Prompts for Text Generation](https://aclanthology.org/2022.naacl-main.257/)
 
 Nov 21
-: very long sequence models (Guest Lecture [Xuezhe (Max) Ma](https://xuezhemax.github.io/))
-  : 
-    : Presentation TBD
+: information extraction
+  : JM 17, E 17, [25 years of IE](https://www.cambridge.org/core/journals/natural-language-engineering/article/twentyfive-years-of-information-extraction/0E5BB0D6AE906BB3C25037E2D74CA8F3/share/5ce1ad8430e190e282cc234c79c320c49906a7e2)
 
 Nov 23
 : THANKSGIVING BREAK; NO CLASS
