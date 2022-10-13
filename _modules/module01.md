@@ -136,7 +136,7 @@ Oct 19
     
 Oct 24
 : MEGA (Guest Lecture by Xuezehe Ma)
-: [Mega Paper](https://arxiv.org/abs/2209.10655); [Annotated S4](https://srush.github.io/annotated-s4/)
+  : [Mega Paper](https://arxiv.org/abs/2209.10655); [Annotated S4](https://srush.github.io/annotated-s4/)
     : Robert - [Non-Autoregressive Machine Translation: It’s Not as Fast as it Seem](https://aclanthology.org/2022.naacl-main.129/)
     : Yixiang - [Ask Me Anything in Your Native Language](https://aclanthology.org/2022.naacl-main.30/)
 : **HW3 out (due 11/9)**{: .label}    
@@ -151,16 +151,16 @@ Oct 26
 
 Oct 31
 : Vision-and-language Models (Guest lecture: Xuezhe Ma)
-: [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239), [Score-Based Generative Modeling through Stochastic Differential Equations](https://arxiv.org/abs/2011.13456), [Variational Diffusion Models](https://arxiv.org/abs/2107.00630), [Understanding Diffusion Models: A Unified Perspective](https://arxiv.org/abs/2208.11970)
-: Basem - [Explaining Dialogue Evaluation Metrics using Adversarial Behavioral Analysis](https://aclanthology.org/2022.naacl-main.430/)
-: Leticia - [Learning Dialogue Representations from Consecutive Utterances](https://aclanthology.org/2022.naacl-main.55/)
+  : [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239), [Score-Based Generative Modeling through Stochastic Differential Equations](https://arxiv.org/abs/2011.13456), [Variational Diffusion Models](https://arxiv.org/abs/2107.00630), [Understanding Diffusion Models: A Unified Perspective](https://arxiv.org/abs/2208.11970)
+    : Basem - [Explaining Dialogue Evaluation Metrics using Adversarial Behavioral Analysis](https://aclanthology.org/2022.naacl-main.430/)
+    : Leticia - [Learning Dialogue Representations from Consecutive Utterances](https://aclanthology.org/2022.naacl-main.55/)
 
 
 Nov 2
 : dialogue: task-oriented and chatbots
 : E 19.3, JM 24 [The original ELIZA](https://sites.google.com/view/elizagen-org/the-original-eliza)
     : Zhivar - [Semantic Diversity in Dialogue with Natural Language Inference](https://aclanthology.org/2022.naacl-main.6/)
-  : Fazle - [On the Origin of Hallucinations in Conversational Models: Is it the Datasets or the Models?](https://aclanthology.org/2022.naacl-main.387/)
+    : Fazle - [On the Origin of Hallucinations in Conversational Models: Is it the Datasets or the Models?](https://aclanthology.org/2022.naacl-main.387/)
 : [**Project Report Version 1 due**{: .label .label-red}](({{project}}){:target="_blank"})
 
 
