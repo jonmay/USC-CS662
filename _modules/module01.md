@@ -108,7 +108,7 @@ Oct 5
   :
 
 Oct 10
-: [dependencies](assets/file/depend.pdf)
+: [dependencies](assets/files/depend.pdf)
 : 
 : Omey - [TweetSpin - Propaganda detection in Social Media using Multi-View Representations](https://aclanthology.org/2022.naacl-main.251/)
     : Alireza - [Hate Speech and Counter Speech Detection: Conversational Context Does Matter](https://aclanthology.org/2022.naacl-main.433/)
@@ -129,7 +129,7 @@ Oct 17
   
   
 Oct 19
-: machine translation: statistical, recurrent, transformer, transfer learning,  unsupervised, nonautoregressive
+: machine translation: statistical, recurrent, [transformer](assets/files/transmt.pdf), transfer learning,  unsupervised, nonautoregressive
   : E 18, JM 10
     : Zhuoyu - [Annotators with Attitudes: How Annotator Beliefs And Identities Bias Toxic Language Detection](https://aclanthology.org/2022.naacl-main.431/)
     : Hirona - [Recognition of They/Them as Singular Personal Pronouns in Coreference Resolution](https://aclanthology.org/2022.naacl-main.250/)
