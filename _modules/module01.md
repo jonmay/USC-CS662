@@ -139,7 +139,7 @@ Oct 24
   : [Mega Paper](https://arxiv.org/abs/2209.10655); [Annotated S4](https://srush.github.io/annotated-s4/)
     : Robert - [Non-Autoregressive Machine Translation: It’s Not as Fast as it Seem](https://aclanthology.org/2022.naacl-main.129/)
     : Yixiang - [Ask Me Anything in Your Native Language](https://aclanthology.org/2022.naacl-main.30/)
-: **HW3 out (due 11/9)**{: .label}    
+: **HW3 out (due 11/16)**{: .label}    
 
 
 
@@ -175,7 +175,6 @@ Nov 9
   : [Modeling Semantic Containment and Exclusion in Natural Language Inference](https://aclanthology.org/C08-1066/), [Commonsense Reasoning and Commonsense Knowledge in Artificial Intelligence](https://cs.nyu.edu/~davise/papers/CommonsenseFinal.pdf)
     : Sophie - [Knowledge-Grounded Dialogue Generation with a Unified Knowledge Representation](https://aclanthology.org/2022.naacl-main.15/)
     : Jiarui - [JointLK: Joint Reasoning with Language Models and Knowledge Graphs for Commonsense Question Answering](https://aclanthology.org/2022.naacl-main.372/)
-: **HW3 due**{: .label .label-red}
 
 Nov 14
 : prompts, multi task large language models
@@ -186,6 +185,7 @@ Nov 16
 : adapters, prefix tuning, few-parameter fine-tuning
   : TBD
     : Sahana - [Learning to Transfer Prompts for Text Generation](https://aclanthology.org/2022.naacl-main.257/)
+: **HW3 due**{: .label .label-red}
 
 Nov 21
 : information extraction
