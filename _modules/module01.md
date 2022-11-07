@@ -33,23 +33,23 @@ The announcement can be made red for due dates as follows
 -->
 
 Aug 22
-: [intro](assets/files/intro_2022.pdf), applications
+: [intro]({{site.baseurl}}assets/files/intro_2022.pdf), applications
   : E 1
-: [**project assignment out (due 9/19)**](assets/files/CSCI_662_Fall_2022_Project_Assignment.pdf){: .label}
+: [**project assignment out (due 9/19)**]({{site.baseurl}}assets/files/CSCI_662_Fall_2022_Project_Assignment.pdf){: .label}
 
 Aug 24
-: [data processing. data resources, evaluation, annotation](assets/files/data.pdf)
+: [data processing. data resources, evaluation, annotation]({{site.baseurl}}assets/files/data.pdf)
   : E 4.5, JM 2, 4.9, [Nathan Schneider's unix notes](https://github.com/nschneid/unix-text-commands), 
   [Unix for poets](https://www.cs.upc.edu/~padro/Unixforpoets.pdf), 
   [sculpting text](http://matt.might.net/articles/sculpting-text/)
 
 Aug 29
-: [linear classifiers](assets/files/linearmodels.pdf) 
+: [linear classifiers]({{site.baseurl}}assets/files/linearmodels.pdf) 
   : E 2.2, 2.3, 2.4. JM 4, 5, [Thumbs up? Sentiment Classification using Machine Learning Techniques](https://aclanthology.org/W02-1011/),  [Goldwater probability tutorial](http://homepages.inf.ed.ac.uk/sgwater/teaching/general/probability.pdf). [The Perceptron (Rosenblatt 1958)](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.335.3398&rep=rep1&type=pdf) (optional)
-: [**HW1 out (due 9/14)**](assets/files/hw1.pdf){: .label}  
+: [**HW1 out (due 9/14)**]({{site.baseurl}}assets/files/hw1.pdf){: .label}  
 
 Aug 31
-: [nonlinear classifiers, backprop, gradient descent](assets/files/nonlinear.pdf)
+: [nonlinear classifiers, backprop, gradient descent]({{site.baseurl}}assets/files/nonlinear.pdf)
   : E 3. JM 7.2--7.4, 7.6. 
     : 
 
@@ -59,23 +59,23 @@ Sep 5
   : 
 
 Sep 7
-: [distributional feature representations: PPMI, LSA, word2vec, bilingual dictionary induction](assets/files/distrib.pdf)
+: [distributional feature representations: PPMI, LSA, word2vec, bilingual dictionary induction]({{site.baseurl}}assets/files/distrib.pdf)
   : E 14.3, 14.5--6. JM 6.
     : 
 : (Sep 9):  Drop deadline (for refund, without W))
 
 Sep 12
-: [ngram language models](assets/files/ngram.pdf)
+: [ngram language models]({{site.baseurl}}assets/files/ngram.pdf)
   : E 6.1--2, 6.4. 7.5, 7.7. JM 3 [Exploring the limits of language modeling](https://arxiv.org/abs/1602.02410)   
 
 Sep 14
-: [recurrent and transformer language models, ELMo, BERT](assets/files/ffrnn.pdf)
+: [recurrent and transformer language models, ELMo, BERT]({{site.baseurl}}assets/files/ffrnn.pdf)
   : E 6.3, JM 9. [Attention is all you need](https://arxiv.org/abs/1706.03762)
     : <!-- Preni -- [The Importance of Modeling Social Factors of Language: Theory and Practice](https://aclanthology.org/2021.naacl-main.49/) -->
 : **HW1 due**{: .label .label-red}
 
 Sep 19
-: [Transformers, actually](assets/files/transformer.pdf)
+: [Transformers, actually]({{site.baseurl}}assets/files/transformer.pdf)
   : 
     : 
 : **project proposal due**{: .label .label-red }
@@ -92,13 +92,13 @@ Sep 26
 : **HW2 out (due 10/12)**{: .label}
 
 Sep 28
-: [POS tags, HMMs](assets/files/poshmm.pdf), treebanks
+: [POS tags, HMMs]({{site.baseurl}}assets/files/poshmm.pdf), treebanks
   : E 7.1--7.4, JM 8.1--8.5, 12 (through 12.4.2)
     : <!-- Zhuochen -- [Continual Learning for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.310/) -->
 
 
 Oct 3
-: [constituencies, cky](assets/files/constit.pdf), dependencies, shift-reduce
+: [constituencies, cky]({{site.baseurl}}assets/files/constit.pdf), dependencies, shift-reduce
   : E 10.1--10.4, JM 13.1--13.4, 14--14.4.4
     : <!-- Fei -- [Counterfactual Data Augmentation for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.18/) -->
 
@@ -108,7 +108,7 @@ Oct 5
   :
 
 Oct 10
-: [dependencies](assets/files/depend.pdf)
+: [dependencies]({{site.baseurl}}assets/files/depend.pdf)
 : 
 : Omey - [TweetSpin - Propaganda detection in Social Media using Multi-View Representations](https://aclanthology.org/2022.naacl-main.251/)
     : Alireza - [Hate Speech and Counter Speech Detection: Conversational Context Does Matter](https://aclanthology.org/2022.naacl-main.433/)
@@ -129,7 +129,7 @@ Oct 17
   
   
 Oct 19
-: machine translation: statistical, recurrent, [transformer](assets/files/transmt.pdf), transfer learning,  unsupervised, nonautoregressive
+: machine translation: statistical, recurrent, [transformer]({{site.baseurl}}assets/files/transmt.pdf), transfer learning,  unsupervised, nonautoregressive
   : E 18, JM 10
     : Zhuoyu - [Annotators with Attitudes: How Annotator Beliefs And Identities Bias Toxic Language Detection](https://aclanthology.org/2022.naacl-main.431/)
     : Hirona - [Recognition of They/Them as Singular Personal Pronouns in Coreference Resolution](https://aclanthology.org/2022.naacl-main.250/)
