@@ -165,7 +165,7 @@ Nov 2
 
 
 Nov 7
-: question answering, information retrieval
+: [question answering, information retrieval](assets/files/irqa.pdf)
   : JM 23
     : James - [Learning as Conversation: Dialogue Systems Reinforced for Information Acquisition](https://aclanthology.org/2022.naacl-main.352/)
     : Yanze - [Meet Your Favorite Character: Open-domain Chatbot Mimicking Fictional Characters with only a Few Utterances](https://aclanthology.org/2022.naacl-main.377/)
