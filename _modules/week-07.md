@@ -1,5 +1,5 @@
 ---
-title: Rest of the weeks (TODO: separate me)
+title: Week 7
 ---
 
 
