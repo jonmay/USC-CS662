@@ -1,5 +1,5 @@
 ---
-title: Week 3
+title: Rest of the weeks (TODO: separate me)
 ---
 
 
@@ -32,15 +32,15 @@ The announcement can be made red for due dates as follows
 
 -->
 
+Oct 2
+: [constituencies, cky]({{site.baseurl}}assets/files/constit.pdf), dependencies, shift-reduce
+  : E 10.1--10.4, JM 13.1--13.4, 14--14.4.4
+    : <!-- Fei -- [Counterfactual Data Augmentation for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.18/) -->
 
-Sep 4
-: LABOR DAY NO CLASS
-  : 
 
-Sep 6
-: [distributional feature representations: PPMI, LSA, word2vec, bilingual dictionary induction]({{site.baseurl}}assets/files/distrib.pdf)
-  : E 14.3, 14.5--6. JM 6.
-    : 
+Oct 4
+: [dependencies]({{site.baseurl}}assets/files/depend.pdf)
 
-Sep 8
-:  Drop deadline (for refund, without W))
+Oct 6
+: Drop deadline (no refund, without W)
+
