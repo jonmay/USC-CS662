@@ -1,5 +1,5 @@
 ---
-title: Week 7
+title: Week 10
 ---
 
 
@@ -32,17 +32,16 @@ The announcement can be made red for due dates as follows
 
 -->
 
-Oct 2
-: [POS tags, HMMs]({{site.baseurl}}assets/files/poshmm.pdf), treebanks
-  : E 7.1--7.4, JM 8.1--8.5, 12 (through 12.4.2)
-    : <!-- Zhuochen -- [Continual Learning for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.310/) -->
-
-Oct 4
-: [constituencies, cky]({{site.baseurl}}assets/files/constit.pdf)
-  : E 10.1--10.4, JM 13.1--13.4, 14--14.4.4
-    : <!-- Fei -- [Counterfactual Data Augmentation for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.18/) -->
+Oct 23
+: machine translation: history, evaluation, data
+  : [“Oh, yes, everything’s right on schedule, Fred”](https://www.cs.jhu.edu/~post/bitext/)
+    : 
+    : 
+: **HW3 out (due 11/17)**{: .label}   
 
 
-Oct 6
-: Drop deadline (no refund, without W)
-
+Oct 25
+: machine translation: statistical, recurrent, [transformer]({{site.baseurl}}assets/files/transmt.pdf), transfer learning,  unsupervised, nonautoregressive
+  : E 18, JM 10
+    : 
+    : 

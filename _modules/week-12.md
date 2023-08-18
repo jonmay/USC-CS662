@@ -1,5 +1,5 @@
 ---
-title: Week 7
+title: Week 12
 ---
 
 
@@ -32,17 +32,13 @@ The announcement can be made red for due dates as follows
 
 -->
 
-Oct 2
-: [POS tags, HMMs]({{site.baseurl}}assets/files/poshmm.pdf), treebanks
-  : E 7.1--7.4, JM 8.1--8.5, 12 (through 12.4.2)
-    : <!-- Zhuochen -- [Continual Learning for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.310/) -->
-
-Oct 4
-: [constituencies, cky]({{site.baseurl}}assets/files/constit.pdf)
-  : E 10.1--10.4, JM 13.1--13.4, 14--14.4.4
-    : <!-- Fei -- [Counterfactual Data Augmentation for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.18/) -->
+Oct 30
+: [information extraction](assets/files/ie.pdf)
+  : JM 17, E 17, [25 years of IE](https://www.cambridge.org/core/journals/natural-language-engineering/article/twentyfive-years-of-information-extraction/0E5BB0D6AE906BB3C25037E2D74CA8F3/share/5ce1ad8430e190e282cc234c79c320c49906a7e2)
 
 
-Oct 6
-: Drop deadline (no refund, without W)
+Nov 1
+: information extraction 2
 
+Nov 10 
+: Drop deadline with W

@@ -1,5 +1,5 @@
 ---
-title: Week 7
+title: Week 13
 ---
 
 
@@ -32,17 +32,17 @@ The announcement can be made red for due dates as follows
 
 -->
 
-Oct 2
-: [POS tags, HMMs]({{site.baseurl}}assets/files/poshmm.pdf), treebanks
-  : E 7.1--7.4, JM 8.1--8.5, 12 (through 12.4.2)
-    : <!-- Zhuochen -- [Continual Learning for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.310/) -->
+Nov 13
+: [question answering, information retrieval](assets/files/irqa.pdf)
+  : JM 23
+    : 
+    : 
 
-Oct 4
-: [constituencies, cky]({{site.baseurl}}assets/files/constit.pdf)
-  : E 10.1--10.4, JM 13.1--13.4, 14--14.4.4
-    : <!-- Fei -- [Counterfactual Data Augmentation for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.18/) -->
+Nov 15
+: natural language inference and common sense tasks
+  : [Modeling Semantic Containment and Exclusion in Natural Language Inference](https://aclanthology.org/C08-1066/), [Commonsense Reasoning and Commonsense Knowledge in Artificial Intelligence](https://cs.nyu.edu/~davise/papers/CommonsenseFinal.pdf)
+    : 
+    :
 
-
-Oct 6
-: Drop deadline (no refund, without W)
-
+Nov 17
+: **HW 3 due**{: .label .label-red }

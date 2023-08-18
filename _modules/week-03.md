@@ -35,7 +35,7 @@ The announcement can be made red for due dates as follows
 
 Sep 4
 : LABOR DAY NO CLASS
-  : 
+: **Paper selection due**{: .label .label-red}
 
 Sep 6
 : [distributional feature representations: PPMI, LSA, word2vec, bilingual dictionary induction]({{site.baseurl}}assets/files/distrib.pdf)
@@ -43,4 +43,4 @@ Sep 6
     : 
 
 Sep 8
-:  Drop deadline (for refund, without W))
+:  Drop deadline (for refund, without W)

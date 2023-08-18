@@ -1,5 +1,5 @@
 ---
-title: Week 7
+title: Week 11
 ---
 
 
@@ -32,17 +32,14 @@ The announcement can be made red for due dates as follows
 
 -->
 
-Oct 2
-: [POS tags, HMMs]({{site.baseurl}}assets/files/poshmm.pdf), treebanks
-  : E 7.1--7.4, JM 8.1--8.5, 12 (through 12.4.2)
-    : <!-- Zhuochen -- [Continual Learning for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.310/) -->
+Oct 30
+: dialogue: task-oriented and chatbots
+: E 19.3, JM 24 [The original ELIZA](https://sites.google.com/view/elizagen-org/the-original-eliza)
+    : 
 
-Oct 4
-: [constituencies, cky]({{site.baseurl}}assets/files/constit.pdf)
-  : E 10.1--10.4, JM 13.1--13.4, 14--14.4.4
-    : <!-- Fei -- [Counterfactual Data Augmentation for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.18/) -->
+Nov 1
+: dialogue 2
 
-
-Oct 6
-: Drop deadline (no refund, without W)
+Nov 3
+: [**Project Report Version 1 due**{: .label .label-red}](({{project}}){:target="_blank"})
 
