@@ -35,6 +35,7 @@ The announcement can be made red for due dates as follows
 
 Sep 4
 : LABOR DAY NO CLASS
+  : - 
 : **Paper selection due**{: .label .label-red}
 
 Sep 6

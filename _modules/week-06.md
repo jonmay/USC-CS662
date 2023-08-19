@@ -36,12 +36,13 @@ The announcement can be made red for due dates as follows
 
 Sep 25
 : YOM KIPPUR NO CLASS
-  :
-    :
+  : - 
 : **HW2 out (due 10/13)**{: .label}
 
 Sep 27
-: [POS tags, HMMs]({{site.baseurl}}assets/files/poshmm.pdf), treebanks
-  : E 7.1--7.4, JM 8.1--8.5, 12 (through 12.4.2)
-    : <!-- Zhuochen -- [Continual Learning for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.310/) -->
+: ethics (Guest Lecture by Katy Felkner)
+  : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/), [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
+    : <!-- Taufeq -- [Smoothing and Shrinking the Sparse Seq2Seq Search Space](https://aclanthology.org/2021.naacl-main.210/) -->
+
+
 

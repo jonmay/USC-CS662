@@ -32,13 +32,14 @@ The announcement can be made red for due dates as follows
 
 -->
 
-Oct 30
+Nov 6
 : [information extraction](assets/files/ie.pdf)
   : JM 17, E 17, [25 years of IE](https://www.cambridge.org/core/journals/natural-language-engineering/article/twentyfive-years-of-information-extraction/0E5BB0D6AE906BB3C25037E2D74CA8F3/share/5ce1ad8430e190e282cc234c79c320c49906a7e2)
 
 
-Nov 1
+Nov 8
 : information extraction 2
+  : - 
 
 Nov 10 
 : Drop deadline with W

@@ -34,7 +34,8 @@ The announcement can be made red for due dates as follows
 
 Oct 16
 : RLHF (Guest Lecture by Justin Cho)
-
+  : . 
+  
 Oct 18
 : MEGA (Guest Lecture by Xuezehe Ma)
   : [Mega Paper](https://arxiv.org/abs/2209.10655); [Annotated S4](https://srush.github.io/annotated-s4/)

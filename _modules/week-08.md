@@ -34,11 +34,11 @@ The announcement can be made red for due dates as follows
 
 Oct 9
 : [dependencies]({{site.baseurl}}assets/files/depend.pdf)
+  : - 
 
 Oct 11
 : semantics: logical/compositional, frames and roles, amr, distributional
   : E 12.1, 12.2, 13.1, 13.3, 14.1-3, 14.6-8, JM 15.1-3, 6
-    : 
     : 
 
 

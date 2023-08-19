@@ -41,3 +41,4 @@ Sep 18
 
 Sep 20
 : [Transformers, actually]({{site.baseurl}}assets/files/transformer.pdf)
+  : - 

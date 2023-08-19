@@ -39,6 +39,7 @@ Sep 11
 
 Sep 13 
 : NO CLASS
+  : - 
 
 Sep 15
 : **HW1 due**{: .label .label-red}
