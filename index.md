@@ -49,26 +49,33 @@ seo:
 Monday and Wednesday 10:00–11:50 am, SOS B2
 
 ### Textbook
-Required: [Natural Language Processing - Eisenstein](https://mitpress.mit.edu/books/introduction-natural-language-processing) ('E' in schedule)
+- Required: [Natural Language Processing - Eisenstein](https://mitpress.mit.edu/books/introduction-natural-language-processing) ('E' in schedule)
 -- or [free version](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf)
 
 
-Required: [Speech and Language Processing 3rd edition - Jurafsky, Martin](https://web.stanford.edu/~jurafsky/slp3/) ('JM' in schedule)
+- Required: [Speech and Language Processing 3rd edition - Jurafsky, Martin](https://web.stanford.edu/~jurafsky/slp3/) ('JM' in schedule)
 -- [January 2023 pdf](https://web.stanford.edu/~jurafsky/slp3/ed3book_jan72023.pdf)
 
-Required: Selected papers from NLP literature, see (evolving) schedule
+- Required: Selected papers from NLP literature, see (evolving) schedule
 
 ### Grading
 
-10% - In class participation \
-10% - Posted questions before each in-class selected paper presentation and possible quizzes \
-10% - In-class selected paper presentation \
-30% - Three Homeworks (10% each) \
-40% - Project, comprising proposal (5%), first version of report (5%), in-class presentation (10%), and final report (20%). Done in small groups. \
-Written homeworks and project components except for final project report must be submitted on the date listed in the schedule, by 23:59:59 [AoE](https://www.timeanddate.com/worldclock/converter.html). \
-Final project report is due Monday, December 11, 2023, 10:00 AM PST \
-A deduction of 1/5 of the total possible score will be assessed for each late day. After four late days (i.e. on the fifth), you get a 0 on the assignment (and you should come talk to us because your grade will likely suffer!) \
-You have four extension days, to be applied as you wish, throughout the entire class, for homeworks and project proposal / first report (NOT final report). No deduction will be assessed if an extension day is used. As an example, if an assignment is due November 10, you have two extension days remaining, you submit the assignment on November 12, and your score is 90/100. In this case you lose the extension days but your grade is not reduced; it remains 90/100. If you have one extension day, you lose it, and your grade is 70/100. If you have no extension days, your grade is 50/100.
+| Percentage | Assessment Component                                              |
+|------------|-------------------------------------------------------------------|
+| 10%        | In class participation                                            |
+| 10%        | Posted questions before each in-class selected paper presentation and possible quizzes |
+| 10%        | In-class selected paper presentation                              |
+| 30%        | Three Homeworks (10% each)                                        |
+| 40%        | Project, done in small groups, comprising:                        |
+|            | - Proposal (5%)                                                   |
+|            | - First version of report (5%)                                    |
+|            | - In-class presentation (10%)                                     |
+|            | - Final report (20%).                                             |
+
+- Written homeworks and project components except for final project report must be submitted on the date listed in the schedule, by 23:59:59 [AoE](https://www.timeanddate.com/worldclock/converter.html). 
+- Final project report is due Monday, December 11, 2023, 10:00 AM PST 
+- A deduction of 1/5 of the total possible score will be assessed for each late day. After four late days (i.e. on the fifth), you get a 0 on the assignment (and you should come talk to us because your grade will likely suffer!) 
+- You have four extension days, to be applied as you wish, throughout the entire class, for homeworks and project proposal / first report (NOT final report). No deduction will be assessed if an extension day is used. As an example, if an assignment is due November 10, you have two extension days remaining, you submit the assignment on November 12, and your score is 90/100. In this case you lose the extension days but your grade is not reduced; it remains 90/100. If you have one extension day, you lose it, and your grade is 70/100. If you have no extension days, your grade is 50/100.
 
 ### Contact us
 
