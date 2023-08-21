@@ -2,8 +2,9 @@
 name: Justin Cho
 role: Teaching Assistant
 email: jcho@isi.edu
-website: 
-photo: elanmarkowitz.JPG
+website: justin-cho.com
+photo: justincho.png
 ---
+
 
 Office Hours: TBD

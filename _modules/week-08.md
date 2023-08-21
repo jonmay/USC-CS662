@@ -1,5 +1,5 @@
 ---
-title: Week 6
+title: Week 8
 ---
 
 
@@ -32,17 +32,15 @@ The announcement can be made red for due dates as follows
 
 -->
 
-
-
-Sep 25
-: YOM KIPPUR NO CLASS
+Oct 9
+: [dependencies]({{site.baseurl}}assets/files/depend.pdf)
   : - 
-: **HW2 out (due 10/13)**{: .label}
 
-Sep 27
-: ethics (Guest Lecture by Katy Felkner)
-  : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/), [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
-    : <!-- Taufeq -- [Smoothing and Shrinking the Sparse Seq2Seq Search Space](https://aclanthology.org/2021.naacl-main.210/) -->
-
+Oct 11
+: semantics: logical/compositional, frames and roles, amr, distributional
+  : E 12.1, 12.2, 13.1, 13.3, 14.1-3, 14.6-8, JM 15.1-3, 6
+    : 
 
 
+Oct 13 
+: **HW 2 due**{: .label .label-red }

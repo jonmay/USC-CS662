@@ -34,13 +34,11 @@ The announcement can be made red for due dates as follows
 
 
 Sep 18
-: [Transformers, actually]({{site.baseurl}}assets/files/transformer.pdf)
-  : 
-    : 
+: [recurrent and transformer language models, ELMo, BERT]({{site.baseurl}}assets/files/ffrnn.pdf)
+  : E 6.3, JM 9. [Attention is all you need](https://arxiv.org/abs/1706.03762)
+    : <!-- Preni -- [The Importance of Modeling Social Factors of Language: Theory and Practice](https://aclanthology.org/2021.naacl-main.49/) -->
 : **project proposal due**{: .label .label-red }
 
 Sep 20
-: ethics
-  : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/), [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
-    : <!-- Taufeq -- [Smoothing and Shrinking the Sparse Seq2Seq Search Space](https://aclanthology.org/2021.naacl-main.210/) -->
-
+: [Transformers, actually]({{site.baseurl}}assets/files/transformer.pdf)
+  : - 

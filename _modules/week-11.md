@@ -1,5 +1,5 @@
 ---
-title: Week 6
+title: Week 11
 ---
 
 
@@ -32,17 +32,15 @@ The announcement can be made red for due dates as follows
 
 -->
 
+Oct 30
+: dialogue: task-oriented and chatbots
+  : E 19.3, JM 24 [The original ELIZA](https://sites.google.com/view/elizagen-org/the-original-eliza)
+    : 
 
-
-Sep 25
-: YOM KIPPUR NO CLASS
+Nov 1
+: dialogue 2
   : - 
-: **HW2 out (due 10/13)**{: .label}
 
-Sep 27
-: ethics (Guest Lecture by Katy Felkner)
-  : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/), [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
-    : <!-- Taufeq -- [Smoothing and Shrinking the Sparse Seq2Seq Search Space](https://aclanthology.org/2021.naacl-main.210/) -->
-
-
+Nov 3
+: [**Project Report Version 1 due**{: .label .label-red}](({{project}}){:target="_blank"})
 

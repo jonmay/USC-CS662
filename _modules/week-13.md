@@ -1,5 +1,5 @@
 ---
-title: Week 6
+title: Week 13
 ---
 
 
@@ -32,17 +32,17 @@ The announcement can be made red for due dates as follows
 
 -->
 
+Nov 13
+: [question answering, information retrieval](assets/files/irqa.pdf)
+  : JM 23
+    : 
+    : 
 
+Nov 15
+: natural language inference and common sense tasks
+  : [Modeling Semantic Containment and Exclusion in Natural Language Inference](https://aclanthology.org/C08-1066/), [Commonsense Reasoning and Commonsense Knowledge in Artificial Intelligence](https://cs.nyu.edu/~davise/papers/CommonsenseFinal.pdf)
+    : 
+    :
 
-Sep 25
-: YOM KIPPUR NO CLASS
-  : - 
-: **HW2 out (due 10/13)**{: .label}
-
-Sep 27
-: ethics (Guest Lecture by Katy Felkner)
-  : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/), [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
-    : <!-- Taufeq -- [Smoothing and Shrinking the Sparse Seq2Seq Search Space](https://aclanthology.org/2021.naacl-main.210/) -->
-
-
-
+Nov 17
+: **HW 3 due**{: .label .label-red }

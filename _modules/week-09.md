@@ -1,5 +1,5 @@
 ---
-title: Week 6
+title: Week 9
 ---
 
 
@@ -32,17 +32,10 @@ The announcement can be made red for due dates as follows
 
 -->
 
-
-
-Sep 25
-: YOM KIPPUR NO CLASS
-  : - 
-: **HW2 out (due 10/13)**{: .label}
-
-Sep 27
-: ethics (Guest Lecture by Katy Felkner)
-  : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/), [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
-    : <!-- Taufeq -- [Smoothing and Shrinking the Sparse Seq2Seq Search Space](https://aclanthology.org/2021.naacl-main.210/) -->
-
-
-
+Oct 16
+: RLHF (Guest Lecture by Justin Cho)
+  : . 
+  
+Oct 18
+: MEGA (Guest Lecture by Xuezehe Ma)
+  : [Mega Paper](https://arxiv.org/abs/2209.10655); [Annotated S4](https://srush.github.io/annotated-s4/)

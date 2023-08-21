@@ -1,5 +1,5 @@
 ---
-title: Week 6
+title: Week 12
 ---
 
 
@@ -32,17 +32,14 @@ The announcement can be made red for due dates as follows
 
 -->
 
+Nov 6
+: [information extraction](assets/files/ie.pdf)
+  : JM 17, E 17, [25 years of IE](https://www.cambridge.org/core/journals/natural-language-engineering/article/twentyfive-years-of-information-extraction/0E5BB0D6AE906BB3C25037E2D74CA8F3/share/5ce1ad8430e190e282cc234c79c320c49906a7e2)
 
 
-Sep 25
-: YOM KIPPUR NO CLASS
+Nov 8
+: information extraction 2
   : - 
-: **HW2 out (due 10/13)**{: .label}
 
-Sep 27
-: ethics (Guest Lecture by Katy Felkner)
-  : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/), [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
-    : <!-- Taufeq -- [Smoothing and Shrinking the Sparse Seq2Seq Search Space](https://aclanthology.org/2021.naacl-main.210/) -->
-
-
-
+Nov 10 
+: Drop deadline with W
