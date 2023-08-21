@@ -34,7 +34,7 @@ The announcement can be made red for due dates as follows
 
 Oct 30
 : dialogue: task-oriented and chatbots
-  : E 19.3, JM 24 [The original ELIZA](https://sites.google.com/view/elizagen-org/the-original-eliza)
+  : E 19.3, JM 15 [The original ELIZA](https://sites.google.com/view/elizagen-org/the-original-eliza)
     : 
 
 Nov 1
