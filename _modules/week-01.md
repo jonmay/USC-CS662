@@ -36,7 +36,7 @@ Aug 21
 : [intro]({{site.baseurl}}assets/files/intro.pdf), applications
   : E 1
 : [**project assignment out (due 9/18)**]({{site.baseurl}}assets/files/project.pdf){: .label}
-: [**paper selection out (due 9/4)**]({{site.baseurl}}assets/files/project.pdf){: .label}
+: [**paper selection out (due 9/4)**](https://docs.google.com/forms/d/e/1FAIpQLScutjF0Xb2qKLs0m5pTWZYBIFNjmfmm7JXfEubMUeNlrEKqLw/viewform?usp=sf_link){: .label}
 
 Aug 23
 : [data processing. data resources, evaluation, annotation]({{site.baseurl}}assets/files/data.pdf)
