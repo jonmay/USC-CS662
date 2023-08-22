@@ -35,7 +35,7 @@ The announcement can be made red for due dates as follows
 Nov 20
 : prompts, multi task large language models
   :  [InstructGPT paper (pp1--20)](https://arxiv.org/abs/2203.02155), [Large Language Models are Human-Level Prompt Engineers](https://openreview.net/forum?id=92gvk82DE-)
-    : Darpan - [Robust Conversational Agents against Imperceptible Toxicity Triggers](https://aclanthology.org/2022.naacl-main.204/)
+
 
 Nov 22
 : THANKSGIVING BREAK; NO CLASS
