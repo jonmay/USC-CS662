@@ -40,7 +40,7 @@ Sep 4
 
 Sep 6
 : [distributional feature representations: PPMI, LSA, word2vec, bilingual dictionary induction]({{site.baseurl}}assets/files/distrib.pdf)
-  : E 14.3, 14.5--6. JM 6.
+  : E 14.3, 14.5--6. JM 6, [LSA via SVD](https://matpalm.com/lsa_via_svd/index.html)
     : 
 
 Sep 8
