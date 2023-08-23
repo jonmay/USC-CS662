@@ -46,7 +46,7 @@ seo:
 {% endif %}
 
 ### Lectures 
-Monday and Wednesday 10:00–11:50 am, SOS B2
+Monday and Wednesday 10:00–11:50 am, DMC 261
 
 ### Textbook
 - Required: [Natural Language Processing - Eisenstein](https://mitpress.mit.edu/books/introduction-natural-language-processing) ('E' in schedule)
