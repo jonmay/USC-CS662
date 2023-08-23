@@ -7,4 +7,4 @@ photo: shushan.png
 ---
 
 
-Office Hours: 3-5pm, Fri
+Office Hours: 3-5pm Fri, RTH 314
