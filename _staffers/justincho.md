@@ -7,4 +7,4 @@ photo: justincho.png
 ---
 
 
-Office Hours: TBD
+Office Hours: 2-4pm Mondays, SAL PhD lounge
