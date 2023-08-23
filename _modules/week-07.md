@@ -34,7 +34,7 @@ The announcement can be made red for due dates as follows
 
 Oct 2
 : [POS tags, HMMs]({{site.baseurl}}assets/files/poshmm.pdf), treebanks
-  : E 7.1--7.4, JM 8.1--8.5, 17.3
+  : E 7.1--7.4, 8.1, JM 8.1--8.5, 17.3
     : <!-- Zhuochen -- [Continual Learning for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.310/) -->
 
 Oct 4

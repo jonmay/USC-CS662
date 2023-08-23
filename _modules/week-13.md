@@ -34,7 +34,7 @@ The announcement can be made red for due dates as follows
 
 Nov 13
 : [question answering, information retrieval](assets/files/irqa.pdf)
-  : JM 23
+  : JM 14
     : 
     : 
 

@@ -42,6 +42,6 @@ Oct 23
 
 Oct 25
 : machine translation: statistical, recurrent, [transformer]({{site.baseurl}}assets/files/transmt.pdf), transfer learning,  unsupervised, nonautoregressive
-  : E 18, JM 10
+  : E 18, JM 10, 13
     : 
     : 
