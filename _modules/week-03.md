@@ -39,8 +39,8 @@ Sep 4
 : **Paper selection due**{: .label .label-red}
 
 Sep 6
-: [distributional feature representations: PPMI, LSA, word2vec, bilingual dictionary induction]({{site.baseurl}}assets/files/distrib.pdf)
-  : E 14.3, 14.5--6. JM 6, [LSA via SVD](https://matpalm.com/lsa_via_svd/index.html)
+: [distributional feature representations: PPMI, LSA, word2vec, ({{site.baseurl}}assets/files/distrib.pdf)
+  : E 14.3, 14.5--6. JM 6, [LSA via SVD](https://matpalm.com/lsa_via_svd/index.html), [Linguistic regularities in continuous space word representations](https://aclanthology.org/N13-1090/), [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781)
     : 
 
 Sep 8
