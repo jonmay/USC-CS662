@@ -40,7 +40,7 @@ Sep 4
 
 Sep 6
 : [distributional feature representations: PPMI, LSA, word2vec, ({{site.baseurl}}assets/files/distrib.pdf)
-  : E 14.3, 14.5--6. JM 6, [LSA via SVD](https://matpalm.com/lsa_via_svd/index.html), [Linguistic regularities in continuous space word representations](https://aclanthology.org/N13-1090/), [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781)
+  : E 14.3, 14.5--6. JM 6, [LSA via SVD](https://matpalm.com/lsa_via_svd/index.html), [Linguistic regularities in continuous space word representations](https://aclanthology.org/N13-1090/), [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781), [Distributed Representations of Words and Phrases and their Compositionality](https://arxiv.org/abs/1310.4546)
     : 
 
 Sep 8
