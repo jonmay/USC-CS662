@@ -35,7 +35,12 @@ The announcement can be made red for due dates as follows
 Oct 16
 : RLHF (Guest Lecture by Justin Cho)
   : . 
+    : Xinyue - [Beyond prompting: Making Pre-trained Language Models Better Zero-shot Learners by Clustering Representations](https://aclanthology.org/2022.emnlp-main.587)
+    : Suhaib - [Interpreting Language Models with Contrastive Explanations](https://aclanthology.org/2022.emnlp-main.14)
   
 Oct 18
 : MEGA (Guest Lecture by Xuezehe Ma)
   : [Mega Paper](https://arxiv.org/abs/2209.10655); [Annotated S4](https://srush.github.io/annotated-s4/)
+    : Ajay - [Transformer Feed-Forward Layers Build Predictions by Promoting Concepts in the Vocabulary Space](https://aclanthology.org/2022.emnlp-main.3)
+    : Kate - [RANKGEN: Improving Text Generation with Large Ranking Models](https://aclanthology.org/2022.emnlp-main.15.pdf) 
+

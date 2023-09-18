@@ -35,12 +35,15 @@ The announcement can be made red for due dates as follows
 Oct 2
 : [POS tags, HMMs]({{site.baseurl}}assets/files/poshmm.pdf), treebanks
   : E 7.1--7.4, 8.1, JM 8.1--8.5, 17.3
-    : <!-- Zhuochen -- [Continual Learning for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.310/) -->
+    : Katie - [Affective Knowledge Enhanced Multiple-Graph Fusion Networks for Aspect-based Sentiment Analysis](https://aclanthology.org/2022.emnlp-main.359/)
+    : Sean - [Reproducibility in Computational Linguistics: Is Source Code Enough?](https://aclanthology.org/2022.emnlp-main.150/)
 
 Oct 4
 : [constituencies, cky]({{site.baseurl}}assets/files/constit.pdf)
   : E 10.1--10.4, JM 17 (the rest)
-    : <!-- Fei -- [Counterfactual Data Augmentation for Neural Machine Translation](https://aclanthology.org/2021.naacl-main.18/) -->
+    : Ian - [Finding Skill Neurons in Pre-trained Transformer-based Language Models](https://aclanthology.org/2022.emnlp-main.765/)
+    : Darshan - [On the Transformation of Latent Space in Fine-Tuned NLP Models](https://aclanthology.org/2022.emnlp-main.97)
+
 
 
 Oct 6

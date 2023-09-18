@@ -42,7 +42,6 @@ Sep 25
 Sep 27
 : ethics (Guest Lecture by Katy Felkner)
   : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/), [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
-    : <!-- Taufeq -- [Smoothing and Shrinking the Sparse Seq2Seq Search Space](https://aclanthology.org/2021.naacl-main.210/) -->
-
+    : Daniel P - [Extracted BERT Model Leaks More Information than you Think!](https://aclanthology.org/2022.emnlp-main.99/)
 
 
