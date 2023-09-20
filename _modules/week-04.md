@@ -34,7 +34,7 @@ The announcement can be made red for due dates as follows
 
 
 Sep 11
-: [ngram language models]({{site.baseurl}}assets/files/ngram.pdf)
+: [ngram language models]({{site.baseurl}}assets/files/ngram.pdf), [feed forward and recurrent language models]({{site.baseurl}}assets/files/ffrnn.pdf)
   : E 6.1--2, 6.4. 7.5, 7.7. JM 3 [Exploring the limits of language modeling](https://arxiv.org/abs/1602.02410) 
 
 Sep 13 

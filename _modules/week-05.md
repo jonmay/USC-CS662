@@ -34,11 +34,11 @@ The announcement can be made red for due dates as follows
 
 
 Sep 18
-: [recurrent and transformer language models, ELMo, BERT]({{site.baseurl}}assets/files/ffrnn.pdf)
+: [transformer language models]({{site.baseurl}}assets/files/transformer.pdf)
   : E 6.3, JM 9, 10. [Attention is all you need](https://arxiv.org/abs/1706.03762) [LM notebook]({{site.baseurl}}assets/files/LMs.ipynb)
     : <!-- Preni -- [The Importance of Modeling Social Factors of Language: Theory and Practice](https://aclanthology.org/2021.naacl-main.49/) -->
 : **project proposal due**{: .label .label-red }
 
 Sep 20
-: [Transformers, actually]({{site.baseurl}}assets/files/transformer.pdf)
+: [Pretrained language models]({{site.baseurl}}assets/files/pretrained.pdf)
   : JM 10 
