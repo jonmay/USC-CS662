@@ -37,10 +37,10 @@ The announcement can be made red for due dates as follows
 Sep 25
 : YOM KIPPUR NO CLASS
   : - 
-: [**HW2 out (due 10/13)**{: .label}]({{site.baseurl}}assets/files/hw2.pdf)
+: [**HW2 out (due 10/13)**]({{site.baseurl}}assets/files/hw2.pdf){: .label}
 
 Sep 27
-: [ethics (Guest Lecture by Katy Felkner)]({{site.baseurl}}assets/files/ethics.pdf)
+: [ethics]({{site.baseurl}}assets/files/ethics.pdf) (Guest Lecture by Katy Felkner)
   : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/), [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
     : Daniel P - [Extracted BERT Model Leaks More Information than you Think!](https://aclanthology.org/2022.emnlp-main.99/)
 
