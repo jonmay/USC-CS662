@@ -37,7 +37,7 @@ The announcement can be made red for due dates as follows
 Sep 25
 : YOM KIPPUR NO CLASS
   : - 
-: **HW2 out (due 10/13)**{: .label}
+: [**HW2 out (due 10/13)**{: .label}]({{site.baseurl}}assets/files/hw2.pdf)
 
 Sep 27
 : [ethics (Guest Lecture by Katy Felkner)]({{site.baseurl}}assets/files/ethics.pdf)
