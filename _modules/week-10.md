@@ -35,7 +35,10 @@ The announcement can be made red for due dates as follows
 Oct 23
 : machine translation: history, evaluation, data
   : [“Oh, yes, everything’s right on schedule, Fred”](https://www.cs.jhu.edu/~post/bitext/)
+    : Tianyi Y. - [Active Example Selection for In-Context Learning ](https://aclanthology.org/2022.emnlp-main.622)
+    : Questions by: Xinyue
     : Daniel Y. - [mPLUG: Effective and Efficient Vision-Language Learning by Cross-modal Skip-connections](https://aclanthology.org/2022.emnlp-main.488)
+    : Questions by: Duygu
 : **HW3 out (due 11/17)**{: .label}   
     <!-- : [Life is a Circus and We are the Clowns: Automatically Finding Analogies between Situations and Processes]() -->
 
@@ -43,4 +46,6 @@ Oct 25
 : machine translation: statistical, recurrent, [transformer]({{site.baseurl}}assets/files/transmt.pdf), transfer learning,  unsupervised, nonautoregressive
   : E 18, JM 10, 13
     : Abid - [Calibration Meets Explanation: A Simple and Effective Approach for Model Confidence Estimates](https://aclanthology.org/2022.emnlp-main.178) 
+    : Questions by: Sean
     : Eray - [Zero-Shot Text Classification with Self-Training](https://aclanthology.org/2022.emnlp-main.73)
+    : Questions by: Ian

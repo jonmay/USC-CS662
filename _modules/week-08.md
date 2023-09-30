@@ -36,13 +36,17 @@ Oct 9
 : [dependencies]({{site.baseurl}}assets/files/depend.pdf)
   : E 11, JM 18
     : Sina - [Perturbation Augmentation for Fairer NLP](https://aclanthology.org/2022.emnlp-main.646)
+    : Questions by: Kian
     : Tina - [Balancing out Bias: Achieving Fairness Through Balanced Training](https://aclanthology.org/2022.emnlp-main.779.pdf)
+    : Questions by: Ajay
 
 Oct 11
 : semantics: logical/compositional, frames and roles, amr, distributional
   : E 12.1, 12.2, 13.1, 13.3, 14.1-3, 14.6-8, JM 19, 23, 24
     : Nuan - [Don’t Prompt, Search! Mining-based Zero-Shot Learning with Language Models](https://aclanthology.org/2022.emnlp-main.509)
+    : Questions by: Daniel P
     : Yavuz - [The Geometry of Multilingual Language Model Representations](https://aclanthology.org/2022.emnlp-main.9/)
+    : Questions by: Weike
 
 
 

@@ -36,13 +36,17 @@ Oct 30
 : dialogue: task-oriented and chatbots
   : E 19.3, JM 15 [The original ELIZA](https://sites.google.com/view/elizagen-org/the-original-eliza)
     : Patrick - [Towards Multi-Modal Sarcasm Detection via Hierarchical Congruity Modeling with Knowledge Enhancement](https://aclanthology.org/2022.emnlp-main.333)
+    : Questions by: Kate Hsu
     : David - [Stanceosaurus: Classifying Stance Towards Multicultural Misinformation](https://aclanthology.org/2022.emnlp-main.138)
+    : Questions by: Shicheng
 
 Nov 1
 : dialogue 2
   : -n/a-
     : Kian - [Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?](https://aclanthology.org/2022.emnlp-main.759.pdf)
+    : Questions by: Priyanka
     : Duygu - [Learning Robust Representations for Continual Relation Extraction via Adversarial Class Augmentation](https://aclanthology.org/2022.emnlp-main.420.pdf)
+    : Questions by: Darshan
 
 Nov 3
 : [**Project Report Version 1 due**{: .label .label-red}](({{project}}){:target="_blank"})
