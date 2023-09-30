@@ -45,7 +45,7 @@ Nov 8
   : -n/a-
     : Brian - [ProsocialDialog: A Prosocial Backbone for Conversational Agents](https://aclanthology.org/2022.emnlp-main.267)
     : Questions by: Michael
-    : Gabriela - [Offer a Different Perspective: Modeling the Belief Alignment of Arguments in Multi-party Debates](https://aclanthology.org/2022.emnlp-main.818/)
+    : Gabriela - [Directions for NLP Practices Applied to Online Hate Speech Detection](https://aclanthology.org/2022.emnlp-main.809)
     : Questions by: David
 
 Nov 10 
