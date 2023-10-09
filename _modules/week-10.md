@@ -33,8 +33,9 @@ The announcement can be made red for due dates as follows
 -->
 
 Oct 23
-: machine translation: history, evaluation, data
-  : [“Oh, yes, everything’s right on schedule, Fred”](https://www.cs.jhu.edu/~post/bitext/)
+
+: MEGA (Guest Lecture by Xuezehe Ma)
+  : [Mega Paper](https://arxiv.org/abs/2209.10655); [Annotated S4](https://srush.github.io/annotated-s4/)
     : Tianyi Y. - [Active Example Selection for In-Context Learning ](https://aclanthology.org/2022.emnlp-main.622)
     : Questions by: Xinyue
     : Daniel Y. - [mPLUG: Effective and Efficient Vision-Language Learning by Cross-modal Skip-connections](https://aclanthology.org/2022.emnlp-main.488)
