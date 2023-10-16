@@ -33,8 +33,9 @@ The announcement can be made red for due dates as follows
 -->
 
 Oct 16
-: RLHF (Guest Lecture by Justin Cho)
-  : . 
+: [RLHF]({{site.baseurl}}assets/files/rlhf_justin.pdf) (Guest Lecture by Justin Cho)
+  : [RLHF - Chip Huyen](https://huyenchip.com/2023/05/02/rlhf.html#phase_2_sft)
+  : [Illustrating Reinforcement Learning from Human Feedback (RLHF)](https://huggingface.co/blog/rlhf)
     : Xinyue - [Beyond prompting: Making Pre-trained Language Models Better Zero-shot Learners by Clustering Representations](https://aclanthology.org/2022.emnlp-main.587)
     : Questions by: Sina
     : Suhaib - [Interpreting Language Models with Contrastive Explanations](https://aclanthology.org/2022.emnlp-main.14)
