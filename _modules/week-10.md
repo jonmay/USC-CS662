@@ -40,7 +40,7 @@ Oct 23
     : Questions by: Xinyue
     : Daniel Y. - [mPLUG: Effective and Efficient Vision-Language Learning by Cross-modal Skip-connections](https://aclanthology.org/2022.emnlp-main.488)
     : Questions by: Duygu
-: **HW3 out (due 11/17)**{: .label}   
+: [**HW3 out (due 11/17)**]({{site.baseurl}}assets/files/hw3.pdf){: .label}   
     <!-- : [Life is a Circus and We are the Clowns: Automatically Finding Analogies between Situations and Processes]() -->
 
 Oct 25
