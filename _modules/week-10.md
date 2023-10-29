@@ -44,7 +44,7 @@ Oct 23
     <!-- : [Life is a Circus and We are the Clowns: Automatically Finding Analogies between Situations and Processes]() -->
 
 Oct 25
-: [machine translation]({{site.baseurl}}assets/files/mt1.pptx): statistical, recurrent, transformer, transfer learning,  unsupervised, nonautoregressive
+: [machine translation]({{site.baseurl}}assets/files/mt_1.pptx): statistical,  [neural]({{site.baseurl}}assets/files/mt_2.pptx)
   : E 18, JM 10, 13
     : Abid - [Calibration Meets Explanation: A Simple and Effective Approach for Model Confidence Estimates](https://aclanthology.org/2022.emnlp-main.178) 
     : Questions by: Sean
