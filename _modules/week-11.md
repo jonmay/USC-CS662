@@ -33,7 +33,7 @@ The announcement can be made red for due dates as follows
 -->
 
 Oct 30
-: dialogue: task-oriented and chatbots
+: [dialogue]({{site.baseurl}}assets/files/dialogue.pptx): task-oriented and chatbots
   : E 19.3, JM 15 [The original ELIZA](https://sites.google.com/view/elizagen-org/the-original-eliza)
     : Patrick - [Towards Multi-Modal Sarcasm Detection via Hierarchical Congruity Modeling with Knowledge Enhancement](https://aclanthology.org/2022.emnlp-main.333)
     : Questions by: Kate Hsu
