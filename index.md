@@ -46,15 +46,16 @@ seo:
 {% endif %}
 
 ### Lectures 
-Monday and Wednesday 10:00–11:50 am, DMC 261
+- Monday and Wednesday 10:00–11:50 am, DMC 261
+- See schedule for select days where class is canceled
 
 ### Textbook
-- Required: [Natural Language Processing - Eisenstein](https://mitpress.mit.edu/books/introduction-natural-language-processing) ('E' in schedule)
+- Optional: [Natural Language Processing - Eisenstein](https://mitpress.mit.edu/books/introduction-natural-language-processing) ('E' in schedule)
 -- or [free version](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf)
 
 
-- Required: [Speech and Language Processing 3rd edition - Jurafsky, Martin](https://web.stanford.edu/~jurafsky/slp3/) ('JM' in schedule)
--- [January 2023 pdf](https://web.stanford.edu/~jurafsky/slp3/ed3book_jan72023.pdf)
+- Optional: [Speech and Language Processing 3rd edition - Jurafsky, Martin](https://web.stanford.edu/~jurafsky/slp3/) ('JM' in schedule)
+-- [February 2024 pdf](https://web.stanford.edu/~jurafsky/slp3/ed3bookfeb3_2024.pdf)
 
 - Required: Selected papers from NLP literature, see (evolving) schedule
 
@@ -73,7 +74,7 @@ Monday and Wednesday 10:00–11:50 am, DMC 261
 |            | - Final report (20%).                                             |
 
 - Written homeworks and project components except for final project report must be submitted on the date listed in the schedule, by 23:59:59 [AoE](https://www.timeanddate.com/worldclock/converter.html). 
-- Final project report is due Monday, December 11, 2023, 10:00 AM PST 
+- Final project report is due Monday, December 16, 2024, 10:00 AM PST 
 - A deduction of 1/5 of the total possible score will be assessed for each late day. After four late days (i.e. on the fifth), you get a 0 on the assignment (and you should come talk to us because your grade will likely suffer!) 
 - You have four extension days, to be applied as you wish, throughout the entire class, for homeworks and project proposal / first report (NOT final report). No deduction will be assessed if an extension day is used. As an example, if an assignment is due November 10, you have two extension days remaining, you submit the assignment on November 12, and your score is 90/100. In this case you lose the extension days but your grade is not reduced; it remains 90/100. If you have one extension day, you lose it, and your grade is 70/100. If you have no extension days, your grade is 50/100.
 
@@ -84,20 +85,26 @@ On Piazza, Slack, or in class/office hours. Please do not email (unless notified
 ### Topics 
 (subject to change per instructor/class whim) (will not necessarily be presented in this order):
 
-  : Linguistic Stack (graphemes/phones - words - syntax - semantics - pragmatics - discourse)
-  : Tools\:
-    : Corpora, Corpus statistics, Data cleaning and munging
-    : Annotation and crowdwork
+  : Fundamentals
+    : Linguistic Stack (graphemes/phones - words - syntax - semantics - pragmatics - discourse
+    : Corpora, Corpus statistics, Data cleaning, munging, and annotation
     : Evaluation
-    : Models/approaches: rule-based, automata/grammars, perceptron, logistic regression, neural network models
-    : Effective written and oral communication
-    : Components/Tasks/Subtasks:
+    : Linear and Nonlinear Models
+    : Dense Representations and neural architectures (feed-forward, RNN, Transformer)
     : Language Models
-  : Syntax: POS tags, constituency tree, dependency tree, parsing
-    : Semantics: lexical, formal, inference tasks
-    : Information Extraction: Named Entities, Relations, Events
-    : Generation: Machine Translation, Summarization, Dialogue, Creative Generation
-
+    : Pre-training, Fine-tuning, Prompting, Reward Alignment
+    : Ethics
+    : Effective written and oral communication
+  : Applications
+    : Multilingualism and Translation
+    : Syntax
+    : Information Retrieval/Question Answering
+    : Dialogue
+    : Information Extraction
+    : Multimodality
+    : Speech Recognition and Generation
+    : Agent Interaction
+    : Discourse
 
 {% for module in site.modules %}
 {{ module }}
