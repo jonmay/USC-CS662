@@ -1,3 +1,25 @@
+# How Jon Uses This Repository
+
+- Create a branch based on the year and semester (e.g. 2023f)
+- Make changes to that branch only!
+- In Settings -> Pages -> Build and Deployment, choose the current branch as the deployment target. This should get the current year to build at https://jonmay.github.io/USC-CS662
+
+# How to Archive and Start a New Class
+
+- clone this repository locally, naming it for the most recent previous class (e.g. /Users/jonmay/projects/cs662/24/USC-CS662-23)
+  - `git clone git@github.com:jonmay/USC-CS662.git USC-CS662-23`
+- create a new github repository at https://github.com/new with name USC-CS662-XX where XX is the most recent previous class
+- in the local repository do the following:
+  - `git fetch --all`
+  - `git checkout -b 20XXf origin/20XXf` (where `XX` is the most recent previous class year)
+  - edit `.git/config` and remove the block for `[remote "origin"]` (i.e. that header and its indented lines)
+  - `git remote add origin git@github.com:jonmay/USC-CS662-XX.git` (where XX is the most recent previous class; the content after `origin` can be copied from the github creation page)
+  - `git push -u origin 20XXf` (where `XX` is the most recent previous class year)
+- In the newly created github repository at https://github.com/jonmay/USC-CS662-22/settings/pages select the 20XXf branch
+- Modify your webpage to point the most recent class to https://jonmay.github.io/USC-CS662-XX/
+- Create a new entry pointing the current year class to https://jonmay.github.io/USC-CS662/
+- See above for making sure the deployment target is the current year
+      
 # Just the Class
 
 Just the Class is a GitHub Pages template developed for the purpose of quickly deploying course websites. In addition to serving plain web pages and files, it provides a boilerplate for:
