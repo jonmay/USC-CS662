@@ -32,13 +32,13 @@ The announcement can be made red for due dates as follows
 
 -->
 
-Aug 21
+Aug 26
 : [intro]({{site.baseurl}}assets/files/intro.pdf), applications
   : E 1
-: [**project assignment out (due 9/18)**]({{site.baseurl}}assets/files/project.pdf){: .label}
-: [**paper selection out (due 9/4)**](https://docs.google.com/forms/d/e/1FAIpQLScutjF0Xb2qKLs0m5pTWZYBIFNjmfmm7JXfEubMUeNlrEKqLw/viewform?usp=sf_link){: .label}
+: [**project assignment out (due 9/18xx)**]({{site.baseurl}}assets/files/project.pdf){: .label}
+: [**paper selection out (due 9/4xx)**](https://docs.google.com/forms/d/e/1FAIpQLScutjF0Xb2qKLs0m5pTWZYBIFNjmfmm7JXfEubMUeNlrEKqLw/viewform?usp=sf_link){: .label}
 
-Aug 23
+Aug 28
 : [data processing. data resources, evaluation, annotation]({{site.baseurl}}assets/files/data.pdf)
   : E 4.4-4.5, JM 2, 4.7-4.9, [Nathan Schneider's unix notes](https://github.com/nschneid/unix-text-commands), 
   [Unix for poets](https://www.cs.upc.edu/~padro/Unixforpoets.pdf), 
