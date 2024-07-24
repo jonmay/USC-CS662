@@ -29,7 +29,8 @@ To make the hyperlink open in a new tab by default
 
 The announcement can be made red for due dates as follows
 : **Assignment Due**{: .label .label-red }
-
+9/16 Word rep
+9/18 ngram/ff/rnn
 -->
 
 

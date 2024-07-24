@@ -30,6 +30,8 @@ To make the hyperlink open in a new tab by default
 The announcement can be made red for due dates as follows
 : **Assignment Due**{: .label .label-red }
 
+9/9 no class
+9/11 nonlinear models
 -->
 
 
