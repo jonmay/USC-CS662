@@ -29,7 +29,8 @@ To make the hyperlink open in a new tab by default
 
 The announcement can be made red for due dates as follows
 : **Assignment Due**{: .label .label-red }
-
+11/18: Agents (Guest Tenghao)
+11/20: Discourse (Guest Alex)
 -->
 
 Nov 13

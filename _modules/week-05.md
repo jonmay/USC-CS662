@@ -29,7 +29,7 @@ To make the hyperlink open in a new tab by default
 
 The announcement can be made red for due dates as follows
 : **Assignment Due**{: .label .label-red }
-9/23 transformers
+9/23 transformers; proj selection due
 9/25 elmo+bert+sent sim -- https://aclanthology.org/N18-1202/ (elmo paper), https://aclanthology.org/N19-1423/ (bert paper)
 -->
 

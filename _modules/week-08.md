@@ -30,6 +30,9 @@ To make the hyperlink open in a new tab by default
 The announcement can be made red for due dates as follows
 : **Assignment Due**{: .label .label-red }
 
+10/14 mt
+10/16 multilingual
+10/18 HW 2 due
 -->
 
 Oct 9

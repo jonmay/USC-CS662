@@ -29,7 +29,8 @@ To make the hyperlink open in a new tab by default
 
 The announcement can be made red for due dates as follows
 : **Assignment Due**{: .label .label-red }
-
+9/30 pretraining and fine-tuning; hw2 out (due 10/18)
+10/2 prompting, LLMs
 -->
 
 

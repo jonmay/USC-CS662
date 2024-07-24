@@ -29,7 +29,8 @@ To make the hyperlink open in a new tab by default
 
 The announcement can be made red for due dates as follows
 : **Assignment Due**{: .label .label-red }
-
+11/11: Veterans Day No class
+11/13: EMNLP No Class
 -->
 
 Nov 6

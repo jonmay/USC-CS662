@@ -30,7 +30,7 @@ To make the hyperlink open in a new tab by default
 The announcement can be made red for due dates as follows
 : **Assignment Due**{: .label .label-red }
 
-9/2 labor day
+9/2 labor day; hw 1 out, due 9/20
 9/4 linear models
 -->
 
