@@ -34,24 +34,25 @@ The announcement can be made red for due dates as follows
 10/9 Ethics
 -->
 
-Oct 2
-: [POS tags, HMMs]({{site.baseurl}}assets/files/poshmm.pdf), treebanks
-  : E 7.1--7.4, 8.1, JM 8.1--8.5, 17.3
-    : Katie - [Affective Knowledge Enhanced Multiple-Graph Fusion Networks for Aspect-based Sentiment Analysis](https://aclanthology.org/2022.emnlp-main.359/)
-    : Questions by: Yavuz
-    : Sean - [Reproducibility in Computational Linguistics: Is Source Code Enough?](https://aclanthology.org/2022.emnlp-main.150/)
-    : Questions by: Tina
+Oct 7
+: Reinforcement Learning with Human Feedback: Proximal Policy Optimization (PPO) and Direct Preference Optimization (DPO)
+  : - 
 
-Oct 4
-: [constituencies, cky]({{site.baseurl}}assets/files/constit.pdf)
+Oct 9
+: [ethics]({{site.baseurl}}assets/files/ethics.pdf) (Guest Lecture by Katy Felkner)
+  : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/), [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
+    : Daniel P - [Extracted BERT Model Leaks More Information than you Think!](https://aclanthology.org/2022.emnlp-main.99/)
+    : Questions by: Tianyi 
+
+<!-- : [constituencies, cky]({{site.baseurl}}assets/files/constit.pdf)
   : E 10.1--10.4, JM 17 (the rest)
     : Ian - [Finding Skill Neurons in Pre-trained Transformer-based Language Models](https://aclanthology.org/2022.emnlp-main.765/)
     : Questions by: Deuksin
     : Darshan - [On the Transformation of Latent Space in Fine-Tuned NLP Models](https://aclanthology.org/2022.emnlp-main.97)
     : Questions by: Shauryasikt
+ -->
 
 
-
-Oct 6
-: Drop deadline (no refund, without W)
+<!-- Oct 6 -->
+<!-- : Drop deadline (no refund, without W) -->
 

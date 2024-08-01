@@ -33,20 +33,18 @@ The announcement can be made red for due dates as follows
 10/23: Dialogue
 -->
 
-Oct 16
-: [RLHF]({{site.baseurl}}assets/files/rlhf_justin.pdf) (Guest Lecture by Justin Cho)
+Oct 21
+: Information Retrieval (IR) and Question Asking (QA)
+  : - 
+
+<!-- : [RLHF]({{site.baseurl}}assets/files/rlhf_justin.pdf) (Guest Lecture by Justin Cho)
   : [RLHF - Chip Huyen](https://huyenchip.com/2023/05/02/rlhf.html#phase_2_sft)
   : [Illustrating Reinforcement Learning from Human Feedback (RLHF)](https://huggingface.co/blog/rlhf)
     : Xinyue - [Beyond prompting: Making Pre-trained Language Models Better Zero-shot Learners by Clustering Representations](https://aclanthology.org/2022.emnlp-main.587)
     : Questions by: Sina
     : Suhaib - [Interpreting Language Models with Contrastive Explanations](https://aclanthology.org/2022.emnlp-main.14)
-    : Questions by: Yiming
+    : Questions by: Yiming -->
   
-Oct 18
-: machine translation: history, evaluation, data
-  : [“Oh, yes, everything’s right on schedule, Fred”](https://www.cs.jhu.edu/~post/bitext/)
-    : Ajay - [Transformer Feed-Forward Layers Build Predictions by Promoting Concepts in the Vocabulary Space](https://aclanthology.org/2022.emnlp-main.3)
-    : Questions by: Gabriela
-    : Kate - [RANKGEN: Improving Text Generation with Large Ranking Models](https://aclanthology.org/2022.emnlp-main.15.pdf) 
-    : Questions by: Abid
-
+Oct 23
+: Dialogue
+  : - 

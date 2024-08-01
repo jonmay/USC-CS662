@@ -33,10 +33,10 @@ The announcement can be made red for due dates as follows
 12/4 Presentations
 -->
 
-Nov 27
+Dec 2
 : Project presentations
   : - 
 
-Nov 29
+Dec 4
 : Project presentations
   : - 

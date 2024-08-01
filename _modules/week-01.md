@@ -35,14 +35,15 @@ The announcement can be made red for due dates as follows
 
 -->
 
-Aug 21
-: [intro]({{site.baseurl}}assets/files/intro.pdf), applications
+Aug 26
+: [Introduction]({{site.baseurl}}assets/files/intro.pdf), Applications
   : E 1
-: [**project assignment out (due 9/18)**]({{site.baseurl}}assets/files/project.pdf){: .label}
-: [**paper selection out (due 9/4)**](https://docs.google.com/forms/d/e/1FAIpQLScutjF0Xb2qKLs0m5pTWZYBIFNjmfmm7JXfEubMUeNlrEKqLw/viewform?usp=sf_link){: .label}
+: [**project assignment out (due 9/23)**]({{site.baseurl}}assets/files/project.pdf){: .label}
+: [**paper selection out (due 9/9)**](https://docs.google.com/forms/d/e/1FAIpQLScutjF0Xb2qKLs0m5pTWZYBIFNjmfmm7JXfEubMUeNlrEKqLw/viewform?usp=sf_link){: .label}
+  :-
 
-Aug 23
-: [data processing. data resources, evaluation, annotation]({{site.baseurl}}assets/files/data.pdf)
+Aug 28
+: [Data Processing. Data Resources, Evaluation, Annotation]({{site.baseurl}}assets/files/data.pdf)
   : E 4.4-4.5, JM 2, 4.7-4.9, [Nathan Schneider's unix notes](https://github.com/nschneid/unix-text-commands), 
   [Unix for poets](https://www.cs.upc.edu/~padro/Unixforpoets.pdf), 
   [sculpting text](http://matt.might.net/articles/sculpting-text/)
