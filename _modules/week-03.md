@@ -44,4 +44,10 @@ Sep 11
     :
 
 Sep 13
-: **Early Drop (no W, refund)**{: .label .label-brown}
+: **Early Drop (no W, refund)**{: .label .label-brown }
+
+Sep 14
+: **Early Drop (no W, refund)**{: .label .label-red }
+
+Sep 15
+: **Early Drop (no W, refund)**{: .label .label-black }
