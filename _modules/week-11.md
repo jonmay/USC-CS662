@@ -36,11 +36,11 @@ The announcement can be made red for due dates as follows
 -->
 
 Nov 4
-: [Multimodel NLP]({{site.baseurl}}assets/files/multimodal.pptx): 
+: [Multimodal NLP]({{site.baseurl}}assets/files/multimodal.pptx) (Guest Lecture by Xuezhe Ma) 
   : - 
 
 Nov 6
-: Spoken Language Processing (SLP)
+: Spoken Language Processing (SLP) (Guest Lecture by TBD)
   : - 
 
 Nov 8
