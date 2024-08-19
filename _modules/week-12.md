@@ -39,4 +39,7 @@ Nov 11
 
 Nov 13
 : EMNLP NO CLASS
-  : - 
+  : -
+
+Nov 15
+: **Late Drop (W, No refund)**{: .label .label-brown }

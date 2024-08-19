@@ -42,4 +42,4 @@ Sep 23
 
 Sep 25
 : [Pretrained language models (Elmo, BERT, and sentence similarity)]({{site.baseurl}}assets/files/pretrained.pdf)
-  : JM 10 
+  : JM 11.1--11.3 

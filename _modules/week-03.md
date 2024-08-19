@@ -40,14 +40,8 @@ Sep 9
 
 Sep 11
 : [Non-linear Classifiers, Backprop, Gradient Descent]({{site.baseurl}}assets/files/nonlinear.pdf)
-  : E 3. JM 7.2--7.4, 7.6. 
+  : E 3. JM 7.2--7.5 
     :
 
 Sep 13
 : **Early Drop (no W, refund)**{: .label .label-brown }
-
-Sep 14
-: **Early Drop (no W, refund)**{: .label .label-red }
-
-Sep 15
-: **Early Drop (no W, refund)**{: .label .label-black }

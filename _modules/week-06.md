@@ -36,8 +36,8 @@ The announcement can be made red for due dates as follows
 
 
 Sep 30
-: Pretraining and Fine-Tuning
-  : - 
+: [Pretraining and Fine-Tuning]({{site.baseurl}}assets/files/pretrain_finetune.pdf)
+  : JM 11.4
 : [**HW2 out (due 10/18)**]({{site.baseurl}}assets/files/hw2.pdf){: .label}
 
 Oct 2
