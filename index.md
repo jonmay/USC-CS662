@@ -49,7 +49,7 @@ Final report is due December 13, 2021, 4:00 PM PST
 
 ### Contact us
 
-On Piazza, Slack, or in class/office hours. Please do not email (unless notified otherwise).
+On Slack or in class/office hours. Please do not email (unless notified otherwise).
 
 ### Topics 
 (subject to change per instructor/class whim) (will not be presented in this order):
