@@ -46,5 +46,7 @@ Aug 28
 : [Data Processing. Data Resources, Evaluation, Annotation]({{site.baseurl}}assets/files/data.pdf)
   : E 4.4-4.5, JM 2, 4.7-4.9, [Nathan Schneider's unix notes](https://github.com/nschneid/unix-text-commands), 
   [Unix for poets](https://www.cs.upc.edu/~padro/Unixforpoets.pdf), 
-  [sculpting text](http://matt.might.net/articles/sculpting-text/)
+  [sculpting text](http://matt.might.net/articles/sculpting-text/),
+  [Suleyman Reading 1]({{site.baseurl}}assets/files/readings/24_suleyman_musically.pdf),
+  [Suleyman Reading 2]({{site.baseurl}}assets/files/readings/24_suleyman_verge.pdf)
 
