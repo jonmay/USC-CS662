@@ -80,7 +80,7 @@ seo:
 
 ### Contact us
 
-On Piazza, Slack, or in class/office hours. Please do not email (unless notified otherwise).
+On Slack, or in class/office hours. Please do not email (unless notified otherwise).
 
 ### Topics 
 (subject to change per instructor/class whim) (will not necessarily be presented in this order):
@@ -106,7 +106,6 @@ On Piazza, Slack, or in class/office hours. Please do not email (unless notified
     : Agent Interaction
     : Discourse
 
-###If you're reading this before the semester has started beware it is not correct and is being updated!
 
 {% for module in site.modules %}
 {{ module }}
