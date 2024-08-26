@@ -40,7 +40,7 @@ Aug 26
   : E 1,
   [Probabilities (refresher only)]({{site.baseurl}}assets/files/probabilities.pdf)
 : [**project assignment out (due 9/23)**]({{site.baseurl}}assets/files/project.pdf){: .label}
-: [**paper selection out (due 9/9)**](https://forms.gle/H8yUxNGkR9q98jj36){: .label}
+: [**paper selection out (due 9/9)**](https://docs.google.com/forms/d/e/1FAIpQLScYEqIlrFPBwzAeeqSMafrdcv8O-bc8YrZFIspKMsDh1PWE0Q/viewform?usp=sharing){: .label}
   :-
 
 Aug 28
