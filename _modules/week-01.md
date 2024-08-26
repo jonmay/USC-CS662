@@ -50,5 +50,5 @@ Aug 28
   [sculpting text](http://matt.might.net/articles/sculpting-text/),
   [Suleyman Reading 1]({{site.baseurl}}assets/files/readings/24_suleyman_musically.pdf),
   [Suleyman Reading 2]({{site.baseurl}}assets/files/readings/24_suleyman_verge.pdf),
-  [Hank Green Video[(https://www.youtube.com/watch?v=JiMXb2NkAxQ)
+  [Hank Green Video](https://www.youtube.com/watch?v=JiMXb2NkAxQ)
 
