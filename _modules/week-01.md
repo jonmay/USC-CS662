@@ -40,7 +40,7 @@ Aug 26
   : E 1,
   [Probabilities (refresher only)]({{site.baseurl}}assets/files/probabilities.pdf)
 : [**project assignment out (due 9/23)**]({{site.baseurl}}assets/files/project.pdf){: .label}
-: [**paper selection out (due 9/9)**](https://docs.google.com/forms/d/e/1FAIpQLScutjF0Xb2qKLs0m5pTWZYBIFNjmfmm7JXfEubMUeNlrEKqLw/viewform?usp=sf_link){: .label}
+: [**paper selection out (due 9/9)**](https://docs.google.com/forms/d/e/1FAIpQLScYEqIlrFPBwzAeeqSMafrdcv8O-bc8YrZFIspKMsDh1PWE0Q/viewform?usp=sharing){: .label}
   :-
 
 Aug 28
@@ -50,5 +50,5 @@ Aug 28
   [sculpting text](http://matt.might.net/articles/sculpting-text/),
   [Suleyman Reading 1]({{site.baseurl}}assets/files/readings/24_suleyman_musically.pdf),
   [Suleyman Reading 2]({{site.baseurl}}assets/files/readings/24_suleyman_verge.pdf),
-  [Hank Green Video[(https://www.youtube.com/watch?v=JiMXb2NkAxQ)
+  [Hank Green Video](https://www.youtube.com/watch?v=JiMXb2NkAxQ)
 
