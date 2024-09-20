@@ -35,7 +35,7 @@ The announcement can be made red for due dates as follows
 
 
 Sep 23
-: [Transformer Language Models]({{site.baseurl}}assets/files/transformer.pdf)
+: [Attention]({{site.baseurl}}assets/files/attention.pdf) [Transformer Language Models]({{site.baseurl}}assets/files/transformer.pdf)
   : E 6.3, JM 9, 10. [Attention is all you need](https://arxiv.org/abs/1706.03762) [LM notebook]({{site.baseurl}}assets/files/LMs.ipynb)
     : <!-- Preni -- [The Importance of Modeling Social Factors of Language: Theory and Practice](https://aclanthology.org/2021.naacl-main.49/) -->
 : **project proposal due**{: .label .label-red }
