@@ -36,12 +36,13 @@ The announcement can be made red for due dates as follows
 
 Oct 7
 : Reinforcement Learning with Human Feedback: Proximal Policy Optimization (PPO) and Direct Preference Optimization (DPO)
-  : [Ziegler RLHF Paper]({{site.baseurl}}assets/files/ziegler.pdf), [DPO Paper] ({{site.baseurl}}assets/files/dpo.pdf)
+<<<<<<< HEAD
+  : [Ziegler RLHF Paper]({{site.baseurl}}assets/files/ziegler.pdf), [DPO Paper]({{site.baseurl}}assets/files/dpo.pdf)
   : Weiss, Emily - [Don't Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration](https://arxiv.org/abs/2402.00367)
   : Questions by: Jiang, Yifan
   : Goyal, Ayush - [R-Tuning: Instructing Large Language Models to Say 'I Don't Know'](https://aclanthology.org/2024.naacl-long.394/)
   : Questions by: Ye, Wen
-
+  
 Oct 9
 : [ethics]({{site.baseurl}}assets/files/ethics.pdf) (Guest Lecture by Katy Felkner)
   : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/), [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)

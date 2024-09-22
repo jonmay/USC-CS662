@@ -46,7 +46,7 @@ Sep 16
 
 Sep 18
 : [N-Gram Language Models]({{site.baseurl}}assets/files/ngram.pdf), [Feed Forward and Recurrent Language Models (RNNs)]({{site.baseurl}}assets/files/ffrnn.pdf)
-  : E 6.1--2, 6.4. 7.5, 7.7. JM 3 [Exploring the limits of language modeling](https://arxiv.org/abs/1602.02410) 
+  : E 6.1--2, 6.4. 7.5, 7.7. JM 3 [Exploring the limits of language modeling](https://arxiv.org/abs/1602.02410) [LM notebook]({{site.baseurl}}assets/files/LMs.ipynb)
 
 
 Sep 20

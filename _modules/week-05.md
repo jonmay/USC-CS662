@@ -35,11 +35,11 @@ The announcement can be made red for due dates as follows
 
 
 Sep 23
-: [Transformer Language Models]({{site.baseurl}}assets/files/transformer.pdf)
-  : E 6.3, JM 9, 10. [Attention is all you need](https://arxiv.org/abs/1706.03762) [LM notebook]({{site.baseurl}}assets/files/LMs.ipynb)
+: [Attention]({{site.baseurl}}assets/files/attention.pdf) [Transformer Language Models]({{site.baseurl}}assets/files/transformer.pdf)
+  : E 6.3, JM 9, 10. [Attention is all you need](https://arxiv.org/abs/1706.03762) 
     : <!-- Preni -- [The Importance of Modeling Social Factors of Language: Theory and Practice](https://aclanthology.org/2021.naacl-main.49/) -->
 : **project proposal due**{: .label .label-red }
 
 Sep 25
-: [Pretrained language models (Elmo, BERT, and sentence similarity)]({{site.baseurl}}assets/files/pretrained.pdf)
-  : JM 11.1--11.3 
+: [Pretrained language models (ELMo, BERT, and sentence similarity)]({{site.baseurl}}assets/files/pretrained.pdf)
+  : JM 11.1--11.3 [ELMo paper](https://aclanthology.org/N18-1202/) [BERT paper](https://aclanthology.org/N19-1423/) [Zoph Fine-Tuning paper](https://aclanthology.org/D16-1163/)

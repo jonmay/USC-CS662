@@ -45,9 +45,9 @@ Nov 20
 : Discourse (Guest Lecture by Alexander Spangher)
   : Wu, Cheng-Han - [Grounding Gaps in Language Model Generations](https://arxiv.org/pdf/2311.09144)
   : Questions by: Zhang, Tianyi
-  : Blas Urrutia, Wilber - [Rethinking the Bounds of LLM Reasoning: Are Multi-Agent Discussions the Key?](nan)
+  : Blas Urrutia, Wilber - [Rethinking the Bounds of LLM Reasoning: Are Multi-Agent Discussions the Key?](https://arxiv.org/pdf/2402.18272)
   : Questions by: Liang, Chumeng
 
 
-<!-- Nov 17 -->
-<!-- : **HW 3 due**{: .label .label-red } -->
+Nov 22
+: **HW 3 due**{: .label .label-red }
