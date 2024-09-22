@@ -41,5 +41,5 @@ Sep 23
 : **project proposal due**{: .label .label-red }
 
 Sep 25
-: [Pretrained language models (Elmo, BERT, and sentence similarity)]({{site.baseurl}}assets/files/pretrained.pdf)
-  : JM 11.1--11.3 
+: [Pretrained language models (ELMo, BERT, and sentence similarity)]({{site.baseurl}}assets/files/pretrained.pdf)
+  : JM 11.1--11.3 [ELMo paper](https://aclanthology.org/N18-1202/) [BERT paper](https://aclanthology.org/N19-1423/) [Zoph Fine-Tuning paper](https://aclanthology.org/D16-1163/)

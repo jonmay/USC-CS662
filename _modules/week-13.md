@@ -41,5 +41,5 @@ Nov 20
 : Discourse (Guest Lecture by Alexander Spangher)
   : - 
 
-<!-- Nov 17 -->
-<!-- : **HW 3 due**{: .label .label-red } -->
+Nov 22
+: **HW 3 due**{: .label .label-red }

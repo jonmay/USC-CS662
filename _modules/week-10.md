@@ -30,14 +30,14 @@ To make the hyperlink open in a new tab by default
 The announcement can be made red for due dates as follows
 : **Assignment Due**{: .label .label-red }
 
-10/28: IE; HW3 out (due 11/20)
+10/28: IE; HW3 out (due 11/22)
 10/30: Syntax
 -->
 
 Oct 28
 
 : Information Extraction (IE)
-: [**HW3 out (due 11/20)**]({{site.baseurl}}assets/files/hw3.pdf){: .label}   
+: [**HW3 out (due 11/22)**]({{site.baseurl}}assets/files/hw3.pdf){: .label}   
     <!-- : [Life is a Circus and We are the Clowns: Automatically Finding Analogies between Situations and Processes]() -->
   : - 
 
