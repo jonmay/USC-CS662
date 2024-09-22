@@ -35,11 +35,19 @@ The announcement can be made red for due dates as follows
 
 Nov 18
 : Agents (Guest Lecture by Tenghao Huang)
-  : - 
+  : Liu, Ziyi - [Evaluating the Deductive Competence of Large Language Models](https://aclanthology.org/2024.naacl-long.476/)
+  : Questions by: Oganesian, Lucine
+  : Lin, Fandel - [VariErr NLI: Separating Annotation Error from Human Label Variation](https://arxiv.org/pdf/2403.01931)
+  : Questions by: Chiang, Ting-Rui
+  
 
 Nov 20
 : Discourse (Guest Lecture by Alexander Spangher)
-  : - 
+  : Wu, Cheng-Han - [Grounding Gaps in Language Model Generations](https://arxiv.org/pdf/2311.09144)
+  : Questions by: Zhang, Tianyi
+  : Blas Urrutia, Wilber - [Rethinking the Bounds of LLM Reasoning: Are Multi-Agent Discussions the Key?](nan)
+  : Questions by: Liang, Chumeng
+
 
 <!-- Nov 17 -->
 <!-- : **HW 3 due**{: .label .label-red } -->

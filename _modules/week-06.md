@@ -42,5 +42,9 @@ Sep 30
 
 Oct 2
 : Prompting and Large Language Models
+: Liang, Chumeng - [Selective Reflection-Tuning: Student-Selected Data Recycling for LLM Instruction-Tuning](https://arxiv.org/abs/2402.10110)
+: Questions by: Boxer, Eric
+: Ravi Kumar, Anirudh - [Teaching Language Models to Self-Improve through Interactive Demonstrations](https://aclanthology.org/2024.naacl-long.287.pdf)
+: Questions by: Pal, Debaditya
 
 

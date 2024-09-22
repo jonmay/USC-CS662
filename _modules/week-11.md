@@ -37,11 +37,19 @@ The announcement can be made red for due dates as follows
 
 Nov 4
 : [Multimodal NLP]({{site.baseurl}}assets/files/multimodal.pptx) (Guest Lecture by Xuezhe Ma) 
-  : - 
+  : Huang, Run - [Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models](https://aclanthology.org/2024.naacl-long.347/)
+  : Questions by: Sultan, Mia
+  : Robinson, Joshua - [I am a Strange Dataset: Metalinguistic Tests for Language Models](https://aclanthology.org/2024.acl-long.482/)
+  : Questions by: Liu, Ziyi
+
 
 Nov 6
 : Spoken Language Processing (SLP) (Guest Lecture by TBD)
-  : - 
+  : Ye, Wen - [CaMML: Context-Aware Multimodal Learner for Large Models](https://arxiv.org/pdf/2401.03149)
+  : Questions by: Liu, Lei
+  : Xing, Hanwen - [Visual Grounding Helps Learn Word Meanings in Low-Data Regimes](https://arxiv.org/abs/2310.13257)
+  : Questions by: Liu, Zeyu
+
 
 Nov 8
 : [**Project Report Version 1 due**{: .label .label-red}](({{project}}){:target="_blank"})
