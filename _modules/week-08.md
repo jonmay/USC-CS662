@@ -37,11 +37,18 @@ The announcement can be made red for due dates as follows
 
 Oct 14
 : Machine Translation (MT)
-  : - 
+  : Skyler Hallinan - [How Johnny Can Persuade LLMs to Jailbreak Them: Rethinking Persuasion to Challenge AI Safety by Humanizing LLMs](https://arxiv.org/pdf/2401.06373)
+  : Questions by: Joshua Robinson
+  : Tianyi Zhang - [Subtle Biases Need Subtler Measures: Dual Metrics for Evaluating Representative and Affinity Bias in Large Language Models](https://arxiv.org/pdf/2405.14555)
+  : Questions by: Hanwen Xing
 
 Oct 16
 : Multilingual
-  : - 
+  : Chiang, Ting-Rui - [LM-Infinite: Zero-Shot Extreme Length Generalization for Large Language Models](https://arxiv.org/abs/2308.16137)
+  : Questions by: Run Huang
+  : Boxer, Eric - [MacGyver: Are Large Language Models Creative Problem Solvers?](https://aclanthology.org/2024.naacl-long.297.pdf)
+  : Questions by: Skyler Hallinan
+  
 
 Oct 18
 : **HW 2 due**{: .label .label-red }
