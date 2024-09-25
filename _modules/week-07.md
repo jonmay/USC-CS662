@@ -47,7 +47,7 @@ Oct 9
   : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/), [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
   : Yifan Jiang - [LLMRefine: Pinpointing and Refining Large Language Models via Fine-Grained Actionable Feedback](https://aclanthology.org/2024.findings-naacl.92/)
   : Questions by: Wilber Blas Urrutia
-  : Enes Burak Bilgin - [Steering Llama 2 via Contrastive Activation Addition](https://arxiv.org/pdf/2312.06681)
+  : Eric Boxer - [MacGyver: Are Large Language Models Creative Problem Solvers?](https://aclanthology.org/2024.naacl-long.297.pdf)
   : Questions by: Ryan Lee
 
 
