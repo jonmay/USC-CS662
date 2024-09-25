@@ -41,7 +41,8 @@ Sep 30
 : [**HW2 out (due 10/18)**]({{site.baseurl}}assets/files/hw2.pdf){: .label}
 
 Oct 2
-: Prompting and Large Language Models
+: MEGA (Guest Lecture by Xuezhe Ma)
+  : [Mega Paper](https://openreview.net/forum?id=qNLe3iq2El) [Megalodon](https://arxiv.org/abs/2404.08801)
   : Chumeng Liang - [Selective Reflection-Tuning: Student-Selected Data Recycling for LLM Instruction-Tuning](https://arxiv.org/abs/2402.10110)
   : Questions by: Eric Boxer
   : Anirudh Ravi Kumar - [Teaching Language Models to Self-Improve through Interactive Demonstrations](https://aclanthology.org/2024.naacl-long.287.pdf)
