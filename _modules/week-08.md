@@ -46,7 +46,7 @@ Oct 16
 : Multilingual
   : Chiang, Ting-Rui - [LM-Infinite: Zero-Shot Extreme Length Generalization for Large Language Models](https://arxiv.org/abs/2308.16137)
   : Questions by: Run Huang
-  : Boxer, Eric - [MacGyver: Are Large Language Models Creative Problem Solvers?](https://aclanthology.org/2024.naacl-long.297.pdf)
+  : Enes Burak Bilgin - [Steering Llama 2 via Contrastive Activation Addition](https://arxiv.org/pdf/2312.06681)
   : Questions by: Skyler Hallinan
   
 

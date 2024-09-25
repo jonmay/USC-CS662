@@ -38,7 +38,7 @@ The announcement can be made red for due dates as follows
 Nov 4
 : [Multimodal NLP]({{site.baseurl}}assets/files/multimodal.pptx) (Guest Lecture by Xuezhe Ma) 
   : Huang, Run - [Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models](https://aclanthology.org/2024.naacl-long.347/)
-  : Questions by: Mia Sultan
+  : Questions by: Eric Boxer
   : Robinson, Joshua - [I am a Strange Dataset: Metalinguistic Tests for Language Models](https://aclanthology.org/2024.acl-long.482/)
   : Questions by: Ziyi Liu
 
