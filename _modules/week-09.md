@@ -50,7 +50,7 @@ Oct 21
   
 Oct 23
 : Dialogue
-  : Mia Sultan - [Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions](https://arxiv.org/pdf/2212.10509)
+  : Yifan Jiang - [Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions](https://arxiv.org/pdf/2212.10509)
   : Questions by: Emily Weiss
   : Liu, Lei - [Synergistic Interplay between Search and Large Language Models for Information Retrieval](https://aclanthology.org/2024.acl-long.517/)
   : Questions by: Enes Burak Bilgin
