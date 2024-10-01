@@ -34,7 +34,7 @@ The announcement can be made red for due dates as follows
 -->
 
 Nov 25
-: Evaluation/Benchmarks
+: Guest Lecture by Jonathan Choi (USC Gould School of Law)
   : - 
 
 Nov 27
