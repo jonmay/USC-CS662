@@ -45,7 +45,7 @@ Oct 28
   : Questions by: Xinyan Yu
 
 Oct 30
-: Syntax
+: Agents  (Guest Lecture by Tenghao Huang)
   : Lee, Ryan - [MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions](https://aclanthology.org/2023.emnlp-main.971.pdf)
   : Questions by: Ayush Goyal
   : Yu, Xinyan - [Spiral of Silence: How is Large Language Model Killing Information Retrieval? A Case Study on Open Domain Question Answering](nan)

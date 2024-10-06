@@ -34,7 +34,7 @@ The announcement can be made red for due dates as follows
 -->
 
 Nov 18
-: Agents (Guest Lecture by Tenghao Huang)
+: Syntax
   : Liu, Ziyi - [Evaluating the Deductive Competence of Large Language Models](https://aclanthology.org/2024.naacl-long.476/)
   : Questions by: Lucine Oganesian
   : Lin, Fandel - [VariErr NLI: Separating Annotation Error from Human Label Variation](https://arxiv.org/pdf/2403.01931)

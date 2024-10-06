@@ -37,7 +37,7 @@ The announcement can be made red for due dates as follows
 
 Sep 30
 : [Prompting and Large Language Models]({{site.baseurl}}assets/files/llm.pdf)
-  : JM 11.4
+  : JM 11.4 [T5](https://arxiv.org/pdf/1910.10683) [LoRA](https://arxiv.org/abs/2106.09685) [Prefix Tuning](https://aclanthology.org/2021.acl-long.353/) [T0](https://arxiv.org/abs/2110.08207)
 : [**HW2 out (due 10/18)**]({{site.baseurl}}assets/files/hw2.pdf){: .label}
 
 Oct 2
