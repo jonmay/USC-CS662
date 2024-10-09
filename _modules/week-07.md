@@ -43,7 +43,7 @@ Oct 7
   : Questions by: Wen Ye
   
 Oct 9
-: [ethics]({{site.baseurl}}assets/files/ethics.pdf) (Guest Lecture by Katy Felkner)
+: Ethics (Guest Lecture by Katy Felkner)
   : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/), [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
   : Mia Sultan - [LLMRefine: Pinpointing and Refining Large Language Models via Fine-Grained Actionable Feedback](https://aclanthology.org/2024.findings-naacl.92/)
   : Questions by: Wilber Blas Urrutia
