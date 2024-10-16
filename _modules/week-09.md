@@ -37,7 +37,7 @@ Oct 21
 : Information Retrieval (IR) and Question Asking (QA)
   : Lucine Oganesian - [Understanding the Capabilities and Limitations of Large Language Models for Cultural Commonsense](https://arxiv.org/pdf/2405.04655)
   : Questions by: Anirudh Ravi Kumar
-  : Zeyu Liu - [LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression](nan)
+  : Zeyu Liu - [LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression](https://aclanthology.org/2024.acl-long.91/)
   : Questions by: Fandel Lin
 
 <!-- : [RLHF]({{site.baseurl}}assets/files/rlhf_justin.pdf) (Guest Lecture by Justin Cho)
@@ -52,5 +52,5 @@ Oct 23
 : Dialogue
   : Yifan Jiang - [Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions](https://arxiv.org/pdf/2212.10509)
   : Questions by: Emily Weiss
-  : Liu, Lei - [Synergistic Interplay between Search and Large Language Models for Information Retrieval](https://aclanthology.org/2024.acl-long.517/)
+  : Liu, Lei - [Interactive-KBQA: Multi-Turn Interactions for Knowledge Base Question Answering with Large Language Models](https://aclanthology.org/2024.acl-long.569/)
   : Questions by: Enes Burak Bilgin
