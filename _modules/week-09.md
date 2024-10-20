@@ -34,7 +34,7 @@ The announcement can be made red for due dates as follows
 -->
 
 Oct 21
-: Information Retrieval (IR) and Question Answering (QA)
+: [Information Retrieval (IR) and Question Answering (QA)]({{site.baseurl}}assets/files/irqa.pdf)
   : JM 14
     : Lucine Oganesian - [Understanding the Capabilities and Limitations of Large Language Models for Cultural Commonsense](https://arxiv.org/pdf/2405.04655)
     : Questions by: Anirudh Ravi Kumar
