@@ -40,7 +40,7 @@ Nov 4
   : Huang, Run - [Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models](https://aclanthology.org/2024.naacl-long.347/)
   : Questions by: Eric Boxer
   : Robinson, Joshua - [I am a Strange Dataset: Metalinguistic Tests for Language Models](https://aclanthology.org/2024.acl-long.482/)
-  : Questions by: Ziyi Liu
+  : Questions by: Zeyu Liu
 
 
 Nov 6
@@ -48,7 +48,7 @@ Nov 6
   : Ye, Wen - [CaMML: Context-Aware Multimodal Learner for Large Models](https://arxiv.org/pdf/2401.03149)
   : Questions by: Lei Liu
   : Xing, Hanwen - [Visual Grounding Helps Learn Word Meanings in Low-Data Regimes](https://arxiv.org/abs/2310.13257)
-  : Questions by: Zeyu Liu
+  : Questions by: Ziyi Liu
 
 
 Nov 8
