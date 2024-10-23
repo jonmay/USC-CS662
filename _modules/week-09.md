@@ -43,7 +43,7 @@ Oct 21
 
   
 Oct 23
-: Dialogue
+: [Dialogue]({{site.baseurl}}assets/files/dialogue.pptx)
   : JM 15
     : Yifan Jiang - [Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions](https://arxiv.org/pdf/2212.10509)
     : Questions by: Emily Weiss
