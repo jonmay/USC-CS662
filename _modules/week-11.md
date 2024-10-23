@@ -44,7 +44,8 @@ Nov 4
 
 
 Nov 6
-: Spoken Language Processing (SLP) (Guest Lecture by TBD)
+: Spoken Language Processing (SLP) (Guest Lecture by 
+Sudarsana Reddy Kadiri)
   : Ye, Wen - [CaMML: Context-Aware Multimodal Learner for Large Models](https://arxiv.org/pdf/2401.03149)
   : Questions by: Lei Liu
   : Xing, Hanwen - [Visual Grounding Helps Learn Word Meanings in Low-Data Regimes](https://arxiv.org/abs/2310.13257)
