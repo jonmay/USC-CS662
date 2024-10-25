@@ -48,5 +48,5 @@ Oct 30
 : Agents  (Guest Lecture by Tenghao Huang)
   : Lee, Ryan - [MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions](https://aclanthology.org/2023.emnlp-main.971.pdf)
   : Questions by: Ayush Goyal
-  : Yu, Xinyan - [Spiral of Silence: How is Large Language Model Killing Information Retrieval? A Case Study on Open Domain Question Answering](nan)
+  : Yu, Xinyan - [Spiral of Silence: How is Large Language Model Killing Information Retrieval? A Case Study on Open Domain Question Answering](https://aclanthology.org/2024.acl-long.798/)
   : Questions by: Maksim Siniukov
