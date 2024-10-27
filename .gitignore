@@ -1,4 +1,7 @@
+*~
 *.gem
+.history
+.DS_Store
 .bundle/
 .jekyll-cache/
 .jekyll-metadata
