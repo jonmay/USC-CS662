@@ -36,13 +36,14 @@ The announcement can be made red for due dates as follows
 
 Oct 28
 
-: Information Extraction (IE)
-: [**HW3 out (due 11/22)**]({{site.baseurl}}assets/files/hw3.pdf){: .label}   
+: [Information Extraction]({{site.baseurl}}assets/files/ie.pdf)
+: [**HW3 out (due 11/22)**]({{site.baseurl}}assets/files/hw3.pdf){: .label}
+  : JM17.3, 20
     <!-- : [Life is a Circus and We are the Clowns: Automatically Finding Analogies between Situations and Processes]() -->
-  : Siniukov, Maksim - [An Iterative Associative Memory Model for Empathetic Response Generation](https://arxiv.org/pdf/2402.17959)
-  : Questions by: Cheng-Han Wu
-  : Pal, Debaditya - [Answer is All You Need: Instruction-following Text Embedding via Answering the Question](https://aclanthology.org/2024.acl-long.27/)
-  : Questions by: Xinyan Yu
+    : Siniukov, Maksim - [An Iterative Associative Memory Model for Empathetic Response Generation](https://arxiv.org/pdf/2402.17959)
+    : Questions by: Cheng-Han Wu
+    : Pal, Debaditya - [Answer is All You Need: Instruction-following Text Embedding via Answering the Question](https://aclanthology.org/2024.acl-long.27/)
+    : Questions by: Xinyan Yu
 
 Oct 30
 : Agents  (Guest Lecture by Tenghao Huang)
