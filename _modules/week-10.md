@@ -45,7 +45,7 @@ Oct 28
     : Questions by: Xinyan Yu
 
 Oct 30
-: Agents  (Guest Lecture by Tenghao Huang)
+: [Agents]({{site.baseurl}}assets/files/tenghao_agents.pptx)  (Guest Lecture by Tenghao Huang)
   [WebArena](https://arxiv.org/abs/2307.13854), [ToolLLM](https://arxiv.org/pdf/2307.16789), [Narrative Discourse](https://arxiv.org/pdf/2407.13248), [ReAct](https://arxiv.org/abs/2210.03629)
     : Lee, Ryan - [MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions](https://aclanthology.org/2023.emnlp-main.971.pdf)
     : Questions by: Ayush Goyal
