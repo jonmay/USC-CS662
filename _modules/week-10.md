@@ -46,7 +46,7 @@ Oct 28
 
 Oct 30
 : [Agents]({{site.baseurl}}assets/files/tenghao_agents.pptx)  (Guest Lecture by Tenghao Huang)
-  [WebArena](https://arxiv.org/abs/2307.13854), [ToolLLM](https://arxiv.org/pdf/2307.16789), [Narrative Discourse](https://arxiv.org/pdf/2407.13248), [ReAct](https://arxiv.org/abs/2210.03629)
+  : [WebArena](https://arxiv.org/abs/2307.13854), [ToolLLM](https://arxiv.org/pdf/2307.16789), [Narrative Discourse](https://arxiv.org/pdf/2407.13248), [ReAct](https://arxiv.org/abs/2210.03629)
     : Lee, Ryan - [MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions](https://aclanthology.org/2023.emnlp-main.971.pdf)
     : Questions by: Ayush Goyal
     : Yu, Xinyan - [Spiral of Silence: How is Large Language Model Killing Information Retrieval? A Case Study on Open Domain Question Answering](https://aclanthology.org/2024.acl-long.798/)
