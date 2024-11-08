@@ -34,7 +34,7 @@ The announcement can be made red for due dates as follows
 -->
 
 Nov 18
-: Syntax
+: Syntax (Not actually presenting this year, in lieu of IE, which is moved. Legacy notes for background interest) [POS/HMM]({{site.baseurl}}assets/files/poshmm.pdf), [Constituencies]({{site.baseurl}}assets/files/poshmmconstit.pdf), [Dependencies]({{site.baseurl}}assets/files/poshmmdepend.pdf)
   : Liu, Ziyi - [Evaluating the Deductive Competence of Large Language Models](https://aclanthology.org/2024.naacl-long.476/)
   : Questions by: Lucine Oganesian
   : Lin, Fandel - [VariErr NLI: Separating Annotation Error from Human Label Variation](https://arxiv.org/pdf/2403.01931)
