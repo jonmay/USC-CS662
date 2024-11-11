@@ -36,11 +36,12 @@ The announcement can be made red for due dates as follows
 -->
 
 Oct 14
-: Machine Translation (MT)
-  : Skyler Hallinan - [How Johnny Can Persuade LLMs to Jailbreak Them: Rethinking Persuasion to Challenge AI Safety by Humanizing LLMs](https://arxiv.org/pdf/2401.06373)
-  : Questions by: Joshua Robinson
-  : Tianyi Zhang - [Subtle Biases Need Subtler Measures: Dual Metrics for Evaluating Representative and Affinity Bias in Large Language Models](https://arxiv.org/pdf/2405.14555)
-  : Questions by: Hanwen Xing
+: Machine Translation (MT) [slides1]({{site.baseurl}}assets/files/mt_1.pptx) [slides2]({{site.baseurl}}assets/files/mt_2.pptx)
+  : JM13
+    : Skyler Hallinan - [How Johnny Can Persuade LLMs to Jailbreak Them: Rethinking Persuasion to Challenge AI Safety by Humanizing LLMs](https://arxiv.org/pdf/2401.06373)
+    : Questions by: Joshua Robinson
+    : Tianyi Zhang - [Subtle Biases Need Subtler Measures: Dual Metrics for Evaluating Representative and Affinity Bias in Large Language Models](https://arxiv.org/pdf/2405.14555)
+    : Questions by: Hanwen Xing
 
 Oct 16
 : Multilingual
