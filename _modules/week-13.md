@@ -42,7 +42,7 @@ Nov 18
   
 
 Nov 20
-: Discourse (Guest Lecture by Alexander Spangher)
+: Discourse (Guest Lecture by Alexander Spangher) [Slides]({{site.baseurl}}assets/files/discourse.pptx)
   : Wu, Cheng-Han - [Grounding Gaps in Language Model Generations](https://arxiv.org/pdf/2311.09144)
   : Questions by: Zhang, Tianyi
   : Wilber Blas Urrutia - [Rethinking the Bounds of LLM Reasoning: Are Multi-Agent Discussions the Key?](https://arxiv.org/pdf/2402.18272)
