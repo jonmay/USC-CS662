@@ -30,28 +30,28 @@ To make the hyperlink open in a new tab by default
 The announcement can be made red for due dates as follows
 : **Assignment Due**{: .label .label-red }
 
-11/4: Multimodal
-11/6: Speech
-11/8: Project V1 Due
+11/3: Multimodal
+11/5: Speech
+11/7: Project V1 Due
 -->
 
-Nov 4
+Nov 3
 : [Multimodal NLP]({{site.baseurl}}assets/files/vlms.pdf) (Guest Lecture by Xuezhe Ma) 
-  : Huang, Run - [Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models](https://aclanthology.org/2024.naacl-long.347/)
-  : Questions by: Eric Boxer
-  : Robinson, Joshua - [I am a Strange Dataset: Metalinguistic Tests for Language Models](https://aclanthology.org/2024.acl-long.482/)
-  : Questions by: Zeyu Liu
+//  : Huang, Run - [Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models](https://aclanthology.org/2024.naacl-long.347/)
+//  : Questions by: Eric Boxer
+//  : Robinson, Joshua - [I am a Strange Dataset: Metalinguistic Tests for Language Models](https://aclanthology.org/2024.acl-long.482/)
+//  : Questions by: Zeyu Liu
 
 
-Nov 6
+Nov 5
 : Spoken Language Processing (SLP) (Guest Lecture by Sudarsana Reddy Kadiri)
   : JM 16
-    : Ye, Wen - [CaMML: Context-Aware Multimodal Learner for Large Models](https://arxiv.org/pdf/2401.03149)
-    : Questions by: Lei Liu
-    : (MOVED TO 11/25) Xing, Hanwen - [Visual Grounding Helps Learn Word Meanings in Low-Data Regimes](https://arxiv.org/abs/2310.13257)
-    : Questions by: Ziyi Liu
+//    : Ye, Wen - [CaMML: Context-Aware Multimodal Learner for Large Models](https://arxiv.org/pdf/2401.03149)
+//    : Questions by: Lei Liu
+//    : Xing, Hanwen - [Visual Grounding Helps Learn Word Meanings in Low-Data Regimes](https://arxiv.org/abs/2310.13257)
+//    : Questions by: Ziyi Liu
 
 
-Nov 8
+Nov 7
 : [**Project Report Version 1 due**{: .label .label-red}](({{project}}){:target="_blank"})
   : - 

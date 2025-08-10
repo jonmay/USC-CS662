@@ -30,20 +30,20 @@ To make the hyperlink open in a new tab by default
 The announcement can be made red for due dates as follows
 : **Assignment Due**{: .label .label-red }
 
-8/26 intro; project out, due 9/23; paper selection out, due 9/9
-8/28 data
+8/25 intro; project out, due 9/22; paper selection out, due 9/8
+8/27 data
 
 -->
 
-Aug 26
+Aug 25
 : [Introduction]({{site.baseurl}}assets/files/intro.pdf), Applications
   : E 1,
   [Probabilities (refresher only)]({{site.baseurl}}assets/files/probabilities.pdf)
-: [**project assignment out (due 9/23)**]({{site.baseurl}}assets/files/project.pdf){: .label}
-: [**paper selection out (due 9/9)**](https://docs.google.com/forms/d/e/1FAIpQLScYEqIlrFPBwzAeeqSMafrdcv8O-bc8YrZFIspKMsDh1PWE0Q/viewform?usp=sharing){: .label}
+: [**project assignment out (due 9/22)**]({{site.baseurl}}assets/files/project.pdf){: .label}
+: [**paper selection out (due 9/8)**](https://docs.google.com/forms/d/e/1FAIpQLScYEqIlrFPBwzAeeqSMafrdcv8O-bc8YrZFIspKMsDh1PWE0Q/viewform?usp=sharing){: .label}
   :-
 
-Aug 28
+Aug 27
 : [Data Processing. Data Resources, Evaluation, Annotation]({{site.baseurl}}assets/files/data.pdf)
   : E 4.4-4.5, JM 2, 4.7-4.9, [Nathan Schneider's unix notes](https://github.com/nschneid/unix-text-commands), 
   [Unix for poets](https://www.cs.upc.edu/~padro/Unixforpoets.pdf), 

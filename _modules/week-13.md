@@ -29,25 +29,25 @@ To make the hyperlink open in a new tab by default
 
 The announcement can be made red for due dates as follows
 : **Assignment Due**{: .label .label-red }
-11/18: Agents (Guest Tenghao)
-11/20: Discourse (Guest Alex)
+11/17: TBD
+11/19: TBD
 -->
 
-Nov 18
-: Syntax (Not actually presenting this year, in lieu of IE, which is moved. Legacy notes for background interest) [POS/HMM]({{site.baseurl}}assets/files/poshmm.pdf), [Constituencies]({{site.baseurl}}assets/files/poshmmconstit.pdf), [Dependencies]({{site.baseurl}}assets/files/poshmmdepend.pdf)
-  : Liu, Ziyi - [Evaluating the Deductive Competence of Large Language Models](https://aclanthology.org/2024.naacl-long.476/)
-  : Questions by: Lucine Oganesian
-  : Lin, Fandel - [VariErr NLI: Separating Annotation Error from Human Label Variation](https://arxiv.org/pdf/2403.01931)
-  : Questions by: Ting-Rui Chiang
+Nov 17
+: TBD //Syntax (Not actually presenting this year, in lieu of IE, which is moved. Legacy notes for background interest) [POS/HMM]({{site.baseurl}}assets/files/poshmm.pdf), [Constituencies]({{site.baseurl}}assets/files/poshmmconstit.pdf), [Dependencies]({{site.baseurl}}assets/files/poshmmdepend.pdf)
+//  : Liu, Ziyi - [Evaluating the Deductive Competence of Large Language Models](https://aclanthology.org/2024.naacl-long.476/)
+//  : Questions by: Lucine Oganesian
+//  : Lin, Fandel - [VariErr NLI: Separating Annotation Error from Human Label Variation](https://arxiv.org/pdf/2403.01931)
+//  : Questions by: Ting-Rui Chiang
   
 
-Nov 20
-: Discourse (Guest Lecture by Alexander Spangher) [Slides]({{site.baseurl}}assets/files/discourse.pptx)
-  : Wu, Cheng-Han - [Grounding Gaps in Language Model Generations](https://arxiv.org/pdf/2311.09144)
-  : Questions by: Zhang, Tianyi
-  : Wilber Blas Urrutia - [Rethinking the Bounds of LLM Reasoning: Are Multi-Agent Discussions the Key?](https://arxiv.org/pdf/2402.18272)
-  : Questions by: Chumeng Liang
+Nov 19
+: Discourse [Slides]({{site.baseurl}}assets/files/discourse.pptx)
+//  : Wu, Cheng-Han - [Grounding Gaps in Language Model Generations](https://arxiv.org/pdf/2311.09144)
+//  : Questions by: Zhang, Tianyi
+//  : Wilber Blas Urrutia - [Rethinking the Bounds of LLM Reasoning: Are Multi-Agent Discussions the Key?](https://arxiv.org/pdf/2402.18272)
+//  : Questions by: Chumeng Liang
 
 
-Nov 22
+Nov 21
 : **HW 3 due**{: .label .label-red }

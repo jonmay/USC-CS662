@@ -29,25 +29,23 @@ To make the hyperlink open in a new tab by default
 
 The announcement can be made red for due dates as follows
 : **Assignment Due**{: .label .label-red }
-9/16 Word rep
-9/18 ngram/ff/rnn
-9/20 hw1 due
+9/15 Word rep
+9/17 ngram/ff/rnn
+9/19 hw1 due
 -->
 
 
-Sep 16
+Sep 15
 : [Distributional Feature Representations: PPMI, LSA, word2vec]({{site.baseurl}}assets/files/distrib.pdf)
   : E 14.3, 14.5--6. JM 6, [LSA via SVD](https://matpalm.com/lsa_via_svd/index.html), [Linguistic regularities in continuous space word representations](https://aclanthology.org/N13-1090/), [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781), [Distributed Representations of Words and Phrases and their Compositionality](https://arxiv.org/abs/1310.4546)
     : 
 
-<!-- Sep 8 -->
-<!-- :  Drop deadline (for refund, without W) -->
 
 
-Sep 18
+Sep 17
 : [N-Gram Language Models]({{site.baseurl}}assets/files/ngram.pdf), [Feed Forward and Recurrent Language Models (RNNs)]({{site.baseurl}}assets/files/ffrnn.pdf)
   : E 6.1--2, 6.4. 7.5, 7.7. JM 3 [Exploring the limits of language modeling](https://arxiv.org/abs/1602.02410) [LM notebook]({{site.baseurl}}assets/files/LMs.ipynb)
 
 
-Sep 20
+Sep 19
 : **HW1 due**{: .label .label-red}

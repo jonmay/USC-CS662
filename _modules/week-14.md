@@ -29,18 +29,19 @@ To make the hyperlink open in a new tab by default
 
 The announcement can be made red for due dates as follows
 : **Assignment Due**{: .label .label-red }
-11/25: Evaluation/Benchmarks
-11/27 Thanksgiving No Class
+11/24: Evaluation/Benchmarks
+11/26 Thanksgiving No Class
 -->
 
-Nov 25
-: Guest Lecture by Jonathan Choi (USC Gould School of Law) [Paper]({{site.baseurl}}assets/files/Prose_and_Cons.pdf)
-  : (MOVED FROM 11/6) Xing, Hanwen - [Visual Grounding Helps Learn Word Meanings in Low-Data Regimes](https://arxiv.org/abs/2310.13257)
-  : Questions by: Ziyi Liu
-  : (MOVED FROM 10/9) Mia Sultan - [LLMRefine: Pinpointing and Refining Large Language Models via Fine-Grained Actionable Feedback](https://aclanthology.org/2024.findings-naacl.92/)
-  : Questions by: Wilber Blas Urrutia
-  : - 
+Nov 24
+: TBD
+//  : (MOVED FROM 11/6) Xing, Hanwen - [Visual Grounding Helps Learn Word Meanings in Low-Data Regimes](https://arxiv.org/abs/2310.13257)
+//  : Questions by: Ziyi Liu
+//  : (MOVED FROM 10/9) Mia Sultan - [LLMRefine: Pinpointing and Refining Large Language Models via Fine-Grained Actionable Feedback](https://aclanthology.org/2024.findings-naacl.92/)
+//  : Questions by: Wilber Blas Urrutia
+//  : - 
+//
 
-Nov 27
+Nov 26
 : THANKSGIVING BREAK; NO CLASS
   : - 

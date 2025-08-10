@@ -29,23 +29,23 @@ To make the hyperlink open in a new tab by default
 
 The announcement can be made red for due dates as follows
 : **Assignment Due**{: .label .label-red }
-9/30 pretraining and fine-tuning; hw2 out (due 10/18)
-10/2 prompting, LLMs
+9/29 pretraining and fine-tuning; hw2 out (due 10/17)
+10/1 prompting, LLMs
 -->
 
 
 
-Sep 30
+Sep 29
 : [Prompting and Large Language Models]({{site.baseurl}}assets/files/llm.pdf)
   : JM 11.4 [T5](https://arxiv.org/pdf/1910.10683) [LoRA](https://arxiv.org/abs/2106.09685) [Prefix Tuning](https://aclanthology.org/2021.acl-long.353/) [T0](https://arxiv.org/abs/2110.08207)
 : [**HW2 out (due 10/18)**]({{site.baseurl}}assets/files/hw2.pdf){: .label}
 
-Oct 2
+Oct 1
 : MEGA (Guest Lecture by Xuezhe Ma)
   : [Mega Paper](https://openreview.net/forum?id=qNLe3iq2El) [Megalodon](https://arxiv.org/abs/2404.08801)
-  : Chumeng Liang - [Selective Reflection-Tuning: Student-Selected Data Recycling for LLM Instruction-Tuning](https://arxiv.org/abs/2402.10110)
-  : Questions by: Mia Sultan
-  : Anirudh Ravi Kumar - [Teaching Language Models to Self-Improve through Interactive Demonstrations](https://aclanthology.org/2024.naacl-long.287.pdf)
-  : Questions by: Debaditya Pal
-
+//  : Chumeng Liang - [Selective Reflection-Tuning: Student-Selected Data Recycling for LLM Instruction-Tuning](https://arxiv.org/abs/2402.10110)
+//  : Questions by: Mia Sultan
+//  : Anirudh Ravi Kumar - [Teaching Language Models to Self-Improve through Interactive Demonstrations](https://aclanthology.org/2024.naacl-long.287.pdf)
+//  : Questions by: Debaditya Pal
+//
 

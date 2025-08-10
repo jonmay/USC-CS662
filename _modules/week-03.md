@@ -30,18 +30,18 @@ To make the hyperlink open in a new tab by default
 The announcement can be made red for due dates as follows
 : **Assignment Due**{: .label .label-red }
 
-9/9 no class
-9/11 nonlinear models
+9/8 no class
+9/10 nonlinear models
 -->
 
 
-Sep 9
-: NO CLASS
+Sep 8
+: NO CLASS (TODO -- move up; 9/23 RH)
 
-Sep 11
+Sep 10
 : [Non-linear Classifiers, Backprop, Gradient Descent]({{site.baseurl}}assets/files/nonlinear.pdf)
   : E 3. JM 7.2--7.5 
     :
 
-Sep 13
+Sep 12
 : **Early Drop (no W, refund)**{: .label .label-brown }

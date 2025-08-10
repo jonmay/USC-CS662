@@ -29,17 +29,17 @@ To make the hyperlink open in a new tab by default
 
 The announcement can be made red for due dates as follows
 : **Assignment Due**{: .label .label-red }
-11/11: Veterans Day No class
-11/13: EMNLP No Class
+11/10: TBD
+11/12: TBD
 -->
 
-Nov 11
-: VETERANS DAY NO CLASS
+Nov 10
+: TBD
   : - 
 
-Nov 13
-: EMNLP NO CLASS
+Nov 12
+: TBD
   : -
 
-Nov 15
+Nov 14
 : **Late Drop (W, No refund)**{: .label .label-brown }
