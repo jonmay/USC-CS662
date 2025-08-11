@@ -37,19 +37,19 @@ The announcement can be made red for due dates as follows
 Oct 6
 : [Reinforcement Learning with Human Feedback: Proximal Policy Optimization (PPO) and Direct Preference Optimization (DPO)]({{site.baseurl}}assets/files/rlhf.pptx)
   : [Ziegler RLHF Paper]({{site.baseurl}}assets/files/ziegler.pdf), [DPO Paper]({{site.baseurl}}assets/files/dpo.pdf)
-//  : Emily Weiss - [Don't Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration](https://arxiv.org/abs/2402.00367)
-//  : Questions by: Yifan Jiang
-//  : Ayush Goyal - [R-Tuning: Instructing Large Language Models to Say 'I Don't Know'](https://aclanthology.org/2024.naacl-long.394/)
-//  : Questions by: Wen Ye
+  : Emily Weiss - [Don't Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration](https://arxiv.org/abs/2402.00367)
+  : Questions by: Yifan Jiang
+  : Ayush Goyal - [R-Tuning: Instructing Large Language Models to Say 'I Don't Know'](https://aclanthology.org/2024.naacl-long.394/)
+  : Questions by: Wen Ye
   
 Oct 8
 : Ethics (Guest Lecture by Katy Felkner)
   : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/), [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
-  : (MOVED TO 11/25) Mia Sultan - [LLMRefine: Pinpointing and Refining Large Language Models via Fine-Grained Actionable Feedback](https://aclanthology.org/2024.findings-naacl.92/)
+<!--    : (MOVED TO 11/25) Mia Sultan - [LLMRefine: Pinpointing and Refining Large Language Models via Fine-Grained Actionable Feedback](https://aclanthology.org/2024.findings-naacl.92/)
   : Questions by: Wilber Blas Urrutia
   : Eric Boxer - [MacGyver: Are Large Language Models Creative Problem Solvers?](https://aclanthology.org/2024.naacl-long.297.pdf)
   : Questions by: Ryan Lee
-
+-->
 
 Oct 10
 : **Mid Drop (No W, No refund)**{: .label .label-brown }

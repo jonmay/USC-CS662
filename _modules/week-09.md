@@ -36,16 +36,17 @@ The announcement can be made red for due dates as follows
 Oct 20
 : [Information Retrieval (IR) and Question Answering (QA)]({{site.baseurl}}assets/files/irqa.pdf)
   : JM 14
-//    : Lucine Oganesian - [Understanding the Capabilities and Limitations of Large Language Models for Cultural Commonsense](https://arxiv.org/pdf/2405.04655)
-//    : Questions by: Anirudh Ravi Kumar
-//    : Zeyu Liu - [LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression](https://aclanthology.org/2024.acl-long.91/)
-//    : Questions by: Fandel Lin
-
+<!--      : Lucine Oganesian - [Understanding the Capabilities and Limitations of Large Language Models for Cultural Commonsense](https://arxiv.org/pdf/2405.04655)
+    : Questions by: Anirudh Ravi Kumar
+    : Zeyu Liu - [LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression](https://aclanthology.org/2024.acl-long.91/)
+    : Questions by: Fandel Lin
+-->
   
 Oct 22
 : [Dialogue]({{site.baseurl}}assets/files/dialogue.pptx)
   : JM 15
-//    : Yifan Jiang - [Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions](https://arxiv.org/pdf/2212.10509)
-//    : Questions by: Emily Weiss
-//    : Liu, Lei - [Interactive-KBQA: Multi-Turn Interactions for Knowledge Base Question Answering with Large Language Models](https://aclanthology.org/2024.acl-long.569/)
-//    : Questions by: Enes Burak Bilgin
+<!--      : Yifan Jiang - [Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions](https://arxiv.org/pdf/2212.10509)
+    : Questions by: Emily Weiss
+    : Liu, Lei - [Interactive-KBQA: Multi-Turn Interactions for Knowledge Base Question Answering with Large Language Models](https://aclanthology.org/2024.acl-long.569/)
+    : Questions by: Enes Burak Bilgin
+-->

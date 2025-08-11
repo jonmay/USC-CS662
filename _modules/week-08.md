@@ -38,18 +38,19 @@ The announcement can be made red for due dates as follows
 Oct 13
 : Machine Translation (MT) [slides1]({{site.baseurl}}assets/files/mt_1.pptx) [slides2]({{site.baseurl}}assets/files/mt_2.pptx)
   : JM13
-//    : Skyler Hallinan - [How Johnny Can Persuade LLMs to Jailbreak Them: Rethinking Persuasion to Challenge AI Safety by Humanizing LLMs](https://arxiv.org/pdf/2401.06373)
-//    : Questions by: Joshua Robinson
-//    : Tianyi Zhang - [Subtle Biases Need Subtler Measures: Dual Metrics for Evaluating Representative and Affinity Bias in Large Language Models](https://arxiv.org/pdf/2405.14555)
-//    : Questions by: Hanwen Xing
+<!--      : Skyler Hallinan - [How Johnny Can Persuade LLMs to Jailbreak Them: Rethinking Persuasion to Challenge AI Safety by Humanizing LLMs](https://arxiv.org/pdf/2401.06373)
+    : Questions by: Joshua Robinson
+    : Tianyi Zhang - [Subtle Biases Need Subtler Measures: Dual Metrics for Evaluating Representative and Affinity Bias in Large Language Models](https://arxiv.org/pdf/2405.14555)
+    : Questions by: Hanwen Xing
+-->
 
 Oct 15
 : Multilingual
-//  : Chiang, Ting-Rui - [LM-Infinite: Zero-Shot Extreme Length Generalization for Large Language Models](https://arxiv.org/abs/2308.16137)
-//  : Questions by: Run Huang
-//  : Enes Burak Bilgin - [Steering Llama 2 via Contrastive Activation Addition](https://arxiv.org/pdf/2312.06681)
-//  : Questions by: Skyler Hallinan
-  
+<!-- //  : Chiang, Ting-Rui - [LM-Infinite: Zero-Shot Extreme Length Generalization for Large Language Models](https://arxiv.org/abs/2308.16137)
+  : Questions by: Run Huang
+  : Enes Burak Bilgin - [Steering Llama 2 via Contrastive Activation Addition](https://arxiv.org/pdf/2312.06681)
+  : Questions by: Skyler Hallinan
+ --> 
 
 Oct 17
 : **HW 2 due**{: .label .label-red }
