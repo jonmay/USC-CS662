@@ -34,7 +34,9 @@ The announcement can be made red for due dates as follows
 -->
 
 Nov 17
-: TBD Syntax <!--  (Not actually presenting this year, in lieu of IE, which is moved. Legacy notes for background interest) [POS/HMM]({{site.baseurl}}assets/files/poshmm.pdf), [Constituencies]({{site.baseurl}}assets/files/poshmmconstit.pdf), [Dependencies]({{site.baseurl}}assets/files/poshmmdepend.pdf)
+: TBD Syntax
+<!--
+(Not actually presenting this year, in lieu of IE, which is moved. Legacy notes for background interest) [POS/HMM]({{site.baseurl}}assets/files/poshmm.pdf), [Constituencies]({{site.baseurl}}assets/files/poshmmconstit.pdf), [Dependencies]({{site.baseurl}}assets/files/poshmmdepend.pdf)
   : Liu, Ziyi - [Evaluating the Deductive Competence of Large Language Models](https://aclanthology.org/2024.naacl-long.476/)
   : Questions by: Lucine Oganesian
   : Lin, Fandel - [VariErr NLI: Separating Annotation Error from Human Label Variation](https://arxiv.org/pdf/2403.01931)
@@ -43,7 +45,8 @@ Nov 17
 
 Nov 19
 : Discourse [Slides]({{site.baseurl}}assets/files/discourse.pptx)
-<!--  : Wu, Cheng-Han - [Grounding Gaps in Language Model Generations](https://arxiv.org/pdf/2311.09144)
+<!--
+: Wu, Cheng-Han - [Grounding Gaps in Language Model Generations](https://arxiv.org/pdf/2311.09144)
   : Questions by: Zhang, Tianyi
   : Wilber Blas Urrutia - [Rethinking the Bounds of LLM Reasoning: Are Multi-Agent Discussions the Key?](https://arxiv.org/pdf/2402.18272)
   : Questions by: Chumeng Liang
