@@ -36,12 +36,16 @@ The announcement can be made red for due dates as follows
 
 
 Sep 8
-: NO CLASS (TODO -- move up; 9/23 RH)
-
-Sep 10
 : [Non-linear Classifiers, Backprop, Gradient Descent]({{site.baseurl}}assets/files/nonlinear.pdf)
   : E 3. JM 7.2--7.5 
     :
+
+
+Sep 10
+: [Distributional Feature Representations: PPMI, LSA, word2vec]({{site.baseurl}}assets/files/distrib.pdf)
+  : E 14.3, 14.5--6. JM 6, [LSA via SVD](https://matpalm.com/lsa_via_svd/index.html), [Linguistic regularities in continuous space word representations](https://aclanthology.org/N13-1090/), [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781), [Distributed Representations of Words and Phrases and their Compositionality](https://arxiv.org/abs/1310.4546)
+    : 
+
 
 Sep 12
 : **Early Drop (no W, refund)**{: .label .label-brown }
