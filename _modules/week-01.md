@@ -39,7 +39,7 @@ Aug 25
 : [Introduction]({{site.baseurl}}assets/files/intro.pdf), Applications
   : E 1,
   [Probabilities (refresher only)]({{site.baseurl}}assets/files/probabilities.pdf)
-  [**HW0 out (due 8/29)**]({{site.baseurl}}assets/files/hw0.pdf){: .label}
+: [**HW0 out (due 8/29)**]({{site.baseurl}}assets/files/hw0.pdf){: .label}
 : [**paper selection out (due 9/8)**](https://docs.google.com/forms/d/e/1FAIpQLSex4RXitr_nqSiZq3-q_6G9eEercOjbSWF8NYllMvmHyCShdA/viewform?usp=header){: .label}
 : [**project assignment out (due 9/22)**]({{site.baseurl}}assets/files/project.pdf){: .label}
 

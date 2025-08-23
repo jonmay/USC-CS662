@@ -37,7 +37,7 @@ The announcement can be made red for due dates as follows
 
 Oct 13
 : Machine Translation (MT) [slides1]({{site.baseurl}}assets/files/mt_1.pptx) [slides2]({{site.baseurl}}assets/files/mt_2.pptx)
-  : JM13
+  : JM13 [Weaver, Translation (1952)](https://aclanthology.org/1952.earlymt-1.1/)
 
 <!--
 
