@@ -36,8 +36,9 @@ The announcement can be made red for due dates as follows
 -->
 
 Oct 13
-: Machine Translation (MT) [slides1]({{site.baseurl}}assets/files/mt_1.pptx) [slides2]({{site.baseurl}}assets/files/mt_2.pptx)
-  : JM13 [Weaver, Translation (1952)](https://aclanthology.org/1952.earlymt-1.1/)
+: Ethics (Guest Lecture by Katy Felkner)
+  : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/), [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
+
 
 <!--
 
@@ -49,7 +50,9 @@ Oct 13
 -->
 
 Oct 15
-: Multilingual
+: Machine Translation (MT)/Multilinguality [slides1]({{site.baseurl}}assets/files/mt_1.pptx) [slides2]({{site.baseurl}}assets/files/mt_2.pptx)
+  : JM13 [Weaver, Translation (1952)](https://aclanthology.org/1952.earlymt-1.1/)
+
 
 <!--
 
