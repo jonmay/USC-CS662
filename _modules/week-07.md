@@ -35,8 +35,8 @@ The announcement can be made red for due dates as follows
 -->
 
 Oct 6
-: [Reinforcement Learning with Human Feedback: Proximal Policy Optimization (PPO) and Direct Preference Optimization (DPO)]({{site.baseurl}}assets/files/rlhf.pptx)
-  : [Ziegler RLHF Paper]({{site.baseurl}}assets/files/ziegler.pdf), [DPO Paper]({{site.baseurl}}assets/files/dpo.pdf)
+: Efficient Inference
+
 
 <!--
 
@@ -48,8 +48,8 @@ Oct 6
 -->
 
 Oct 8
-: Ethics (Guest Lecture by Katy Felkner)
-  : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/), [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
+: MEGA (Guest Lecture by Xuezhe Ma)
+  : [Mega Paper](https://openreview.net/forum?id=qNLe3iq2El) [Megalodon](https://arxiv.org/abs/2404.08801)
 
 <!--
 

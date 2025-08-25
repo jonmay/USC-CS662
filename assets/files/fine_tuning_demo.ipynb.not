@@ -1,0 +1,1140 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "452cd739-011c-4f4d-bcc7-b214eee928a3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import os\n",
+    "from datasets import load_dataset\n",
+    "from transformers import AutoModelForSequenceClassification, TrainingArguments, Trainer\n",
+    "from transformers import AutoTokenizer\n",
+    "from transformers import DataCollatorWithPadding\n",
+    "import numpy as np\n",
+    "import evaluate\n",
+    "\n",
+    "# prevent annoying warnings\n",
+    "os.environ['TOKENIZERS_PARALLELISM'] = 'false'\n",
+    "\n",
+    "id2label = {0: \"NEGATIVE\", 1: \"POSITIVE\"}\n",
+    "label2id = {\"NEGATIVE\": 0, \"POSITIVE\": 1}\n",
+    "\n",
+    "\n",
+    "def preprocess_function(examples):\n",
+    "    return tokenizer(examples[\"text\"], truncation=True)\n",
+    "\n",
+    "\n",
+    "def compute_metrics(eval_pred):\n",
+    "    predictions, labels = eval_pred\n",
+    "    predictions = np.argmax(predictions, axis=1)\n",
+    "    return accuracy.compute(predictions=predictions, references=labels)\n",
+    "\n",
+    "# full bert is about 2x slower \n",
+    "model_name=\"distilbert/distilbert-base-cased\"#distilbert/distilbert-base-uncased\"\n",
+    "\n",
+    "# dataset -- has text and label divided into \"train\" and \"test\" segments\n",
+    "imdb = load_dataset(\"imdb\")\n",
+    "tokenizer = AutoTokenizer.from_pretrained(model_name)\n",
+    "\n",
+    "# collator -- handles batching\n",
+    "data_collator = DataCollatorWithPadding(tokenizer=tokenizer)\n",
+    "accuracy = evaluate.load(\"accuracy\")\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "c98ff0cf-e471-4460-95d5-3f8ad866c9f8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# it might take 30 min or so per epoch to train distillbert all 25k on my laptop; this takes about 70s\n",
+    "# it takes about 8m on full bert to just do a decode on laptop\n",
+    "train_dataset=imdb[\"train\"].shuffle(seed=42).select(range(1000))\n",
+    "eval_dataset=imdb[\"test\"].shuffle(seed=42).select(range(100))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "67f31656-f6cf-4b68-873a-d39e29a3b6df",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "tokenized_train_dataset = train_dataset.map(preprocess_function, batched=True)\n",
+    "tokenized_eval_dataset = eval_dataset.map(preprocess_function, batched=True)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "41ef2edb-ac64-4ea0-bc35-0f62702ea694",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'text': \"<br /><br />When I unsuspectedly rented A Thousand Acres, I thought I was in for an entertaining King Lear story and of course Michelle Pfeiffer was in it, so what could go wrong?<br /><br />Very quickly, however, I realized that this story was about A Thousand Other Things besides just Acres. I started crying and couldn't stop until long after the movie ended. Thank you Jane, Laura and Jocelyn, for bringing us such a wonderfully subtle and compassionate movie! Thank you cast, for being involved and portraying the characters with such depth and gentleness!<br /><br />I recognized the Angry sister; the Runaway sister and the sister in Denial. I recognized the Abusive Husband and why he was there and then the Father, oh oh the Father... all superbly played. I also recognized myself and this movie was an eye-opener, a relief, a chance to face my OWN truth and finally doing something about it. I truly hope A Thousand Acres has had the same effect on some others out there.<br /><br />Since I didn't understand why the cover said the film was about sisters fighting over land -they weren't fighting each other at all- I watched it a second time. Then I was able to see that if one hadn't lived a similar story, one would easily miss the overwhelming undercurrent of dread and fear and the deep bond between the sisters that runs through it all. That is exactly the reason why people in general often overlook the truth about their neighbors for instance.<br /><br />But yet another reason why this movie is so perfect!<br /><br />I don't give a rat's ass (pardon my French) about to what extend the King Lear story is followed. All I know is that I can honestly say: this movie has changed my life.<br /><br />Keep up the good work guys, you CAN and DO make a difference.<br /><br />\",\n",
+       " 'label': 1}"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "eval_dataset[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "89c9af63-9046-42bd-af85-bc61a2e7eaf5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "Map: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:00<00:00, 12433.09 examples/s]\n",
+      "Map: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [00:00<00:00, 68832.43 examples/s]\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Let's see what happens when we change characteristics of the data. Does it affect performance?\n",
+    "def do_cap(examples):\n",
+    "    return {\"text\": [x.upper() for x in examples[\"text\"]]}\n",
+    "cap_eval_dataset = eval_dataset.map(do_cap, batched=True)\n",
+    "cap_train_dataset = train_dataset.map(do_cap, batched=True)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "58faaf56-f6b5-4266-9fd8-9d921f5642a9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'text': \"<BR /><BR />WHEN I UNSUSPECTEDLY RENTED A THOUSAND ACRES, I THOUGHT I WAS IN FOR AN ENTERTAINING KING LEAR STORY AND OF COURSE MICHELLE PFEIFFER WAS IN IT, SO WHAT COULD GO WRONG?<BR /><BR />VERY QUICKLY, HOWEVER, I REALIZED THAT THIS STORY WAS ABOUT A THOUSAND OTHER THINGS BESIDES JUST ACRES. I STARTED CRYING AND COULDN'T STOP UNTIL LONG AFTER THE MOVIE ENDED. THANK YOU JANE, LAURA AND JOCELYN, FOR BRINGING US SUCH A WONDERFULLY SUBTLE AND COMPASSIONATE MOVIE! THANK YOU CAST, FOR BEING INVOLVED AND PORTRAYING THE CHARACTERS WITH SUCH DEPTH AND GENTLENESS!<BR /><BR />I RECOGNIZED THE ANGRY SISTER; THE RUNAWAY SISTER AND THE SISTER IN DENIAL. I RECOGNIZED THE ABUSIVE HUSBAND AND WHY HE WAS THERE AND THEN THE FATHER, OH OH THE FATHER... ALL SUPERBLY PLAYED. I ALSO RECOGNIZED MYSELF AND THIS MOVIE WAS AN EYE-OPENER, A RELIEF, A CHANCE TO FACE MY OWN TRUTH AND FINALLY DOING SOMETHING ABOUT IT. I TRULY HOPE A THOUSAND ACRES HAS HAD THE SAME EFFECT ON SOME OTHERS OUT THERE.<BR /><BR />SINCE I DIDN'T UNDERSTAND WHY THE COVER SAID THE FILM WAS ABOUT SISTERS FIGHTING OVER LAND -THEY WEREN'T FIGHTING EACH OTHER AT ALL- I WATCHED IT A SECOND TIME. THEN I WAS ABLE TO SEE THAT IF ONE HADN'T LIVED A SIMILAR STORY, ONE WOULD EASILY MISS THE OVERWHELMING UNDERCURRENT OF DREAD AND FEAR AND THE DEEP BOND BETWEEN THE SISTERS THAT RUNS THROUGH IT ALL. THAT IS EXACTLY THE REASON WHY PEOPLE IN GENERAL OFTEN OVERLOOK THE TRUTH ABOUT THEIR NEIGHBORS FOR INSTANCE.<BR /><BR />BUT YET ANOTHER REASON WHY THIS MOVIE IS SO PERFECT!<BR /><BR />I DON'T GIVE A RAT'S ASS (PARDON MY FRENCH) ABOUT TO WHAT EXTEND THE KING LEAR STORY IS FOLLOWED. ALL I KNOW IS THAT I CAN HONESTLY SAY: THIS MOVIE HAS CHANGED MY LIFE.<BR /><BR />KEEP UP THE GOOD WORK GUYS, YOU CAN AND DO MAKE A DIFFERENCE.<BR /><BR />\",\n",
+       " 'label': 1}"
+      ]
+     },
+     "execution_count": 37,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "cap_eval_dataset[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "30d87f69-2a4b-45b3-846e-c2c6eaeb04e1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "Map: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:00<00:00, 1291.60 examples/s]\n",
+      "Map: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [00:00<00:00, 1335.01 examples/s]\n"
+     ]
+    }
+   ],
+   "source": [
+    "tokenized_cap_eval_dataset = cap_eval_dataset.map(preprocess_function, batched=True)\n",
+    "tokenized_cap_train_dataset = cap_train_dataset.map(preprocess_function, batched=True)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "a8c57f5f-6e9b-491a-9a5d-30695bfc5576",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert/distilbert-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']\n",
+      "You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+     ]
+    }
+   ],
+   "source": [
+    "# load the model. It is a generic BERT (like) model\n",
+    "model = AutoModelForSequenceClassification.from_pretrained(\n",
+    "    model_name, num_labels=2, id2label=id2label, label2id=label2id\n",
+    ")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4bfa119d-5a19-4cd1-9cd4-3493d8a4b042",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# let's look at the architecture\n",
+    "model"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2d2f68d7-bf3a-4007-b6bd-faa1d66284b6",
+   "metadata": {},
+   "source": [
+    "# Vanilla Distilbert"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "cb4af3be-164e-42ec-b722-75f682e91062",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# output directory will store the model. \n",
+    "# batch size is \"t\"\n",
+    "# epochs is times through the data\n",
+    "# optimizer is \"AdamW\"; learning_rate is initial rate; weight_decay is another hyperparam of adamw\n",
+    "training_args = TrainingArguments(\n",
+    "    output_dir=\"test\",\n",
+    "    learning_rate=2e-5,\n",
+    "    per_device_train_batch_size=16,\n",
+    "    per_device_eval_batch_size=16,\n",
+    "    num_train_epochs=2,\n",
+    "    weight_decay=0.01,\n",
+    "    eval_strategy=\"steps\", # can also do \"epoch\" \n",
+    "    eval_steps=20,\n",
+    "    save_strategy=\"steps\",\n",
+    "    load_best_model_at_end=True,\n",
+    ")\n",
+    "\n",
+    "trainer = Trainer(\n",
+    "    model=model,\n",
+    "    args=training_args,\n",
+    "    train_dataset=tokenized_train_dataset,\n",
+    "    eval_dataset=tokenized_eval_dataset,\n",
+    "    tokenizer=tokenizer,\n",
+    "    data_collator=data_collator,\n",
+    "    compute_metrics=compute_metrics,\n",
+    ")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "b2d6576c-d07e-4c68-9f55-65bc19d13684",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "    <div>\n",
+       "      \n",
+       "      <progress value='21' max='7' style='width:300px; height:20px; vertical-align: middle;'></progress>\n",
+       "      [7/7 00:49]\n",
+       "    </div>\n",
+       "    "
+      ],
+      "text/plain": [
+       "<IPython.core.display.HTML object>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/plain": [
+       "{'eval_loss': 0.6957502961158752,\n",
+       " 'eval_model_preparation_time': 0.0008,\n",
+       " 'eval_accuracy': 0.53,\n",
+       " 'eval_runtime': 2.3972,\n",
+       " 'eval_samples_per_second': 41.715,\n",
+       " 'eval_steps_per_second': 2.92}"
+      ]
+     },
+     "execution_count": 31,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# should be random\n",
+    "trainer.evaluate(tokenized_eval_dataset)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "5f7e1824-1cb1-4594-9414-4b59bb35556d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'eval_loss': 0.6954565644264221,\n",
+       " 'eval_model_preparation_time': 0.0008,\n",
+       " 'eval_accuracy': 0.53,\n",
+       " 'eval_runtime': 1.4346,\n",
+       " 'eval_samples_per_second': 69.707,\n",
+       " 'eval_steps_per_second': 4.88}"
+      ]
+     },
+     "execution_count": 32,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "trainer.evaluate(tokenized_cap_eval_dataset)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "992cec6f-9185-47b5-9051-d361913b901e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "    <div>\n",
+       "      \n",
+       "      <progress value='126' max='126' style='width:300px; height:20px; vertical-align: middle;'></progress>\n",
+       "      [126/126 01:18, Epoch 2/2]\n",
+       "    </div>\n",
+       "    <table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       " <tr style=\"text-align: left;\">\n",
+       "      <th>Step</th>\n",
+       "      <th>Training Loss</th>\n",
+       "      <th>Validation Loss</th>\n",
+       "      <th>Model Preparation Time</th>\n",
+       "      <th>Accuracy</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <td>50</td>\n",
+       "      <td>No log</td>\n",
+       "      <td>0.552961</td>\n",
+       "      <td>0.000800</td>\n",
+       "      <td>0.800000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <td>100</td>\n",
+       "      <td>No log</td>\n",
+       "      <td>0.398210</td>\n",
+       "      <td>0.000800</td>\n",
+       "      <td>0.840000</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table><p>"
+      ],
+      "text/plain": [
+       "<IPython.core.display.HTML object>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/plain": [
+       "TrainOutput(global_step=126, training_loss=0.48765127999441965, metrics={'train_runtime': 79.6421, 'train_samples_per_second': 25.112, 'train_steps_per_second': 1.582, 'total_flos': 262556593545504.0, 'train_loss': 0.48765127999441965, 'epoch': 2.0})"
+      ]
+     },
+     "execution_count": 33,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "trainer.train()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "0f99ff0c-23e2-466f-8697-3619850cf3c8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [],
+      "text/plain": [
+       "<IPython.core.display.HTML object>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/plain": [
+       "{'eval_loss': 0.3923421800136566,\n",
+       " 'eval_model_preparation_time': 0.0008,\n",
+       " 'eval_accuracy': 0.85,\n",
+       " 'eval_runtime': 1.1875,\n",
+       " 'eval_samples_per_second': 84.208,\n",
+       " 'eval_steps_per_second': 5.895,\n",
+       " 'epoch': 2.0}"
+      ]
+     },
+     "execution_count": 34,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "trainer.evaluate(tokenized_eval_dataset)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "f603af64-531a-4cc8-bab3-b7ba1f9e353f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'eval_loss': 0.82340407371521,\n",
+       " 'eval_model_preparation_time': 0.0008,\n",
+       " 'eval_accuracy': 0.53,\n",
+       " 'eval_runtime': 1.3675,\n",
+       " 'eval_samples_per_second': 73.127,\n",
+       " 'eval_steps_per_second': 5.119,\n",
+       " 'epoch': 2.0}"
+      ]
+     },
+     "execution_count": 39,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "trainer.evaluate(tokenized_cap_eval_dataset)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "a5ad343b-7d92-4e8d-b24f-cb1dea8b0c97",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [],
+      "text/plain": [
+       "<IPython.core.display.HTML object>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": [
+    "preds = trainer.predict(tokenized_eval_dataset)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "f08e826b-8b40-446c-9fe2-4391c78a0dcf",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "166\n",
+      "354\n"
+     ]
+    }
+   ],
+   "source": [
+    "tokenized_train_dataset.set_format(\"pt\", columns=[\"input_ids\",  \"attention_mask\"], output_all_columns=True)\n",
+    "\n",
+    "print(len(tokenized_train_dataset[1][\"input_ids\"]))\n",
+    "print(len(tokenized_cap_train_dataset[1][\"input_ids\"]))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "81b16e45-6cbd-433c-88d4-b8ea0b798b21",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert/distilbert-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']\n",
+      "You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+     ]
+    }
+   ],
+   "source": [
+    "# what happens if we don't have a gpu?\n",
+    "training_args = TrainingArguments(\n",
+    "    output_dir=\"slow_test\",\n",
+    "    learning_rate=2e-5,\n",
+    "    per_device_train_batch_size=16,\n",
+    "    per_device_eval_batch_size=16,\n",
+    "    num_train_epochs=2,\n",
+    "    weight_decay=0.01,\n",
+    "    eval_strategy=\"steps\", # can also do \"epoch\" \n",
+    "    eval_steps=20,\n",
+    "    save_strategy=\"steps\",\n",
+    "    load_best_model_at_end=True,\n",
+    "    use_cpu=True,\n",
+    "    use_mps_device=False,\n",
+    ")\n",
+    "model = AutoModelForSequenceClassification.from_pretrained(\n",
+    "    model_name, num_labels=2, id2label=id2label, label2id=label2id\n",
+    ")\n",
+    "trainer = Trainer(\n",
+    "    model=model,\n",
+    "    args=training_args,\n",
+    "    train_dataset=tokenized_train_dataset,\n",
+    "    eval_dataset=tokenized_eval_dataset,\n",
+    "    tokenizer=tokenizer,\n",
+    "    data_collator=data_collator,\n",
+    "    compute_metrics=compute_metrics,\n",
+    ")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b80211a2-df2f-4e5c-9a64-395a6c7dc7e3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#slow! -- 18:49 for 2 epochs\n",
+    "trainer.train()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 88,
+   "id": "dc1fa606-2cba-427f-8421-8929f6e6429f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# for distilbert -- we will use lora on these parts of the model\n",
+    "target_modules=[\n",
+    "\"q_lin\",\n",
+    "\"k_lin\",\n",
+    "\"v_lin\",\n",
+    "\"out_lin\",\n",
+    "]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 89,
+   "id": "fe5fd344-098d-441c-a7ed-2074c9920bb1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert/distilbert-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']\n",
+      "You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+     ]
+    }
+   ],
+   "source": [
+    "model = AutoModelForSequenceClassification.from_pretrained(\n",
+    "    model_name, num_labels=2, id2label=id2label, label2id=label2id\n",
+    ")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 90,
+   "id": "eb2c57ca-34ca-492d-b02b-e380b88ea5fa",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "DistilBertForSequenceClassification(\n",
+       "  (distilbert): DistilBertModel(\n",
+       "    (embeddings): Embeddings(\n",
+       "      (word_embeddings): Embedding(28996, 768, padding_idx=0)\n",
+       "      (position_embeddings): Embedding(512, 768)\n",
+       "      (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)\n",
+       "      (dropout): Dropout(p=0.1, inplace=False)\n",
+       "    )\n",
+       "    (transformer): Transformer(\n",
+       "      (layer): ModuleList(\n",
+       "        (0-5): 6 x TransformerBlock(\n",
+       "          (attention): MultiHeadSelfAttention(\n",
+       "            (dropout): Dropout(p=0.1, inplace=False)\n",
+       "            (q_lin): Linear(in_features=768, out_features=768, bias=True)\n",
+       "            (k_lin): Linear(in_features=768, out_features=768, bias=True)\n",
+       "            (v_lin): Linear(in_features=768, out_features=768, bias=True)\n",
+       "            (out_lin): Linear(in_features=768, out_features=768, bias=True)\n",
+       "          )\n",
+       "          (sa_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)\n",
+       "          (ffn): FFN(\n",
+       "            (dropout): Dropout(p=0.1, inplace=False)\n",
+       "            (lin1): Linear(in_features=768, out_features=3072, bias=True)\n",
+       "            (lin2): Linear(in_features=3072, out_features=768, bias=True)\n",
+       "            (activation): GELUActivation()\n",
+       "          )\n",
+       "          (output_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)\n",
+       "        )\n",
+       "      )\n",
+       "    )\n",
+       "  )\n",
+       "  (pre_classifier): Linear(in_features=768, out_features=768, bias=True)\n",
+       "  (classifier): Linear(in_features=768, out_features=2, bias=True)\n",
+       "  (dropout): Dropout(p=0.2, inplace=False)\n",
+       ")"
+      ]
+     },
+     "execution_count": 90,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "model"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e9820330-d04a-483b-9d21-d05d6f62ed48",
+   "metadata": {},
+   "source": [
+    "# PEFT"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 91,
+   "id": "f73a9449-5aeb-426d-9f68-ecda6a111935",
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [],
+   "source": [
+    "from peft import get_peft_model\n",
+    "from peft import LoraConfig, TaskType\n",
+    "\n",
+    "# dx4 + 4xd matrix used instead of dxd to save memory and time (might be bad performance though\n",
+    "peft_config = LoraConfig(\n",
+    "    task_type=TaskType.SEQ_CLS,\n",
+    "    inference_mode=False,\n",
+    "    r=4,\n",
+    "    lora_alpha=32,\n",
+    "    lora_dropout=0.1,\n",
+    "    target_modules=target_modules\n",
+    ")\n",
+    "\n",
+    "peft_model = get_peft_model(model, peft_config)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 92,
+   "id": "2df0a21d-661e-474f-aff1-5704bafc5d1a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "trainable params: 739,586 || all params: 66,522,628 || trainable%: 1.1118\n"
+     ]
+    }
+   ],
+   "source": [
+    "# notice the savings\n",
+    "peft_model.print_trainable_parameters()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 93,
+   "id": "167121e8-5df2-41f5-84ad-528510ed31b6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "PeftModelForSequenceClassification(\n",
+       "  (base_model): LoraModel(\n",
+       "    (model): DistilBertForSequenceClassification(\n",
+       "      (distilbert): DistilBertModel(\n",
+       "        (embeddings): Embeddings(\n",
+       "          (word_embeddings): Embedding(28996, 768, padding_idx=0)\n",
+       "          (position_embeddings): Embedding(512, 768)\n",
+       "          (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)\n",
+       "          (dropout): Dropout(p=0.1, inplace=False)\n",
+       "        )\n",
+       "        (transformer): Transformer(\n",
+       "          (layer): ModuleList(\n",
+       "            (0-5): 6 x TransformerBlock(\n",
+       "              (attention): MultiHeadSelfAttention(\n",
+       "                (dropout): Dropout(p=0.1, inplace=False)\n",
+       "                (q_lin): lora.Linear(\n",
+       "                  (base_layer): Linear(in_features=768, out_features=768, bias=True)\n",
+       "                  (lora_dropout): ModuleDict(\n",
+       "                    (default): Dropout(p=0.1, inplace=False)\n",
+       "                  )\n",
+       "                  (lora_A): ModuleDict(\n",
+       "                    (default): Linear(in_features=768, out_features=4, bias=False)\n",
+       "                  )\n",
+       "                  (lora_B): ModuleDict(\n",
+       "                    (default): Linear(in_features=4, out_features=768, bias=False)\n",
+       "                  )\n",
+       "                  (lora_embedding_A): ParameterDict()\n",
+       "                  (lora_embedding_B): ParameterDict()\n",
+       "                  (lora_magnitude_vector): ModuleDict()\n",
+       "                )\n",
+       "                (k_lin): lora.Linear(\n",
+       "                  (base_layer): Linear(in_features=768, out_features=768, bias=True)\n",
+       "                  (lora_dropout): ModuleDict(\n",
+       "                    (default): Dropout(p=0.1, inplace=False)\n",
+       "                  )\n",
+       "                  (lora_A): ModuleDict(\n",
+       "                    (default): Linear(in_features=768, out_features=4, bias=False)\n",
+       "                  )\n",
+       "                  (lora_B): ModuleDict(\n",
+       "                    (default): Linear(in_features=4, out_features=768, bias=False)\n",
+       "                  )\n",
+       "                  (lora_embedding_A): ParameterDict()\n",
+       "                  (lora_embedding_B): ParameterDict()\n",
+       "                  (lora_magnitude_vector): ModuleDict()\n",
+       "                )\n",
+       "                (v_lin): lora.Linear(\n",
+       "                  (base_layer): Linear(in_features=768, out_features=768, bias=True)\n",
+       "                  (lora_dropout): ModuleDict(\n",
+       "                    (default): Dropout(p=0.1, inplace=False)\n",
+       "                  )\n",
+       "                  (lora_A): ModuleDict(\n",
+       "                    (default): Linear(in_features=768, out_features=4, bias=False)\n",
+       "                  )\n",
+       "                  (lora_B): ModuleDict(\n",
+       "                    (default): Linear(in_features=4, out_features=768, bias=False)\n",
+       "                  )\n",
+       "                  (lora_embedding_A): ParameterDict()\n",
+       "                  (lora_embedding_B): ParameterDict()\n",
+       "                  (lora_magnitude_vector): ModuleDict()\n",
+       "                )\n",
+       "                (out_lin): lora.Linear(\n",
+       "                  (base_layer): Linear(in_features=768, out_features=768, bias=True)\n",
+       "                  (lora_dropout): ModuleDict(\n",
+       "                    (default): Dropout(p=0.1, inplace=False)\n",
+       "                  )\n",
+       "                  (lora_A): ModuleDict(\n",
+       "                    (default): Linear(in_features=768, out_features=4, bias=False)\n",
+       "                  )\n",
+       "                  (lora_B): ModuleDict(\n",
+       "                    (default): Linear(in_features=4, out_features=768, bias=False)\n",
+       "                  )\n",
+       "                  (lora_embedding_A): ParameterDict()\n",
+       "                  (lora_embedding_B): ParameterDict()\n",
+       "                  (lora_magnitude_vector): ModuleDict()\n",
+       "                )\n",
+       "              )\n",
+       "              (sa_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)\n",
+       "              (ffn): FFN(\n",
+       "                (dropout): Dropout(p=0.1, inplace=False)\n",
+       "                (lin1): Linear(in_features=768, out_features=3072, bias=True)\n",
+       "                (lin2): Linear(in_features=3072, out_features=768, bias=True)\n",
+       "                (activation): GELUActivation()\n",
+       "              )\n",
+       "              (output_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)\n",
+       "            )\n",
+       "          )\n",
+       "        )\n",
+       "      )\n",
+       "      (pre_classifier): ModulesToSaveWrapper(\n",
+       "        (original_module): Linear(in_features=768, out_features=768, bias=True)\n",
+       "        (modules_to_save): ModuleDict(\n",
+       "          (default): Linear(in_features=768, out_features=768, bias=True)\n",
+       "        )\n",
+       "      )\n",
+       "      (classifier): ModulesToSaveWrapper(\n",
+       "        (original_module): Linear(in_features=768, out_features=2, bias=True)\n",
+       "        (modules_to_save): ModuleDict(\n",
+       "          (default): Linear(in_features=768, out_features=2, bias=True)\n",
+       "        )\n",
+       "      )\n",
+       "      (dropout): Dropout(p=0.2, inplace=False)\n",
+       "    )\n",
+       "  )\n",
+       ")"
+      ]
+     },
+     "execution_count": 93,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "peft_model"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 97,
+   "id": "b923a995-be65-4f8b-89fb-9f5613395824",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "training_args = TrainingArguments(\n",
+    "    output_dir=\"test\",\n",
+    "    learning_rate=2e-5,\n",
+    "    per_device_train_batch_size=16,\n",
+    "    per_device_eval_batch_size=16,\n",
+    "    num_train_epochs=2,\n",
+    "    weight_decay=0.01,\n",
+    "    eval_strategy=\"epoch\",\n",
+    "    save_strategy=\"epoch\",\n",
+    "    load_best_model_at_end=True,\n",
+    "   # use_cpu=True,\n",
+    "   # use_mps_device=False,\n",
+    ")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 98,
+   "id": "7a0bbcd2-ebec-4258-bfb4-4c61206c053b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "trainer = Trainer(\n",
+    "    model=peft_model,\n",
+    "    args=training_args,\n",
+    "    train_dataset=tokenized_train_dataset,\n",
+    "    eval_dataset=tokenized_eval_dataset,\n",
+    "    tokenizer=tokenizer,\n",
+    "    data_collator=data_collator,\n",
+    "    compute_metrics=compute_metrics,\n",
+    ")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 99,
+   "id": "2e2ae32e-e325-4656-8ce3-6d8201d91b68",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "    <div>\n",
+       "      \n",
+       "      <progress value='126' max='126' style='width:300px; height:20px; vertical-align: middle;'></progress>\n",
+       "      [126/126 01:11, Epoch 2/2]\n",
+       "    </div>\n",
+       "    <table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       " <tr style=\"text-align: left;\">\n",
+       "      <th>Epoch</th>\n",
+       "      <th>Training Loss</th>\n",
+       "      <th>Validation Loss</th>\n",
+       "      <th>Accuracy</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <td>1</td>\n",
+       "      <td>No log</td>\n",
+       "      <td>0.685648</td>\n",
+       "      <td>0.550000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <td>2</td>\n",
+       "      <td>No log</td>\n",
+       "      <td>0.683444</td>\n",
+       "      <td>0.540000</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table><p>"
+      ],
+      "text/plain": [
+       "<IPython.core.display.HTML object>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/plain": [
+       "TrainOutput(global_step=126, training_loss=0.6884631202334449, metrics={'train_runtime': 72.6358, 'train_samples_per_second': 27.535, 'train_steps_per_second': 1.735, 'total_flos': 267059820282432.0, 'train_loss': 0.6884631202334449, 'epoch': 2.0})"
+      ]
+     },
+     "execution_count": 99,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 15 minutes. Also it takes less memory. Still best to not use the cpu\n",
+    "trainer.train()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "f2a10e8d-5e0c-41f5-a1cb-fc736c7c1695",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "    <div>\n",
+       "      \n",
+       "      <progress value='21' max='7' style='width:300px; height:20px; vertical-align: middle;'></progress>\n",
+       "      [7/7 01:10]\n",
+       "    </div>\n",
+       "    "
+      ],
+      "text/plain": [
+       "<IPython.core.display.HTML object>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/plain": [
+       "{'eval_loss': 0.6999419927597046,\n",
+       " 'eval_model_preparation_time': 0.013,\n",
+       " 'eval_accuracy': 0.46,\n",
+       " 'eval_runtime': 2.2831,\n",
+       " 'eval_samples_per_second': 43.8,\n",
+       " 'eval_steps_per_second': 3.066}"
+      ]
+     },
+     "execution_count": 60,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "trainer.evaluate(tokenized_eval_dataset)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "9d511602-97ae-4725-8b1a-00470ead71ba",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'eval_loss': 0.7067443132400513,\n",
+       " 'eval_model_preparation_time': 0.013,\n",
+       " 'eval_accuracy': 0.46,\n",
+       " 'eval_runtime': 2.0594,\n",
+       " 'eval_samples_per_second': 48.558,\n",
+       " 'eval_steps_per_second': 3.399}"
+      ]
+     },
+     "execution_count": 61,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "trainer.evaluate(tokenized_cap_eval_dataset)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "a329de2a-6ae6-45f8-b1f0-0fa65b5948d1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "    <div>\n",
+       "      \n",
+       "      <progress value='126' max='126' style='width:300px; height:20px; vertical-align: middle;'></progress>\n",
+       "      [126/126 02:08, Epoch 2/2]\n",
+       "    </div>\n",
+       "    <table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       " <tr style=\"text-align: left;\">\n",
+       "      <th>Epoch</th>\n",
+       "      <th>Training Loss</th>\n",
+       "      <th>Validation Loss</th>\n",
+       "      <th>Model Preparation Time</th>\n",
+       "      <th>Accuracy</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <td>1</td>\n",
+       "      <td>No log</td>\n",
+       "      <td>0.694186</td>\n",
+       "      <td>0.013000</td>\n",
+       "      <td>0.420000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <td>2</td>\n",
+       "      <td>No log</td>\n",
+       "      <td>0.692920</td>\n",
+       "      <td>0.013000</td>\n",
+       "      <td>0.480000</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table><p>"
+      ],
+      "text/plain": [
+       "<IPython.core.display.HTML object>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/plain": [
+       "TrainOutput(global_step=126, training_loss=0.7009014553493924, metrics={'train_runtime': 129.1552, 'train_samples_per_second': 15.485, 'train_steps_per_second': 0.976, 'total_flos': 524201321214528.0, 'train_loss': 0.7009014553493924, 'epoch': 2.0})"
+      ]
+     },
+     "execution_count": 62,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "trainer.train()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "id": "09677142-248b-4808-840e-5a9514ce2887",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "\n",
+       "    <div>\n",
+       "      \n",
+       "      <progress value='35' max='7' style='width:300px; height:20px; vertical-align: middle;'></progress>\n",
+       "      [7/7 03:50]\n",
+       "    </div>\n",
+       "    "
+      ],
+      "text/plain": [
+       "<IPython.core.display.HTML object>"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    },
+    {
+     "data": {
+      "text/plain": [
+       "{'eval_loss': 0.6929197907447815,\n",
+       " 'eval_model_preparation_time': 0.013,\n",
+       " 'eval_accuracy': 0.48,\n",
+       " 'eval_runtime': 2.3495,\n",
+       " 'eval_samples_per_second': 42.562,\n",
+       " 'eval_steps_per_second': 2.979,\n",
+       " 'epoch': 2.0}"
+      ]
+     },
+     "execution_count": 63,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "trainer.evaluate(tokenized_eval_dataset)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "id": "8ca2001a-1684-4fb2-9b3b-64f7df08846e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'eval_loss': 0.6966588497161865,\n",
+       " 'eval_model_preparation_time': 0.013,\n",
+       " 'eval_accuracy': 0.46,\n",
+       " 'eval_runtime': 2.1934,\n",
+       " 'eval_samples_per_second': 45.592,\n",
+       " 'eval_steps_per_second': 3.191,\n",
+       " 'epoch': 2.0}"
+      ]
+     },
+     "execution_count": 64,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "trainer.evaluate(tokenized_cap_eval_dataset)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f76de52a-ac64-4a92-990b-c8e7021bb8de",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "openai2",
+   "language": "python",
+   "name": "openai2"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

@@ -34,7 +34,7 @@ The announcement can be made red for due dates as follows
 -->
 
 Nov 24
-: TBD
+: TBD Guest Lecture
 
 <!--
 
