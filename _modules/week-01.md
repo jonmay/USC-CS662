@@ -54,3 +54,5 @@ Aug 27
   [Suleyman Reading 2]({{site.baseurl}}assets/files/readings/24_suleyman_verge.pdf),
   [Hank Green Video](https://www.youtube.com/watch?v=JiMXb2NkAxQ)
 
+Aug 29
+: **HW0 due**{: .label .label-red}
