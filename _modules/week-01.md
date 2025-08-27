@@ -53,6 +53,7 @@ Aug 27
   [Suleyman Reading 1]({{site.baseurl}}assets/files/readings/24_suleyman_musically.pdf),
   [Suleyman Reading 2]({{site.baseurl}}assets/files/readings/24_suleyman_verge.pdf),
   [Hank Green Video](https://www.youtube.com/watch?v=JiMXb2NkAxQ)
+  [Berg-Kirkpatrick on statistical significance tests](https://nlp.cs.berkeley.edu/pubs/BergKirkpatrick-Burkett-Klein_2012_Significance_paper.pdf)
 
 Aug 29
 : **HW0 due**{: .label .label-red}
