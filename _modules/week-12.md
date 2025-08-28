@@ -34,7 +34,7 @@ The announcement can be made red for due dates as follows
 -->
 
 Nov 10
-: TBD
+: Mind Reading (Guest Lecture by Sam Nastase)
   : - 
 
 Nov 12
