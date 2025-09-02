@@ -40,5 +40,5 @@ Sep 1
 
 Sep 3
 : [Linear Classifiers]({{site.baseurl}}assets/files/linearmodels.pdf) 
-  : E 2.2, 2.3, 2.4. JM 4, 5, [Thumbs up? Sentiment Classification using Machine Learning Techniques](https://aclanthology.org/W02-1011/),  [Goldwater probability tutorial](http://homepages.inf.ed.ac.uk/sgwater/teaching/general/probability.pdf). [The Perceptron (Rosenblatt 1958)](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.335.3398&rep=rep1&type=pdf) (optional)
+  : E 2.2, 2.3, 2.4. JM 4, app. B, [Thumbs up? Sentiment Classification using Machine Learning Techniques](https://aclanthology.org/W02-1011/),  [Goldwater probability tutorial](http://homepages.inf.ed.ac.uk/sgwater/teaching/general/probability.pdf). [The Perceptron (Rosenblatt 1958)](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.335.3398&rep=rep1&type=pdf) (optional)
 
