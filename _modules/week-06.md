@@ -37,12 +37,12 @@ The announcement can be made red for due dates as follows
 
 Sep 29
 : [Prompting and Large Language Models]({{site.baseurl}}assets/files/llm.pdf)
-  : JM 11.4 [T5](https://arxiv.org/pdf/1910.10683) [LoRA](https://arxiv.org/abs/2106.09685) [Prefix Tuning](https://aclanthology.org/2021.acl-long.353/) [T0](https://arxiv.org/abs/2110.08207)
+  : JM 7 [T5](https://arxiv.org/pdf/1910.10683) [LoRA](https://arxiv.org/abs/2106.09685) [Prefix Tuning](https://aclanthology.org/2021.acl-long.353/) [T0](https://arxiv.org/abs/2110.08207)
 : [**HW2 out (due 10/18)**]({{site.baseurl}}assets/files/hw2.pdf){: .label}
 
 Oct 1
 : [Reinforcement Learning with Human Feedback: Proximal Policy Optimization (PPO) and Direct Preference Optimization (DPO)]({{site.baseurl}}assets/files/rlhf.pptx)
-  : [Ziegler RLHF Paper]({{site.baseurl}}assets/files/ziegler.pdf), [DPO Paper]({{site.baseurl}}assets/files/dpo.pdf)
+  : JM 6, [Ziegler RLHF Paper]({{site.baseurl}}assets/files/ziegler.pdf), [DPO Paper]({{site.baseurl}}assets/files/dpo.pdf) 
 
 
 <!--
