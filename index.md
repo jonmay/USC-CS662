@@ -55,7 +55,7 @@ seo:
 
 
 - Optional: [Speech and Language Processing 3rd edition - Jurafsky, Martin](https://web.stanford.edu/~jurafsky/slp3/) ('JM' in schedule)
--- [January 2025 pdf](https://web.stanford.edu/~jurafsky/slp3/ed3book_Jan25.pdf)
+-- [August 2025 pdf](https://web.stanford.edu/~jurafsky/slp3/ed3book_aug25.pdf)
 
 - Required: Selected papers from NLP literature, see (evolving) schedule
 
