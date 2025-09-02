@@ -1,4 +1,4 @@
 ---
 name: Jurafsky and Martin Book
-filename: ed3bookfeb3_2024.pdf 
+filename: ed3book_aug25.pdf 
 ---
