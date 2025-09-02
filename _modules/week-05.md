@@ -36,7 +36,7 @@ The announcement can be made red for due dates as follows
 
 Sep 22
 : [Pretrained language models (ELMo, BERT, and sentence similarity)]({{site.baseurl}}assets/files/pretrained.pdf)
-  : JM 11.1--11.3 [ELMo paper](https://aclanthology.org/N18-1202/) [BERT paper](https://aclanthology.org/N19-1423/) [Zoph Fine-Tuning paper](https://aclanthology.org/D16-1163/) [Fine-Tuning demo]({{site.baseurl}}assets/files/fine_tuning_demo.ipynb)
+  : JM 10 [ELMo paper](https://aclanthology.org/N18-1202/) [BERT paper](https://aclanthology.org/N19-1423/) [Zoph Fine-Tuning paper](https://aclanthology.org/D16-1163/) [Fine-Tuning demo]({{site.baseurl}}assets/files/fine_tuning_demo.ipynb)
 
 : **project proposal due**{: .label .label-red }
 
