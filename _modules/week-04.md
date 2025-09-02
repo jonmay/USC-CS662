@@ -37,13 +37,13 @@ The announcement can be made red for due dates as follows
 
 Sep 15
 : [N-Gram Language Models]({{site.baseurl}}assets/files/ngram.pdf), [Feed Forward and Recurrent Language Models (RNNs)]({{site.baseurl}}assets/files/ffrnn.pdf)
-  : E 6.1--2, 6.4. 7.5, 7.7. JM 3 [Exploring the limits of language modeling](https://arxiv.org/abs/1602.02410) [LM notebook]({{site.baseurl}}assets/files/LMs.ipynb)
+  : E 6.1--2, 6.4. 7.5, 7.7. JM 3, 13 [Exploring the limits of language modeling](https://arxiv.org/abs/1602.02410) [LM notebook]({{site.baseurl}}assets/files/LMs.ipynb)
 
 
 
 Sep 17
 : [Attention]({{site.baseurl}}assets/files/attention.pdf), [Transformer Language Models]({{site.baseurl}}assets/files/transformer.pdf)
-  : E 6.3, JM 9, 10. [Attention is all you need](https://arxiv.org/abs/1706.03762) 
+  : E 6.3, JM 8. [Attention is all you need](https://arxiv.org/abs/1706.03762) 
 
 
 Sep 19
