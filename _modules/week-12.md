@@ -38,7 +38,7 @@ Nov 10
   : - 
 
 Nov 12
-: TBD
+: TBD (Guest Lecture by Robin Jia)
   : -
 
 Nov 14
