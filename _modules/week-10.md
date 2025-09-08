@@ -35,10 +35,9 @@ The announcement can be made red for due dates as follows
 -->
 
 Oct 27
-
-: [Information Extraction]({{site.baseurl}}assets/files/ie.pdf)
+: [Dialogue]({{site.baseurl}}assets/files/dialogue.pptx)
 : [**HW3 out (due 11/21)**]({{site.baseurl}}assets/files/hw3.pdf){: .label}
-  : JM17.3, 20
+: JM 25, [Appendix K]({{site.baseurl}}assets/files/jm_appendix_k.pdf)
 
 <!--
 
@@ -50,8 +49,8 @@ Oct 27
 -->
 
 Oct 29
-: [Agents]({{site.baseurl}}assets/files/tenghao_agents.pptx)  (Guest Lecture by Tenghao Huang)
-  : [WebArena](https://arxiv.org/abs/2307.13854), [ToolLLM](https://arxiv.org/pdf/2307.16789), [Narrative Discourse](https://arxiv.org/pdf/2407.13248), [ReAct](https://arxiv.org/abs/2210.03629)
+: [Information Extraction]({{site.baseurl}}assets/files/ie.pdf)
+  : JM17.3, 20
 
 <!--
 
