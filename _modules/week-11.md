@@ -49,7 +49,7 @@ Nov 3
 
 Nov 5
 : Spoken Language Processing (SLP) (Guest Lecture by Sudarsana Reddy Kadiri)
-  : JM 16
+  : JM 15
 
 <!--
 

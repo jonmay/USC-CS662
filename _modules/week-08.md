@@ -51,7 +51,7 @@ Oct 13
 
 Oct 15
 : Machine Translation (MT)/Multilinguality [slides1]({{site.baseurl}}assets/files/mt_1.pptx) [slides2]({{site.baseurl}}assets/files/mt_2.pptx)
-  : JM13 [Weaver, Translation (1952)](https://aclanthology.org/1952.earlymt-1.1/)
+  : JM12 [Weaver, Translation (1952)](https://aclanthology.org/1952.earlymt-1.1/)
 
 
 <!--

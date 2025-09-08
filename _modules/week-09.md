@@ -35,7 +35,7 @@ The announcement can be made red for due dates as follows
 
 Oct 20
 : [Information Retrieval (IR) and Question Answering (QA)]({{site.baseurl}}assets/files/irqa.pdf)
-  : JM 14
+  : JM 11
 
 <!--
 
@@ -48,7 +48,7 @@ Oct 20
   
 Oct 22
 : [Dialogue]({{site.baseurl}}assets/files/dialogue.pptx)
-  : JM 15
+  : JM TBA
 
 <!--
 
