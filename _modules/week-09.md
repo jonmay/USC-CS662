@@ -48,7 +48,7 @@ Oct 20
   
 Oct 22
 : [Dialogue]({{site.baseurl}}assets/files/dialogue.pptx)
-  : JM TBA
+  : JM 25, [Appendix K]({{site.baseurl}}assets/files/jm_appendix_k.pdf)
 
 <!--
 
