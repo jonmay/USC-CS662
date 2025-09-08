@@ -36,8 +36,9 @@ The announcement can be made red for due dates as follows
 
 Oct 27
 : [Dialogue]({{site.baseurl}}assets/files/dialogue.pptx)
+  : JM 25, [Appendix K]({{site.baseurl}}assets/files/jm_appendix_k.pdf)
 : [**HW3 out (due 11/21)**]({{site.baseurl}}assets/files/hw3.pdf){: .label}
-: JM 25, [Appendix K]({{site.baseurl}}assets/files/jm_appendix_k.pdf)
+
 
 <!--
 
