@@ -40,14 +40,18 @@ Sep 29
   : JM 7 [T5](https://arxiv.org/pdf/1910.10683) [LoRA](https://arxiv.org/abs/2106.09685) [Prefix Tuning](https://aclanthology.org/2021.acl-long.353/) [T0](https://arxiv.org/abs/2110.08207)
 : [**HW2 out (due 10/18)**]({{site.baseurl}}assets/files/hw2.pdf){: .label}
 
+: Jinyi Ye - [What Happened in LLMs Layers when Trained for Fast vs. Slow Thinking: A Gradient Perspective](https://aclanthology.org/2025.acl-long.1545/)
+    : Questions by: Narges Ghasemi Ghaleh Bahmani
+    : Saba Hashemi Safaei - [Byte Latent Transformer: Patches Scale Better Than Tokens](https://aclanthology.org/2025.acl-long.453/)
+    : Questions by: Yuxin Yang	
+
 Oct 1
 : [Reinforcement Learning with Human Feedback: Proximal Policy Optimization (PPO) and Direct Preference Optimization (DPO)]({{site.baseurl}}assets/files/rlhf.pptx)
   : JM 6, [Ziegler RLHF Paper]({{site.baseurl}}assets/files/ziegler.pdf), [DPO Paper]({{site.baseurl}}assets/files/dpo.pdf) 
 
+: Sadra Sabouri Halestani - [HUMT DUMT: Measuring and controlling human-like language in LLMs](https://aclanthology.org/2025.acl-long.1261/)
+    : Questions by: Nikunj Gupta
+    : Feiyu Zhu - [Self-Instructed Derived Prompt Generation Meets In-Context Learning: Unlocking New Potential of Black-Box LLMs](https://aclanthology.org/2025.acl-long.92/)
+    : Questions by: Sichang (Stephen) He	
 
-<!--
-//  : Chumeng Liang - [Selective Reflection-Tuning: Student-Selected Data Recycling for LLM Instruction-Tuning](https://arxiv.org/abs/2402.10110)
-  : Questions by: Mia Sultan
-  : Anirudh Ravi Kumar - [Teaching Language Models to Self-Improve through Interactive Demonstrations](https://aclanthology.org/2024.naacl-long.287.pdf)
-  : Questions by: Debaditya Pal
--->
+  							
