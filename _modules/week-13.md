@@ -35,6 +35,10 @@ The announcement can be made red for due dates as follows
 
 Nov 17
 : TBD 
+  : Danny Deng - [LocAgent: Graph-Guided LLM Agents for Code Localization](https://aclanthology.org/2025.acl-long.426/)
+  : Questions by: Saeed Hedayatian
+  : Matthew Finlayson - [Geometric Signatures of Compositionality Across a Language Model’s Lifetime](https://aclanthology.org/2025.acl-long.265/)
+  : Questions by: Lydia Ignatova
 
 <!--
 
@@ -48,15 +52,6 @@ Nov 17
 
 Nov 19
 : Discourse [Slides]({{site.baseurl}}assets/files/discourse.pptx)
-
-<!--
-
-: Wu, Cheng-Han - [Grounding Gaps in Language Model Generations](https://arxiv.org/pdf/2311.09144)
-  : Questions by: Zhang, Tianyi
-  : Wilber Blas Urrutia - [Rethinking the Bounds of LLM Reasoning: Are Multi-Agent Discussions the Key?](https://arxiv.org/pdf/2402.18272)
-  : Questions by: Chumeng Liang
-
--->  
 
 Nov 21
 : **HW 3 due**{: .label .label-red }

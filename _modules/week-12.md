@@ -35,11 +35,20 @@ The announcement can be made red for due dates as follows
 
 Nov 10
 : Mind Reading (Guest Lecture by Sam Nastase)
-  : - 
+  : Lydia Ignatova - [Dehumanizing Machines: Mitigating Anthropomorphic Behaviors in Text Generation Systems](https://aclanthology.org/2025.acl-long.1259/)
+  : Questions by: Gonglin Chen
+  : Sichang (Stephen) He - [Learning to Rewrite: Generalized LLM-Generated Text Detection](https://aclanthology.org/2025.acl-long.322/)
+  : Questions by: Anzhe Cheng
 
 Nov 12
 : TBD (Guest Lecture by Robin Jia)
-  : -
+  : Abhinav Vadhera - [JailbreakRadar: Comprehensive Assessment of Jailbreak Attacks Against LLMs](https://aclanthology.org/2025.acl-long.1045/)
+  : Questions by: Ruth-Ann Armstrong
+  : Yuxin Yang - [A Troublemaker with Contagious Jailbreak Makes Chaos in Honest Towns](https://aclanthology.org/2025.acl-long.859/)
+  : Questions by: Sadra Sabouri Halestani
+
+
+							
 
 Nov 14
 : **Late Drop (W, No refund)**{: .label .label-brown }

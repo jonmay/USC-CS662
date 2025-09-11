@@ -38,10 +38,10 @@ The announcement can be made red for due dates as follows
 Sep 29
 : [Prompting and Large Language Models]({{site.baseurl}}assets/files/llm.pdf)
   : JM 7 [T5](https://arxiv.org/pdf/1910.10683) [LoRA](https://arxiv.org/abs/2106.09685) [Prefix Tuning](https://aclanthology.org/2021.acl-long.353/) [T0](https://arxiv.org/abs/2110.08207)
-    : Jinyi Ye - [What Happened in LLMs Layers when Trained for Fast vs. Slow Thinking: A Gradient Perspective](https://aclanthology.org/2025.acl-long.1545/)
-    : Questions by: Narges Ghasemi Ghaleh Bahmani
-    : Saba Hashemi Safaei - [Byte Latent Transformer: Patches Scale Better Than Tokens](https://aclanthology.org/2025.acl-long.453/)
-    : Questions by: Yuxin Yang	
+  : Jinyi Ye - [What Happened in LLMs Layers when Trained for Fast vs. Slow Thinking: A Gradient Perspective](https://aclanthology.org/2025.acl-long.1545/)
+  : Questions by: Narges Ghasemi Ghaleh Bahmani
+  : Saba Hashemi Safaei - [Byte Latent Transformer: Patches Scale Better Than Tokens](https://aclanthology.org/2025.acl-long.453/)
+  : Questions by: Yuxin Yang	
 : [**HW2 out (due 10/18)**]({{site.baseurl}}assets/files/hw2.pdf){: .label}
 
 
