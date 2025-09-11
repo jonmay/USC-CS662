@@ -49,7 +49,6 @@ Sep 29
 Oct 1
 : [Reinforcement Learning with Human Feedback: Proximal Policy Optimization (PPO) and Direct Preference Optimization (DPO)]({{site.baseurl}}assets/files/rlhf.pptx)
   : JM 6, [Ziegler RLHF Paper]({{site.baseurl}}assets/files/ziegler.pdf), [DPO Paper]({{site.baseurl}}assets/files/dpo.pdf) 
-
   : Sadra Sabouri Halestani - [HUMT DUMT: Measuring and controlling human-like language in LLMs](https://aclanthology.org/2025.acl-long.1261/)
   : Questions by: Nikunj Gupta
   : Feiyu Zhu - [Self-Instructed Derived Prompt Generation Meets In-Context Learning: Unlocking New Potential of Black-Box LLMs](https://aclanthology.org/2025.acl-long.92/)
