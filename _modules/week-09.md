@@ -47,8 +47,9 @@ Oct 20
 -->
   
 Oct 22
-: [Dialogue]({{site.baseurl}}assets/files/dialogue.pptx)
-  : JM 25, [Appendix K]({{site.baseurl}}assets/files/jm_appendix_k.pdf)
+: Machine Translation (MT)/Multilinguality [slides1]({{site.baseurl}}assets/files/mt_1.pptx) [slides2]({{site.baseurl}}assets/files/mt_2.pptx)
+  : JM12 [Weaver, Translation (1952)](https://aclanthology.org/1952.earlymt-1.1/)
+
 
 <!--
 
