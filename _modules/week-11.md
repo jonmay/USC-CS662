@@ -37,28 +37,18 @@ The announcement can be made red for due dates as follows
 
 Nov 3
 : [Multimodal NLP]({{site.baseurl}}assets/files/vlms.pdf) (Guest Lecture by Xuezhe Ma) 
-
-<!--
-
-: Huang, Run - [Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models](https://aclanthology.org/2024.naacl-long.347/)
-  : Questions by: Eric Boxer
-  : Robinson, Joshua - [I am a Strange Dataset: Metalinguistic Tests for Language Models](https://aclanthology.org/2024.acl-long.482/)
-  : Questions by: Zeyu Liu
-
--->
-
+  : Anzhe Cheng - [SHuBERT: Self-Supervised Sign Language Representation Learning via Multi-Stream Cluster Prediction](https://aclanthology.org/2025.acl-long.1397/)
+  : Questions by: Feiyu Zhu
+  : Gonglin Chen - [SpaRE: Enhancing Spatial Reasoning in Vision-Language Models with Synthetic Data](https://aclanthology.org/2025.acl-long.387/)
+  : Questions by: Wenbin Teng
+  							
 Nov 5
 : Spoken Language Processing (SLP) (Guest Lecture by Sudarsana Reddy Kadiri)
   : JM 15
-
-<!--
-
-: Ye, Wen - [CaMML: Context-Aware Multimodal Learner for Large Models](https://arxiv.org/pdf/2401.03149)
-    : Questions by: Lei Liu
-    : Xing, Hanwen - [Visual Grounding Helps Learn Word Meanings in Low-Data Regimes](https://arxiv.org/abs/2310.13257)
-    : Questions by: Ziyi Liu
-
--->
+  : Wenbin Teng - [Improve Vision Language Model Chain-of-thought Reasoning](https://aclanthology.org/2025.acl-long.82/)
+  : Questions by: Kiarash Vaziri Goodarzi
+  : Chufan Shi - [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation](https://aclanthology.org/2025.acl-long.363/)
+  : Questions by: Tianwen Fu
 
 Nov 7
 : [**Project Report Version 1 due**{: .label .label-red}](({{project}}){:target="_blank"})

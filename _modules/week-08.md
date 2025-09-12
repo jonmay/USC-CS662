@@ -37,33 +37,20 @@ The announcement can be made red for due dates as follows
 
 Oct 13
 : [Agents]({{site.baseurl}}assets/files/tenghao_agents.pptx)  (Guest Lecture by Tenghao Huang)
-  : [WebArena](https://arxiv.org/abs/2307.13854), [ToolLLM](https://arxiv.org/pdf/2307.16789), [Narrative Discourse](https://arxiv.org/pdf/2407.13248), [ReAct](https://arxiv.org/abs/2210.03629)
+  : [WebArena](https://arxiv.org/abs/2307.13854), [ToolLLM](https://arxiv.org/pdf/2307.16789), [Narrative Discourse](https://arxiv.org/pdf/2407.13248), [ReAct](https://arxiv.org/abs/2210.03629) 
+  : Kiarash Vaziri Goodarzi - [TokenFormer: Rethinking Transformer Scaling with Tokenized Model Parameters](https://arxiv.org/abs/2410.23168)
+  : Questions by: Matthew Finlayson
+  : Naga Vamsi Ramana Dinavahi - [Sliding Windows Are Not the End: Exploring Full Ranking with Long-Context Large Language Models](https://aclanthology.org/2025.acl-long.8/)
+  : Questions by: Danny Deng
 
-
-
-<!--
-
-: Skyler Hallinan - [How Johnny Can Persuade LLMs to Jailbreak Them: Rethinking Persuasion to Challenge AI Safety by Humanizing LLMs](https://arxiv.org/pdf/2401.06373)
-    : Questions by: Joshua Robinson
-    : Tianyi Zhang - [Subtle Biases Need Subtler Measures: Dual Metrics for Evaluating Representative and Affinity Bias in Large Language Models](https://arxiv.org/pdf/2405.14555)
-    : Questions by: Hanwen Xing
-
--->
 
 Oct 15
 : Ethics (Guest Lecture by Katy Felkner)
   : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/), [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
-
-
-
-<!--
-
-: Chiang, Ting-Rui - [LM-Infinite: Zero-Shot Extreme Length Generalization for Large Language Models](https://arxiv.org/abs/2308.16137)
-  : Questions by: Run Huang
-  : Enes Burak Bilgin - [Steering Llama 2 via Contrastive Activation Addition](https://arxiv.org/pdf/2312.06681)
-  : Questions by: Skyler Hallinan
-
---> 
+  : Kaicheng Wang - [MAIN-RAG: Multi-Agent Filtering Retrieval-Augmented Generation](https://aclanthology.org/2025.acl-long.131/)
+  : Questions by: Ardysatrio Haroen
+  : Zhiyuan Gao - [OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use](https://aclanthology.org/2025.acl-long.369/)
+  : Questions by: Naga Vamsi Ramana Dinavahi
 
 Oct 17
 : **HW 2 due**{: .label .label-red }

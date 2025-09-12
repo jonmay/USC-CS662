@@ -36,30 +36,19 @@ The announcement can be made red for due dates as follows
 
 Oct 6
 : Efficient Inference
-
-
-<!--
-
-: Emily Weiss - [Don't Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration](https://arxiv.org/abs/2402.00367)
-  : Questions by: Yifan Jiang
-  : Ayush Goyal - [R-Tuning: Instructing Large Language Models to Say 'I Don't Know'](https://aclanthology.org/2024.naacl-long.394/)
-  : Questions by: Wen Ye
-
--->
+  : Narges Ghasemi Ghaleh Bahmani - [LLMs know their vulnerabilities: Uncover Safety Gaps through Natural Distribution Shifts](https://aclanthology.org/2025.acl-long.1207/)
+  : Questions by: Shixuan Li
+  : Saeed Hedayatian - [TreeRL: LLM Reinforcement Learning with On-Policy Tree Search](https://aclanthology.org/2025.acl-long.604/)
+  : Questions by: Zhiyuan Gao
 
 Oct 8
 : MEGA (Guest Lecture by Xuezhe Ma)
   : [Mega Paper](https://openreview.net/forum?id=qNLe3iq2El) [Megalodon](https://arxiv.org/abs/2404.08801)
-
-<!--
-
-: (MOVED TO 11/25) Mia Sultan - [LLMRefine: Pinpointing and Refining Large Language Models via Fine-Grained Actionable Feedback](https://aclanthology.org/2024.findings-naacl.92/)
-  : Questions by: Wilber Blas Urrutia
-  : Eric Boxer - [MacGyver: Are Large Language Models Creative Problem Solvers?](https://aclanthology.org/2024.naacl-long.297.pdf)
-  : Questions by: Ryan Lee
-
--->
-
+  : Daniel Ruiz - [TokAlign: Efficient Vocabulary Adaptation via Token Alignment](https://aclanthology.org/2025.acl-long.207/)
+  : Questions by: Abhinav Vadhera
+  : Ardysatrio Haroen - [Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling](https://aclanthology.org/2025.acl-long.338/)
+  : Questions by: Chufan Shi
+  
 Oct 10
 : **Mid Drop (No W, No refund)**{: .label .label-brown }
 

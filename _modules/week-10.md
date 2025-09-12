@@ -37,27 +37,12 @@ The announcement can be made red for due dates as follows
 Oct 27
 : [Dialogue]({{site.baseurl}}assets/files/dialogue.pptx)
   : JM 25, [Appendix K]({{site.baseurl}}assets/files/jm_appendix_k.pdf)
+  : Shixuan Li - [Re-ranking Using Large Language Models for Mitigating Exposure to Harmful Content on Social Media Platforms](https://aclanthology.org/2025.acl-long.44/)
+  : Questions by: Jinyi Ye	
 : [**HW3 out (due 11/21)**]({{site.baseurl}}assets/files/hw3.pdf){: .label}
-
-
-<!--
-
-: Siniukov, Maksim - [An Iterative Associative Memory Model for Empathetic Response Generation](https://arxiv.org/pdf/2402.17959)
-    : Questions by: Cheng-Han Wu
-    : Pal, Debaditya - [Answer is All You Need: Instruction-following Text Embedding via Answering the Question](https://aclanthology.org/2024.acl-long.27/)
-    : Questions by: Xinyan Yu
-
--->
 
 Oct 29
 : [Information Extraction]({{site.baseurl}}assets/files/ie.pdf)
   : JM17.3, 20
-
-<!--
-
-: Lee, Ryan - [MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions](https://aclanthology.org/2023.emnlp-main.971.pdf)
-    : Questions by: Ayush Goyal
-    : Yu, Xinyan - [Spiral of Silence: How is Large Language Model Killing Information Retrieval? A Case Study on Open Domain Question Answering](https://aclanthology.org/2024.acl-long.798/)
-    : Questions by: Maksim Siniukov
-
--->
+  : Sajjad Shahabi - [Integrating Audio, Visual, and Semantic Information for Enhanced Multimodal Speaker Diarization on Multi-party Conversation](https://aclanthology.org/2025.acl-long.977/)
+  : Questions by:	Daniel Ruiz

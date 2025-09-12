@@ -36,26 +36,15 @@ The announcement can be made red for due dates as follows
 Oct 20
 : [Information Retrieval (IR) and Question Answering (QA)]({{site.baseurl}}assets/files/irqa.pdf)
   : JM 11
-
-<!--
-
-: Lucine Oganesian - [Understanding the Capabilities and Limitations of Large Language Models for Cultural Commonsense](https://arxiv.org/pdf/2405.04655)
-    : Questions by: Anirudh Ravi Kumar
-    : Zeyu Liu - [LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression](https://aclanthology.org/2024.acl-long.91/)
-    : Questions by: Fandel Lin
-
--->
-  
+  : Faith Baca - [Large Language Models Are Biased Because They Are Large Language Models](https://arxiv.org/abs/2406.13138)
+  : Questions by: Sajjad Shahabi
+  : Ruth-Ann Armstrong - [Biased LLMs can Influence Political Decision-Making](https://aclanthology.org/2025.acl-long.328/)
+  : Questions by: Saba Hashemi Safaei
+  	 						
 Oct 22
 : Machine Translation (MT)/Multilinguality [slides1]({{site.baseurl}}assets/files/mt_1.pptx) [slides2]({{site.baseurl}}assets/files/mt_2.pptx)
   : JM12 [Weaver, Translation (1952)](https://aclanthology.org/1952.earlymt-1.1/)
-
-
-<!--
-
-: Yifan Jiang - [Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions](https://arxiv.org/pdf/2212.10509)
-    : Questions by: Emily Weiss
-    : Liu, Lei - [Interactive-KBQA: Multi-Turn Interactions for Knowledge Base Question Answering with Large Language Models](https://aclanthology.org/2024.acl-long.569/)
-    : Questions by: Enes Burak Bilgin
-
--->
+  : Tianwen Fu - [Improving Factuality with Explicit Working Memory](https://aclanthology.org/2025.acl-long.548/)
+  : Questions by: Kaicheng Wang
+  : Nikunj Gupta - [Reinforced IR: A Self-Boosting Framework For Domain-Adapted Information Retrieval](https://aclanthology.org/2025.acl-long.1071/)
+  : Questions by: Faith Baca
