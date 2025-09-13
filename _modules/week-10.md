@@ -46,3 +46,5 @@ Oct 29
   : JM17.3, 20
   : Sajjad Shahabi - [Integrating Audio, Visual, and Semantic Information for Enhanced Multimodal Speaker Diarization on Multi-party Conversation](https://aclanthology.org/2025.acl-long.977/)
   : Questions by:	Daniel Ruiz
+  : Tianming Guo - [HotelMatch-LLM: Joint Multi-Task Training of Small and Large Language Models for Efficient Multimodal Hotel Retrieval](https://aclanthology.org/2025.acl-long.30/)
+  : Questions by:	Shixuan Li

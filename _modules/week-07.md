@@ -37,7 +37,7 @@ The announcement can be made red for due dates as follows
 Oct 6
 : Efficient Inference
   : Narges Ghasemi Ghaleh Bahmani - [LLMs know their vulnerabilities: Uncover Safety Gaps through Natural Distribution Shifts](https://aclanthology.org/2025.acl-long.1207/)
-  : Questions by: Shixuan Li
+  : Questions by: Tianming Guo
   : Saeed Hedayatian - [TreeRL: LLM Reinforcement Learning with On-Policy Tree Search](https://aclanthology.org/2025.acl-long.604/)
   : Questions by: Zhiyuan Gao
 
