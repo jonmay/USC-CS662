@@ -43,7 +43,7 @@ Sep 15
 
 Sep 17
 : [Attention]({{site.baseurl}}assets/files/attention.pdf), [Transformer Language Models]({{site.baseurl}}assets/files/transformer.pdf)
-  : E 6.3, JM 8. [Attention is all you need](https://arxiv.org/abs/1706.03762) 
+  : E 6.3, JM 8. [Attention is all you need](https://arxiv.org/abs/1706.03762), [Neural Machine Translation of Rare Words with Subword Units](https://arxiv.org/abs/1508.07909) 
 
 
 Sep 19
