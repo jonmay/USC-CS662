@@ -37,7 +37,7 @@ The announcement can be made red for due dates as follows
 
 Sep 15
 : [N-Gram Language Models]({{site.baseurl}}assets/files/ngram.pdf), [Feed Forward and Recurrent Language Models (RNNs)]({{site.baseurl}}assets/files/ffrnn.pdf)
-  : E 6.1--2, 6.4. 7.5, 7.7. JM 3, 13 [Exploring the limits of language modeling](https://arxiv.org/abs/1602.02410) [LM notebook]({{site.baseurl}}assets/files/LMs.ipynb)
+  : E 6.1--2, 6.4. 7.5, 7.7. JM 3, 13 [Exploring the limits of language modeling](https://arxiv.org/abs/1602.02410), [LM notebook]({{site.baseurl}}assets/files/LMs.ipynb), [Fast and Robust Neural Network Joint Models for Statistical Machine Translation](https://aclanthology.org/P14-1129/)
 
 
 

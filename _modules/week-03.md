@@ -37,7 +37,7 @@ The announcement can be made red for due dates as follows
 
 Sep 8
 : [Non-linear Classifiers, Backprop, Gradient Descent]({{site.baseurl}}assets/files/nonlinear.pdf)
-  : E 3. JM 6, [Fast and Robust Neural Network Joint Models for Statistical Machine Translation](https://aclanthology.org/P14-1129/)
+  : E 3. JM 6
     :
 
 
