@@ -87,7 +87,7 @@ Dec 1
 
 
 
-Dec 4
+Dec 3
 : Project presentations
   : (10:00) TBD 
 <!--
