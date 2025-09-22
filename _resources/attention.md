@@ -1,4 +1,4 @@
 ---
-name: Attention
-filename: attention.pdf
+name: Attention and transformer slides
+filename: Transformer.key
 ---
