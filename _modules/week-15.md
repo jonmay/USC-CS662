@@ -85,12 +85,12 @@ Dec 1
   Ryan Lee, Emily Weiss, Hanwen Xing 
 -->
 
- : (11:30) TBD 
+  : (11:30) TBD 
 <!--
   Lucine Oganesian, Enes Burak Bilgin, Debaditya Pal - [Adapting Language Models to Compress Contexts](https://aclanthology.org/2023.emnlp-main.232/) 
 -->
 
- : Questions by: TBD 
+  : Questions by: TBD 
 <!--
   Ryan Lee, Emily Weiss, Hanwen Xing 
 -->
