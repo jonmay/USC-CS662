@@ -52,6 +52,8 @@ Nov 17
 
 Nov 19
 : Discourse [Slides]({{site.baseurl}}assets/files/discourse.pptx)
+  : Naga Vamsi Ramana Dinavahi - [Sliding Windows Are Not the End: Exploring Full Ranking with Long-Context Large Language Models](https://aclanthology.org/2025.acl-long.8/)
+  : Questions by: Danny Deng
 
 Nov 21
 : **HW 3 due**{: .label .label-red }
