@@ -45,7 +45,7 @@ Dec 1
   Xinyan Velocity Yu, Joshua Robinson, Chumeng Liang 
 -->
 
-  : (10:22) TBD 
+  : (10:18) TBD 
 <!--
   Ting-Rui Chiang, Fandel Lin - [Anchoring Fine-tuning of Sentence Transformer with Semantic Label Information for Efficient Truly Few-shot Classification](https://doi.org/10.18653/v1/2023.emnlp-main.692) 
 -->
@@ -55,7 +55,7 @@ Dec 1
   Wilber Leonardo Blas Urrutia, Skyler Hallinan 
 -->
 
-  : (10:44) TBD 
+  : (10:36) TBD 
 <!--
   Anirudh Ravi Kumar, Maksim Siniukov, Tianyi Zhang - [Learning Retrieval Augmentation for Personalized Dialogue Generation](https://aclanthology.org/2023.emnlp-main.154) 
 -->
@@ -65,7 +65,7 @@ Dec 1
   Eric Boxer, Yifan Jiang, Lei Liu 
 -->
 
-  : (11:06) TBD 
+  : (10:54) TBD 
 <!--
   Wen Ye, Cheng-Han Wu, Zeyu Liu - [SMoP: Towards efficient and effective prompt tuning with sparse mixture-of-prompts](https://doi.org/10.18653/v1/2023.emnlp-main.884) 
 -->
@@ -75,7 +75,7 @@ Dec 1
   Run Huang, Mia Sultan 
 -->
 
-  : (11:28) TBD 
+  : (11:12) TBD 
 <!--
   Lucine Oganesian, Enes Burak Bilgin, Debaditya Pal - [Adapting Language Models to Compress Contexts](https://aclanthology.org/2023.emnlp-main.232/) 
 -->
@@ -85,58 +85,18 @@ Dec 1
   Ryan Lee, Emily Weiss, Hanwen Xing 
 -->
 
+  : (11:30) TBD 
+<!--
+  Lucine Oganesian, Enes Burak Bilgin, Debaditya Pal - [Adapting Language Models to Compress Contexts](https://aclanthology.org/2023.emnlp-main.232/) 
+-->
+
+  : Questions by: TBD 
+<!--
+  Ryan Lee, Emily Weiss, Hanwen Xing 
+-->
 
 
 Dec 3
-: Project presentations
-  : (10:00) TBD 
-<!--
-  Ziyi Liu, Ayush Goyal - [Editing Common Sense in Transformers](https://aclanthology.org/2023.emnlp-main.511/) 
--->
-
-  : Questions by: TBD 
-<!--
-  Xinyan Velocity Yu, Joshua Robinson, Chumeng Liang 
--->
-
-  : (10:22) TBD 
-<!--
-  Ting-Rui Chiang, Fandel Lin - [Anchoring Fine-tuning of Sentence Transformer with Semantic Label Information for Efficient Truly Few-shot Classification](https://doi.org/10.18653/v1/2023.emnlp-main.692) 
--->
-
-  : Questions by: TBD 
-<!--
-  Wilber Leonardo Blas Urrutia, Skyler Hallinan 
--->
-
-  : (10:44) TBD 
-<!--
-  Anirudh Ravi Kumar, Maksim Siniukov, Tianyi Zhang - [Learning Retrieval Augmentation for Personalized Dialogue Generation](https://aclanthology.org/2023.emnlp-main.154) 
--->
-
-  : Questions by: TBD 
-<!--
-  Eric Boxer, Yifan Jiang, Lei Liu 
--->
-
-  : (11:06) TBD 
-<!--
-  Wen Ye, Cheng-Han Wu, Zeyu Liu - [SMoP: Towards efficient and effective prompt tuning with sparse mixture-of-prompts](https://doi.org/10.18653/v1/2023.emnlp-main.884) 
--->
-
-  : Questions by: TBD 
-<!--
-  Run Huang, Mia Sultan 
--->
-
-  : (11:28) TBD 
-<!--
-  Lucine Oganesian, Enes Burak Bilgin, Debaditya Pal - [Adapting Language Models to Compress Contexts](https://aclanthology.org/2023.emnlp-main.232/) 
--->
-
-  : Questions by: TBD 
-<!--
-  Ryan Lee, Emily Weiss, Hanwen Xing 
--->
+: NO CLASS
 
 
