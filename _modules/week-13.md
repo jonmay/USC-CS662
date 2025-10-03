@@ -34,7 +34,7 @@ The announcement can be made red for due dates as follows
 -->
 
 Nov 17
-: TBD 
+: TBD
   : Danny Deng - [LocAgent: Graph-Guided LLM Agents for Code Localization](https://aclanthology.org/2025.acl-long.426/)
   : Questions by: Saeed Hedayatian
   : Matthew Finlayson - [Geometric Signatures of Compositionality Across a Language Model’s Lifetime](https://aclanthology.org/2025.acl-long.265/)
@@ -51,7 +51,7 @@ Nov 17
 -->  
 
 Nov 19
-: Discourse [Slides]({{site.baseurl}}assets/files/discourse.pptx)
+: Auditing, Dissecting, and Evaluating Large Language Models (Guest Lecture by Robin Jia) 
   : Naga Vamsi Ramana Dinavahi - [Sliding Windows Are Not the End: Exploring Full Ranking with Long-Context Large Language Models](https://aclanthology.org/2025.acl-long.8/)
   : Questions by: Danny Deng
 

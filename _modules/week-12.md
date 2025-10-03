@@ -41,7 +41,7 @@ Nov 10
   : Questions by: Anzhe Cheng
 
 Nov 12
-: TBD (Guest Lecture by Robin Jia)
+: Discourse [Slides]({{site.baseurl}}assets/files/discourse.pptx) 
   : Abhinav Vadhera - [JailbreakRadar: Comprehensive Assessment of Jailbreak Attacks Against LLMs](https://aclanthology.org/2025.acl-long.1045/)
   : Questions by: Ruth-Ann Armstrong
   : Yuxin Yang - [A Troublemaker with Contagious Jailbreak Makes Chaos in Honest Towns](https://aclanthology.org/2025.acl-long.859/)
