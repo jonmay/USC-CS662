@@ -35,15 +35,17 @@ The announcement can be made red for due dates as follows
 -->
 
 Oct 6
-: Efficient Inference
+: MEGA (Guest Lecture by Xuezhe Ma)
+  : [Mega Paper](https://openreview.net/forum?id=qNLe3iq2El) [Megalodon](https://arxiv.org/abs/2404.08801)
   : Narges Ghasemi Ghaleh Bahmani - [LLMs know their vulnerabilities: Uncover Safety Gaps through Natural Distribution Shifts](https://aclanthology.org/2025.acl-long.1207/)
   : Questions by: Tianming Guo
   : Saeed Hedayatian - [TreeRL: LLM Reinforcement Learning with On-Policy Tree Search](https://aclanthology.org/2025.acl-long.604/)
   : Questions by: Zhiyuan Gao
 
 Oct 8
-: MEGA (Guest Lecture by Xuezhe Ma)
-  : [Mega Paper](https://openreview.net/forum?id=qNLe3iq2El) [Megalodon](https://arxiv.org/abs/2404.08801)
+: Efficient Inference
+  [LM-Infinite](https://arxiv.org/abs/2308.16137)
+  [Speculative Decoding](https://arxiv.org/abs/2203.16487)
   : Daniel Ruiz - [TokAlign: Efficient Vocabulary Adaptation via Token Alignment](https://aclanthology.org/2025.acl-long.207/)
   : Questions by: Abhinav Vadhera
   : Ardysatrio Haroen - [Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling](https://aclanthology.org/2025.acl-long.338/)
