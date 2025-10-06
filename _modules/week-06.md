@@ -36,7 +36,7 @@ The announcement can be made red for due dates as follows
 
 
 Sep 29
-: [Prompting and Large Language Models]({{site.baseurl}}assets/files/llm.pdf)
+: [Prompting and Large Language Models; took 1.5 lectures]({{site.baseurl}}assets/files/llm.pdf)
   : JM 7 [T5](https://arxiv.org/pdf/1910.10683) [LoRA](https://arxiv.org/abs/2106.09685) [Prefix Tuning](https://aclanthology.org/2021.acl-long.353/) [T0](https://arxiv.org/abs/2110.08207)
   : Jinyi Ye - [What Happened in LLMs Layers when Trained for Fast vs. Slow Thinking: A Gradient Perspective](https://aclanthology.org/2025.acl-long.1545/)
   : Questions by: Narges Ghasemi Ghaleh Bahmani
@@ -47,7 +47,7 @@ Sep 29
 
 
 Oct 1
-: [Reinforcement Learning with Human Feedback: Proximal Policy Optimization (PPO) and Direct Preference Optimization (DPO)]({{site.baseurl}}assets/files/rlhf.pptx)
+: [Reinforcement Learning with Human Feedback: Proximal Policy Optimization (PPO) and Direct Preference Optimization (DPO); started but did not finish]({{site.baseurl}}assets/files/rlhf.pptx)
   : JM 6, [Ziegler RLHF Paper]({{site.baseurl}}assets/files/ziegler.pdf), [DPO Paper]({{site.baseurl}}assets/files/dpo.pdf) 
   : Sadra Sabouri Halestani - [HUMT DUMT: Measuring and controlling human-like language in LLMs](https://aclanthology.org/2025.acl-long.1261/)
   : Questions by: Nikunj Gupta
