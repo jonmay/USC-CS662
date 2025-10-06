@@ -44,8 +44,8 @@ Oct 6
 
 Oct 8
 : Efficient Inference
-  [LM-Infinite](https://arxiv.org/abs/2308.16137)
-  [Speculative Decoding](https://arxiv.org/abs/2203.16487)
+  : [LM-Infinite](https://arxiv.org/abs/2308.16137)
+  : [Speculative Decoding](https://arxiv.org/abs/2203.16487)
   : Daniel Ruiz - [TokAlign: Efficient Vocabulary Adaptation via Token Alignment](https://aclanthology.org/2025.acl-long.207/)
   : Questions by: Abhinav Vadhera
   : Ardysatrio Haroen - [Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling](https://aclanthology.org/2025.acl-long.338/)
