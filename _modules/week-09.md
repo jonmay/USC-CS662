@@ -38,7 +38,7 @@ Oct 20
   : JM 11
   : Faith Baca - [Large Language Models Are Biased Because They Are Large Language Models](https://arxiv.org/abs/2406.13138)
   : Questions by: Sajjad Shahabi
-  : Ruth-Ann Armstrong - [Biased LLMs can Influence Political Decision-Making](https://aclanthology.org/2025.acl-long.328/)
+  : Ruth-Ann Armstrong - [Lexical Recall or Logical Reasoning: Probing the Limits of Reasoning Abilities in Large Language Models](https://aclanthology.org/2025.acl-long.664/)
   : Questions by: Saba Hashemi Safaei
   	 						
 Oct 22
