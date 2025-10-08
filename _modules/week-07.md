@@ -36,6 +36,8 @@ The announcement can be made red for due dates as follows
 
 Oct 6
 : Efficient Inference
+  : [Keep the Cost Down: A Review on Methods to Optimize LLM’s KV Cache Consumption](https://arxiv.org/pdf/2407.18003), [Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding
+](https://aclanthology.org/2024.findings-acl.456/)
   : Narges Ghasemi Ghaleh Bahmani - [LLMs know their vulnerabilities: Uncover Safety Gaps through Natural Distribution Shifts](https://aclanthology.org/2025.acl-long.1207/)
   : Questions by: Tianming Guo
   : Saeed Hedayatian - [TreeRL: LLM Reinforcement Learning with On-Policy Tree Search](https://aclanthology.org/2025.acl-long.604/)
