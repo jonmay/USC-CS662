@@ -34,7 +34,7 @@ The announcement can be made red for due dates as follows
 -->
 
 Nov 17
-: TBD
+: Discourse [Slides]({{site.baseurl}}assets/files/discourse.pptx) 
   : Danny Deng - [LocAgent: Graph-Guided LLM Agents for Code Localization](https://aclanthology.org/2025.acl-long.426/)
   : Questions by: Saeed Hedayatian
   : Matthew Finlayson - [Geometric Signatures of Compositionality Across a Language Model’s Lifetime](https://aclanthology.org/2025.acl-long.265/)

@@ -35,16 +35,18 @@ The announcement can be made red for due dates as follows
 -->
 
 Oct 27
-: [Dialogue]({{site.baseurl}}assets/files/dialogue.pptx)
-  : JM 25, [Appendix K]({{site.baseurl}}assets/files/jm_appendix_k.pdf)
+: Machine Translation (MT)/Multilinguality [slides1]({{site.baseurl}}assets/files/mt_1.pptx) [slides2]({{site.baseurl}}assets/files/mt_2.pptx)
+  : JM12 [Weaver, Translation (1952)](https://aclanthology.org/1952.earlymt-1.1/)
   : Shixuan Li - [Re-ranking Using Large Language Models for Mitigating Exposure to Harmful Content on Social Media Platforms](https://aclanthology.org/2025.acl-long.44/)
   : Questions by: Jinyi Ye	
 : [**HW3 out (due 11/21)**]({{site.baseurl}}assets/files/hw3.pdf){: .label}
 
 Oct 29
-: [Information Extraction]({{site.baseurl}}assets/files/ie.pdf)
-  : JM17.3, 20
+: [Dialogue]({{site.baseurl}}assets/files/dialogue.pptx)
+  : JM 25, [Appendix K]({{site.baseurl}}assets/files/jm_appendix_k.pdf)
   : Sajjad Shahabi - [Integrating Audio, Visual, and Semantic Information for Enhanced Multimodal Speaker Diarization on Multi-party Conversation](https://aclanthology.org/2025.acl-long.977/)
   : Questions by:	Daniel Ruiz
   : Tianming Guo - [HotelMatch-LLM: Joint Multi-Task Training of Small and Large Language Models for Efficient Multimodal Hotel Retrieval](https://aclanthology.org/2025.acl-long.30/)
   : Questions by:	Shixuan Li
+
+

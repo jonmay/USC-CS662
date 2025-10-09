@@ -44,10 +44,7 @@ Oct 6
   : Questions by: Zhiyuan Gao
 
 Oct 8
-: [Efficient Inference]({{site.baseurl}}assets/files/efficient_inference.pdf)
-  : [LM-Infinite](https://arxiv.org/abs/2308.16137)
-  : [Speculative Decoding](https://arxiv.org/abs/2203.16487)
-  : [Keep the Cost Down: A Review on Methods to Optimize LLM’s KV Cache Consumption](https://arxiv.org/pdf/2407.18003), [Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding
+: [Reinforcement Learning with Human Feedback: Proximal Policy Optimization (PPO) and Direct Preference Optimization (DPO); almost finished]({{site.baseurl}}assets/files/rlhf.pptx)
 : Daniel Ruiz - [TokAlign: Efficient Vocabulary Adaptation via Token Alignment](https://aclanthology.org/2025.acl-long.207/)
   : Questions by: Abhinav Vadhera
   : Ardysatrio Haroen - [Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling](https://aclanthology.org/2025.acl-long.338/)
