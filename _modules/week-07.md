@@ -36,7 +36,7 @@ The announcement can be made red for due dates as follows
 
 Oct 6
 
-: MEGA (Guest Lecture by Xuezhe Ma)
+: [MEGA/Megalodon/Gecko]({{site.baseurl}}assets/files/gecko.pdf) (Guest Lecture by Xuezhe Ma)
   : [Mega Paper](https://openreview.net/forum?id=qNLe3iq2El) [Megalodon](https://arxiv.org/abs/2404.08801)
   : Narges Ghasemi Ghaleh Bahmani - [LLMs know their vulnerabilities: Uncover Safety Gaps through Natural Distribution Shifts](https://aclanthology.org/2025.acl-long.1207/)
   : Questions by: Tianming Guo
