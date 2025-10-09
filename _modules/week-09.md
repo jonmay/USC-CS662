@@ -37,7 +37,7 @@ Oct 20
 : [Efficient Inference]({{site.baseurl}}assets/files/efficient_inference.pdf)
   : [LM-Infinite](https://arxiv.org/abs/2308.16137)
   : [Speculative Decoding](https://arxiv.org/abs/2203.16487)
-  : [Keep the Cost Down: A Review on Methods to Optimize LLM’s KV Cache Consumption](https://arxiv.org/pdf/2407.18003), [Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding
+  : [Keep the Cost Down: A Review on Methods to Optimize LLM’s KV Cache Consumption](https://arxiv.org/pdf/2407.18003), [Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding](https://aclanthology.org/2024.findings-acl.456/)
   : Faith Baca - [Large Language Models Are Biased Because They Are Large Language Models](https://arxiv.org/abs/2406.13138)
   : Questions by: Sajjad Shahabi
   : Ruth-Ann Armstrong - [Lexical Recall or Logical Reasoning: Probing the Limits of Reasoning Abilities in Large Language Models](https://aclanthology.org/2025.acl-long.664/)
