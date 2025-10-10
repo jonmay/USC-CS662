@@ -45,7 +45,7 @@ Oct 6
 
 Oct 8
 : [Reinforcement Learning with Human Feedback: Proximal Policy Optimization (PPO) and Direct Preference Optimization (DPO); almost finished]({{site.baseurl}}assets/files/rlhf.pptx)
-: Daniel Ruiz - [TokAlign: Efficient Vocabulary Adaptation via Token Alignment](https://aclanthology.org/2025.acl-long.207/)
+  : Daniel Ruiz - [TokAlign: Efficient Vocabulary Adaptation via Token Alignment](https://aclanthology.org/2025.acl-long.207/)
   : Questions by: Abhinav Vadhera
   : Ardysatrio Haroen - [Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling](https://aclanthology.org/2025.acl-long.338/)
   : Questions by: Chufan Shi
