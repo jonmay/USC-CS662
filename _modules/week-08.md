@@ -43,7 +43,7 @@ Oct 13
 
 
 Oct 15
-: Ethics (Guest Lecture by Katy Felkner)
+: [Ethics]({{site.baseurl}}assets/files/ethics.pdf) (Guest Lecture by Katy Felkner)
   : [The Social Impact of Natural Language Processing](https://aclanthology.org/P16-2096.pdf), [Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/), [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
   : Kaicheng Wang - [MAIN-RAG: Multi-Agent Filtering Retrieval-Augmented Generation](https://aclanthology.org/2025.acl-long.131/)
   : Questions by: Ardysatrio Haroen
