@@ -34,7 +34,7 @@ The announcement can be made red for due dates as follows
 -->
 
 Nov 10
-: Mind Reading (Guest Lecture by Sam Nastase)
+: [Mind Reading](https://docs.google.com/presentation/d/1ThtxEJPuahgWooQcS_Dv2KaXJdN0MvlBarYZ-5Q4L70/edit) (Guest Lecture by Sam Nastase)
   : Lydia Ignatova - [Dehumanizing Machines: Mitigating Anthropomorphic Behaviors in Text Generation Systems](https://aclanthology.org/2025.acl-long.1259/)
   : Questions by: Gonglin Chen
   : Sichang (Stephen) He - [Learning to Rewrite: Generalized LLM-Generated Text Detection](https://aclanthology.org/2025.acl-long.322/)
