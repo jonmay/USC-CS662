@@ -35,66 +35,29 @@ The announcement can be made red for due dates as follows
 
 Dec 1
 : Project Presentations
-  : (10:00) TBD 
-<!--
-  Ziyi Liu, Ayush Goyal - [Editing Common Sense in Transformers](https://aclanthology.org/2023.emnlp-main.511/) 
--->
+  : (10:00) Gonglin Chen, Zhiyuan Gao - [Hello Again! LLM-powered Personalized Agent for Long-term Dialogue](https://aclanthology.org/2025.naacl-long.272/)
 
-  : Questions by: TBD 
-<!--
-  Xinyan Velocity Yu, Joshua Robinson, Chumeng Liang 
--->
+  : Questions by: Danny Deng, Saeed Hedayatian, Feiyu Zhu
 
-  : (10:18) TBD 
-<!--
-  Ting-Rui Chiang, Fandel Lin - [Anchoring Fine-tuning of Sentence Transformer with Semantic Label Information for Efficient Truly Few-shot Classification](https://doi.org/10.18653/v1/2023.emnlp-main.692) 
--->
+  : (10:18) Chufan Shi, Tianwen Fu, Wenbin Teng - [Vision-Language Models Can Self-Improve Reasoning via Reflection](https://aclanthology.org/2025.naacl-long.447/)
 
-  : Questions by: TBD 
-<!--
-  Wilber Leonardo Blas Urrutia, Skyler Hallinan 
--->
+  : Questions by: Daniel Ruiz, Kaicheng Wang, Saba Hashemi Safaei
 
-  : (10:36) TBD 
-<!--
-  Anirudh Ravi Kumar, Maksim Siniukov, Tianyi Zhang - [Learning Retrieval Augmentation for Personalized Dialogue Generation](https://aclanthology.org/2023.emnlp-main.154) 
--->
+  : (10:36) Nikunj Gupta, Yuxin Yang - [FIZZ: Factual Inconsistency Detection by Zoom-in Summary and Zoom-out Document](https://aclanthology.org/2024.emnlp-main.3/)
 
-  : Questions by: TBD 
-<!--
-  Eric Boxer, Yifan Jiang, Lei Liu 
--->
+  : Questions by: Anzhe Cheng, Kiarash Vaziri Goodarzi
 
-  : (10:54) TBD 
-<!--
-  Wen Ye, Cheng-Han Wu, Zeyu Liu - [SMoP: Towards efficient and effective prompt tuning with sparse mixture-of-prompts](https://doi.org/10.18653/v1/2023.emnlp-main.884) 
--->
+  : (10:54) Faith Baca, Lydia Ignatova, Ruth-Ann Armstrong - [BiasWipe: Mitigating Unintended Bias in Text Classifiers through Model Interpretability](https://aclanthology.org/2024.emnlp-main.1172/)
 
-  : Questions by: TBD 
-<!--
-  Run Huang, Mia Sultan 
--->
+  : Questions by: Sichang (Steven) He, Narges Bahmani
 
-  : (11:12) TBD 
-<!--
-  Lucine Oganesian, Enes Burak Bilgin, Debaditya Pal - [Adapting Language Models to Compress Contexts](https://aclanthology.org/2023.emnlp-main.232/) 
--->
+  : (11:12) Abhinav Vadhera, Ardysatrio Haroen - [Ranking Manipulation for Conversational Search Engines](https://aclanthology.org/2024.emnlp-main.534/)
 
-  : Questions by: TBD 
-<!--
-  Ryan Lee, Emily Weiss, Hanwen Xing 
--->
+  : Questions by: Jinyi Ye, Shixuan Li
 
-  : (11:30) TBD 
-<!--
-  Lucine Oganesian, Enes Burak Bilgin, Debaditya Pal - [Adapting Language Models to Compress Contexts](https://aclanthology.org/2023.emnlp-main.232/) 
--->
+  : (11:30) Naga Vamsi Ramana Dinavahi, Sadra Sabouri Halestani - [Sneaking Syntax into Transformer Language Models with Tree Regularization](https://aclanthology.org/2025.naacl-long.407/)
 
-  : Questions by: TBD 
-<!--
-  Ryan Lee, Emily Weiss, Hanwen Xing 
--->
-
+  : Questions by: Sajjad Shahabi, Tianming Guo 
 
 Dec 3
 : NO CLASS
