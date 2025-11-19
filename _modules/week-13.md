@@ -51,7 +51,7 @@ Nov 17
 -->  
 
 Nov 19
-: Auditing, Dissecting, and Evaluating Large Language Models (Guest Lecture by Robin Jia) 
+: [Auditing, Dissecting, and Evaluating Large Language Models]({{site.baseurl}}assets/files/robin_slides.pptx) (Guest Lecture by Robin Jia) 
   : Naga Vamsi Ramana Dinavahi - [Sliding Windows Are Not the End: Exploring Full Ranking with Long-Context Large Language Models](https://aclanthology.org/2025.acl-long.8/)
   : Questions by: Danny Deng
 
