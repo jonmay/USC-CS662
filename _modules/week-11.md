@@ -43,7 +43,7 @@ Nov 3
   : Questions by: Wenbin Teng
   							
 Nov 5
-: Spoken Language Processing (SLP) (Guest Lecture by Sudarsana Reddy Kadiri)
+: Spoken Language Processing (SLP) (Guest Lecture by Sudarsana Reddy Kadiri) [speech](http://phontron.com/class/multiling2022/assets/slides/multiling-13-speech.pdf), [asr](http://phontron.com/class/multiling2022/assets/slides/multiling-14-asr.pdf), [e2e asr](http://phontron.com/class/multiling2022/assets/slides/multiling-15-e2e-asr.pdf), [tts](https://www.cs.cmu.edu/~leili/course/11737mnlp23fa/slides/multiling-13-tts.pdf), [wav2vec2 tutorial](https://docs.pytorch.org/audio/stable/tutorials/speech_recognition_pipeline_tutorial.html), [tacotron tutorial](https://pytorch.org/audio/stable/tutorials/tacotron2_pipeline_tutorial.html)
   : JM 15
   : Wenbin Teng - [Improve Vision Language Model Chain-of-thought Reasoning](https://aclanthology.org/2025.acl-long.82/)
   : Questions by: Kiarash Vaziri Goodarzi
